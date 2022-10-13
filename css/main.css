@@ -18,8 +18,7 @@ body {
   background-color: #5ed42ff6;
   color: #fff; }
 
-/* ===== Sidebar ===== */
-.sidebar {
+body .sidebar {
   position: fixed;
   top: 0;
   left: 0;
@@ -29,120 +28,121 @@ body {
   background: #242526;
   transition: all 0.3s ease;
   z-index: 100; }
+  body .sidebar .text {
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 1;
+    transition: all 0.3s ease; }
+  body .sidebar header {
+    position: relative; }
+    body .sidebar header .image-text {
+      display: flex;
+      align-items: center; }
+      body .sidebar header .image-text .image {
+        min-width: 60px;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        body .sidebar header .image-text .image img {
+          width: 40px;
+          border-radius: 6px; }
+      body .sidebar header .image-text .text .name {
+        color: #ccc;
+        transition: all 0.3s ease;
+        margin-top: 2px;
+        font-size: 19px;
+        font-weight: 600; }
+      body .sidebar header .image-text .text .profession {
+        font-size: 14px;
+        margin-top: -2px;
+        display: block;
+        color: #5ed42ff6; }
+      body .sidebar header .image-text .logo-text {
+        display: flex;
+        flex-direction: column; }
+    body .sidebar header .toggle {
+      position: absolute;
+      top: 50%;
+      right: -25px;
+      transform: translateY(-50%) rotate(180deg);
+      height: 25px;
+      width: 25px;
+      background-color: #3a3b3c;
+      color: #5ed42ff6;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      cursor: pointer;
+      transition: all 0.3s ease; }
+  body .sidebar .menu-bar {
+    height: calc(100% - 55px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll; }
+    body .sidebar .menu-bar .menu {
+      margin-top: 60px; }
+      body .sidebar .menu-bar .menu .search-box {
+        border-radius: 6px;
+        background-color: #3a3b3c;
+        cursor: pointer;
+        transition: all 0.3s ease; }
+        body .sidebar .menu-bar .menu .search-box input {
+          height: 100%;
+          width: 100%;
+          outline: none;
+          border: none;
+          background-color: #3a3b3c;
+          color: #ccc;
+          border-radius: 6px;
+          font-size: 17px;
+          font-weight: 500;
+          transition: all 0.3s ease; }
+      body .sidebar .menu-bar .menu li {
+        height: 50px;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        margin-top: 10px; }
+      body .sidebar .menu-bar .menu .menu-links .text {
+        color: #ccc;
+        transition: all 0.3s ease; }
+    body .sidebar .menu-bar .icon {
+      min-width: 60px;
+      border-radius: 6px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      color: #ccc;
+      transition: all 0.3s ease; }
+  body .sidebar .bottom-content li {
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px; }
+    body .sidebar .bottom-content li span {
+      color: #ccc;
+      transition: all 0.3s ease; }
+  body .sidebar .menu-bar::-webkit-scrollbar {
+    display: none; }
 
-.sidebar.close {
+body .sidebar.close {
   width: 88px; }
 
-/* ===== Reusable code - Here ===== */
-.sidebar li {
-  height: 50px;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin-top: 10px; }
-
-.sidebar header .image,
-.sidebar .icon {
-  min-width: 60px;
-  border-radius: 6px; }
-
-.sidebar .icon {
-  min-width: 60px;
-  border-radius: 6px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 20px; }
-
-.sidebar .text,
-.sidebar .icon {
-  color: #ccc;
-  transition: all 0.3s ease; }
-
-.sidebar .text {
-  font-size: 17px;
-  font-weight: 500;
-  white-space: nowrap;
-  opacity: 1; }
-
-.sidebar.close .text {
+body .sidebar.close .text {
   opacity: 0; }
 
-/* -------------- */
-/* =========================== */
-.sidebar header {
-  position: relative; }
-
-.sidebar header .image-text {
-  display: flex;
-  align-items: center; }
-
-.sidebar header .logo-text {
-  display: flex;
-  flex-direction: column; }
-
-header .image-text .name {
-  margin-top: 2px;
-  font-size: 19px;
-  font-weight: 600; }
-
-header .image-text .profession {
-  font-size: 14px;
-  margin-top: -2px;
-  display: block;
-  color: #5ed42ff6; }
-
-.sidebar header .image {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.sidebar header .image img {
-  width: 40px;
-  border-radius: 6px; }
-
-.sidebar header .toggle {
-  position: absolute;
-  top: 50%;
-  right: -25px;
-  transform: translateY(-50%) rotate(180deg);
-  height: 25px;
-  width: 25px;
-  background-color: #5ed42ff6;
-  color: #242526;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 22px;
-  cursor: pointer;
-  transition: all 0.3s ease; }
-
-.sidebar.close .toggle {
+body .sidebar.close .toggle {
   transform: translateY(-50%) rotate(0deg); }
 
-.sidebar .menu {
-  margin-top: 60px; }
-
-.sidebar li.search-box {
-  border-radius: 6px;
-  background-color: #3a3b3c;
-  cursor: pointer;
-  transition: all 0.3s ease; }
-
-.sidebar li.search-box input {
-  height: 100%;
-  width: 100%;
-  outline: none;
-  border: none;
-  background-color: #3a3b3c;
-  color: #ccc;
-  border-radius: 6px;
-  font-size: 17px;
-  font-weight: 500;
-  transition: all 0.3s ease; }
-
+/* ====== ACOMODAR MA;ANA EN LA OFICINA ====== */
 .sidebar li a {
   list-style: none;
   height: 100%;
@@ -165,16 +165,6 @@ ul {
 .sidebar li a:hover .icon,
 .sidebar li a:hover .text {
   color: #242526; }
-
-.sidebar .menu-bar {
-  height: calc(100% - 55px);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow-y: scroll; }
-
-.menu-bar::-webkit-scrollbar {
-  display: none; }
 
 .home {
   position: absolute;
