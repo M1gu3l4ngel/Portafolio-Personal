@@ -7,15 +7,70 @@
     width: calc(100% - 250px);
     background-color: $body-color;
     transition: $tran-05;
+
+    .cont1__main {
+        height: 100vh;
+        /* background-image: url(/assets/img/programmer.jpg);
+        background-position: center;
+        background-size: cover; */
+
+        .cont1__maininfo {
+            color: $text-color;
+            max-width: 750px;
+            text-align: center;
+
+            h5 {
+                font-size: 20px;
+            }
+
+            h1 {
+                font-size: 44px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            a {
+                background-color: $primary-color;
+                color: $text-color;
+                border: none;
+
+                &:hover {
+                    background-color: $secondary-color;
+                    color: $sidebar-color;
+                }
+
+                i {
+                    margin-right: 5px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+
+    .containercolor {
+        background-color: $primary-color-light;
+    }
+
+    .listcontainer {
+        height: 450px;
+    }
 }
 
-.home .text {
-    font-size: 30px;
-    font-weight: 500;
-    color: $text-color;
-    padding: 12px 60px;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+/* Siempre debe ir de ultimo */
 .sidebar.close~.home {
     left: 80px;
     height: 100vh;

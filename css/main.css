@@ -15,7 +15,7 @@ body {
 
 /* Color al copiar texto en web */
 ::selection {
-  background-color: #5ed42ff6;
+  background-color: #3a3b3c;
   color: #fff; }
 
 body .sidebar {
@@ -108,9 +108,26 @@ body .sidebar {
         display: flex;
         align-items: center;
         margin-top: 10px; }
-      body .sidebar .menu-bar .menu .menu-links .text {
-        color: #ccc;
-        transition: all 0.3s ease; }
+      body .sidebar .menu-bar .menu ul {
+        padding-left: 0px; }
+      body .sidebar .menu-bar .menu li a {
+        list-style: none;
+        height: 100%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        color: #ccc; }
+        body .sidebar .menu-bar .menu li a:hover {
+          background-color: #5ed42ff6; }
+          body .sidebar .menu-bar .menu li a:hover .icon {
+            color: #242526; }
+          body .sidebar .menu-bar .menu li a:hover .text {
+            color: #242526; }
     body .sidebar .menu-bar .icon {
       min-width: 60px;
       border-radius: 6px;
@@ -121,15 +138,36 @@ body .sidebar {
       font-size: 20px;
       color: #ccc;
       transition: all 0.3s ease; }
-  body .sidebar .bottom-content li {
-    height: 50px;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin-top: 10px; }
-    body .sidebar .bottom-content li span {
-      color: #ccc;
-      transition: all 0.3s ease; }
+      body .sidebar .menu-bar .icon:hover {
+        color: #242526; }
+  body .sidebar .bottom-content {
+    margin-bottom: 7px; }
+    body .sidebar .bottom-content li {
+      height: 50px;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin-top: 10px; }
+      body .sidebar .bottom-content li a {
+        list-style: none;
+        height: 100%;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: all 0.3s ease; }
+        body .sidebar .bottom-content li a:hover {
+          background-color: #5ed42ff6; }
+          body .sidebar .bottom-content li a:hover .icon {
+            color: #242526; }
+          body .sidebar .bottom-content li a:hover .text {
+            color: #242526; }
+      body .sidebar .bottom-content li span {
+        color: #ccc;
+        transition: all 0.3s ease; }
   body .sidebar .menu-bar::-webkit-scrollbar {
     display: none; }
 
@@ -142,30 +180,6 @@ body .sidebar.close .text {
 body .sidebar.close .toggle {
   transform: translateY(-50%) rotate(0deg); }
 
-/* ====== ACOMODAR MA;ANA EN LA OFICINA ====== */
-.sidebar li a {
-  list-style: none;
-  height: 100%;
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: all 0.3s ease; }
-
-ol,
-ul {
-  padding-left: 0px; }
-
-.sidebar li a:hover {
-  background-color: #5ed42ff6; }
-
-.sidebar li a:hover .icon,
-.sidebar li a:hover .text {
-  color: #242526; }
-
 .home {
   position: absolute;
   top: 0;
@@ -175,13 +189,37 @@ ul {
   width: calc(100% - 250px);
   background-color: #18191a;
   transition: all 0.3s ease; }
+  .home .cont1__main {
+    height: 100vh;
+    /* background-image: url(/assets/img/programmer.jpg);
+        background-position: center;
+        background-size: cover; */ }
+    .home .cont1__main .cont1__maininfo {
+      color: #ccc;
+      max-width: 750px;
+      text-align: center; }
+      .home .cont1__main .cont1__maininfo h5 {
+        font-size: 20px; }
+      .home .cont1__main .cont1__maininfo h1 {
+        font-size: 44px; }
+      .home .cont1__main .cont1__maininfo p {
+        font-size: 16px; }
+      .home .cont1__main .cont1__maininfo a {
+        background-color: #3a3b3c;
+        color: #ccc;
+        border: none; }
+        .home .cont1__main .cont1__maininfo a:hover {
+          background-color: #5ed42ff6;
+          color: #242526; }
+        .home .cont1__main .cont1__maininfo a i {
+          margin-right: 5px;
+          margin-top: 3px; }
+  .home .containercolor {
+    background-color: #3a3b3c; }
+  .home .listcontainer {
+    height: 450px; }
 
-.home .text {
-  font-size: 30px;
-  font-weight: 500;
-  color: #ccc;
-  padding: 12px 60px; }
-
+/* Siempre debe ir de ultimo */
 .sidebar.close ~ .home {
   left: 80px;
   height: 100vh;

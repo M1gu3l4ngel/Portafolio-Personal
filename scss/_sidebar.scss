@@ -118,10 +118,35 @@ body {
                     margin-top: 10px;
                 }
 
-                .menu-links {
-                    .text {
-                        color: $text-color;
+                ul {
+                    padding-left: 0px;
+                }
+
+                li {
+                    a {
+                        list-style: none;
+                        height: 100%;
+                        background-color: transparent;
+                        display: flex;
+                        align-items: center;
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 6px;
+                        text-decoration: none;
                         transition: $tran-03;
+                        color: $text-color;
+
+                        &:hover {
+                            background-color: $secondary-color;
+
+                            .icon {
+                                color: $sidebar-color;
+                            }
+
+                            .text {
+                                color: $sidebar-color;
+                            }
+                        }
                     }
                 }
             }
@@ -136,16 +161,47 @@ body {
                 font-size: 20px;
                 color: $text-color;
                 transition: $tran-03;
+
+                &:hover {
+                    color: $sidebar-color;
+                }
             }
         }
 
         .bottom-content {
+            margin-bottom: 7px;
+
             li {
                 height: 50px;
                 list-style: none;
                 display: flex;
                 align-items: center;
                 margin-top: 10px;
+
+                a {
+                    list-style: none;
+                    height: 100%;
+                    background-color: transparent;
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 6px;
+                    text-decoration: none;
+                    transition: $tran-03;
+
+                    &:hover {
+                        background-color: $secondary-color;
+
+                        .icon {
+                            color: $sidebar-color;
+                        }
+
+                        .text {
+                            color: $sidebar-color;
+                        }
+                    }
+                }
 
                 span {
                     color: $text-color;
@@ -170,44 +226,4 @@ body {
     .sidebar.close .toggle {
         transform: translateY(-50%) rotate(0deg);
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* ====== ACOMODAR MA;ANA EN LA OFICINA ====== */
-
-.sidebar li a {
-    list-style: none;
-    height: 100%;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: $tran-03;
-}
-
-ol,
-ul {
-    padding-left: 0px;
-}
-
-.sidebar li a:hover {
-    background-color: $secondary-color;
-}
-
-.sidebar li a:hover .icon,
-.sidebar li a:hover .text {
-    color: $sidebar-color;
 }
