@@ -216,8 +216,42 @@ body .sidebar.close .toggle {
           margin-top: 3px; }
   .home .containercolor {
     background-color: #3a3b3c; }
-  .home .listcontainer {
-    height: 450px; }
+    .home .containercolor .container__info {
+      margin-top: 20px; }
+      .home .containercolor .container__info h1 {
+        text-align: left;
+        color: #ccc;
+        font-size: 32px; }
+        .home .containercolor .container__info h1 .colorspan {
+          color: #5ed42ff6; }
+      .home .containercolor .container__info p {
+        text-align: left;
+        color: #9b9d9e; }
+  .home .listcontainer ul {
+    width: 350px; }
+    .home .listcontainer ul li {
+      background-color: #3a3b3c;
+      color: #ccc; }
+    .home .listcontainer ul a:link,
+    .home .listcontainer ul a:visited,
+    .home .listcontainer ul a:active {
+      text-decoration: none;
+      color: #5ed42ff6; }
+      .home .listcontainer ul a:link:hover,
+      .home .listcontainer ul a:visited:hover,
+      .home .listcontainer ul a:active:hover {
+        color: #3fa716f6; }
+  .home .listcontainer .listcontainer__btn {
+    margin-top: 15px; }
+    .home .listcontainer .listcontainer__btn button {
+      background-color: #242526;
+      color: #ccc;
+      border: none; }
+      .home .listcontainer .listcontainer__btn button:hover {
+        background-color: #5ed42ff6;
+        color: #242526; }
+      .home .listcontainer .listcontainer__btn button i {
+        margin-right: 3px; }
 
 /* Siempre debe ir de ultimo */
 .sidebar.close ~ .home {

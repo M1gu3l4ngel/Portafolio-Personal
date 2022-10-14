@@ -51,10 +51,65 @@
 
     .containercolor {
         background-color: $primary-color-light;
+
+        .container__info {
+            margin-top: 20px;
+            h1 {
+                text-align: left;
+                color: $text-color;
+                font-size: 32px;
+
+                .colorspan {
+                    color: $secondary-color;
+                }
+            }
+
+            p {
+                text-align: left;
+                color: $paragraph;
+            }
+        }
     }
 
     .listcontainer {
-        height: 450px;
+        ul {
+            width: 350px;
+
+            li {
+                background-color: $primary-color;
+                color: $text-color;
+            }
+
+            a:link,
+            a:visited,
+            a:active {
+                text-decoration: none;
+                color: $secondary-color;
+
+                &:hover {
+                    color: $secondary-color2;
+                }
+            }
+        }
+
+        .listcontainer__btn {
+            margin-top: 15px;
+
+            button {
+                background-color: $sidebar-color;
+                color: $text-color;
+                border: none;
+
+                &:hover {
+                    background-color: $secondary-color;
+                    color: $sidebar-color;
+                }
+
+                i {
+                    margin-right: 3px;
+                }
+            }
+        }
     }
 }
 
