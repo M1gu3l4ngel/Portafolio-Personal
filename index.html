@@ -121,6 +121,7 @@
     <!-- ====== Comienzo del Main ====== -->
     <main class="home">
 
+        <!-- ====== Contenedor de Inicio ====== -->
         <div class="cont1__main">
             <div class="container h-100">
                 <div class="row h-100">
@@ -145,19 +146,20 @@
             </div>
         </div>
 
-
-
-
-
-
-        <div class="container-fluid containercolor">
+        <!-- ====== Contenedor de Conoceme mas ====== -->
+        <div class="container-fluid containerconoceme">
             <div class="container py-4 py-xl-5">
                 <div class="row gy-4 gy-md-0">
+                    <div class="sectiontitle">
+                        <h2 class="fw-bold">
+                            Conóceme más
+                        </h2>
+                    </div>
                     <div class="col-md-6 d-md-flex align-items-md-center">
-                        <div class="container__info">
-                            <h1 class="fw-bold">
+                        <div class="conoceme__info">
+                            <h2 class="fw-bold">
                                 Soy <span class="colorspan">Miguel Serrao</span>, desarrollador web
-                            </h1>
+                            </h2>
                             <p>
                                 is simply dummy text of the printing and
                                 typesetting industry. Lorem Ipsum has been the industry's standard dummy text
@@ -173,7 +175,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 listcontainer">
+                    <div class="col-md-6 conoceme__list">
                         <div class="p-xl-5 m-xl-5">
                             <ul class="list-group">
                                 <li class="list-group-item border-top-0 border-start-0 border-end-0">
@@ -207,68 +209,486 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
 
-
-
-            <!-- ========================================================= -->
-            <!-- ====== EDITAR TODO ESTO, QUE ES LO NUEVO POR AHORA ====== -->
-            <!-- ========================================================= -->
-            <div class="container">
-                <div class="row gy-4 row-cols-2 row-cols-md-4">
+            <div class="container containerstats">
+                <div class="row gy-4 row-cols-2 row-cols-md-4 stats__size">
                     <div class="col">
-                        <div class="text-center d-flex flex-column justify-content-center align-items-center py-3">
-                            <div class="px-3">
-                                <h2 class="fw-bold mb-0">1+</h2>
-                                <p class="mb-0">Años Experiencia</p>
+                        <div class="text-center d-flex flex-column justify-content-center align-items-center">
+                            <div class="px-3 containerstats__info">
+                                <h2 class="fw-bold mb-0">
+                                    1<span class="stats__sum">+</span>
+                                </h2>
+                                <p class="mb-0">
+                                    Experiencia
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="text-center d-flex flex-column justify-content-center align-items-center py-3">
+                        <div class="text-center d-flex flex-column justify-content-center align-items-center">
                             <div class="px-3">
-                                <h2 class="fw-bold mb-0">5+</h2>
-                                <p class="mb-0">Clientes Felices</p>
+                                <h2 class="fw-bold mb-0">
+                                    5<span class="stats__sum">+</span>
+                                </h2>
+                                <p class="mb-0">
+                                    Clientes
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="text-center d-flex flex-column justify-content-center align-items-center py-3">
+                        <div class="text-center d-flex flex-column justify-content-center align-items-center">
                             <div class="px-3">
-                                <h2 class="fw-bold mb-0">3+</h2>
-                                <p class="mb-0">Proyectos Realizados</p>
+                                <h2 class="fw-bold mb-0">
+                                    3<span class="stats__sum">+</span>
+                                </h2>
+                                <p class="mb-0">
+                                    Proyectos
+                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="text-center d-flex flex-column justify-content-center align-items-center py-3">
+                        <div class="text-center d-flex flex-column justify-content-center align-items-center">
                             <div class="px-3">
-                                <h2 class="fw-bold mb-0">4+</h2>
-                                <p class="mb-0">Diplomas</p>
+                                <h2 class="fw-bold mb-0">
+                                    4<span class="stats__sum">+</span>
+                                </h2>
+                                <p class="mb-0">
+                                    Diplomas
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
+        <!-- ====== Contenedor de Lo que Hago ====== -->
+        <div class="container py-4 py-xl-5 containerskills">
+            <div class="sectiontitle mb-5">
+                <h2 class="fw-bold">
+                    ¿Lo que hago?
+                </h2>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="col">
+                    <div class="d-flex containerskills__info">
+                        <div class="skills__icon">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <div class="px-3 skills__info">
+                            <h4>
+                                Diseño Gráfico
+                            </h4>
+                            <p>
+                                Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate
+                                cras aenean.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex containerskills__info">
+                        <div class="skills__icon">
+                            <i class="fa-solid fa-display"></i>
+                        </div>
+                        <div class="px-3 skills__info">
+                            <h4>
+                                Diseño Web
+                            </h4>
+                            <p>
+                                Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate
+                                cras aenean.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex containerskills__info">
+                        <div class="skills__icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="px-3 skills__info">
+                            <h4>
+                                Desarrollo Web
+                            </h4>
+                            <p>
+                                Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate
+                                cras aenean.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 spacing">
+                <div class="col">
+                    <div class="d-flex containerskills__info">
+                        <div class="skills__icon">
+                            <i class="fa-solid fa-object-group"></i>
+                        </div>
+                        <div class="px-3 skills__info">
+                            <h4>
+                                Diseño UX/UI
+                            </h4>
+                            <p>
+                                Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate
+                                cras aenean.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex containerskills__info">
+                        <div class="skills__icon">
+                            <i class="fa-solid fa-bezier-curve"></i>
+                        </div>
+                        <div class="px-3 skills__info">
+                            <h4>
+                                Diseño y Desarrollo Apps
+                            </h4>
+                            <p>
+                                Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate
+                                cras aenean.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex containerskills__info">
+                        <div class="skills__icon">
+                            <i class="fa-solid fa-ranking-star"></i>
+                        </div>
+                        <div class="px-3 skills__info">
+                            <h4>
+                                SEO Marketing
+                            </h4>
+                            <p>
+                                Erat netus est hendrerit, nullam et quis ad cras porttitor iaculis. Bibendum vulputate
+                                cras aenean.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- ====== Contenedor de Resumen ====== -->
+        <div class="container-fluid py-4 py-xl-5 containerresumen">
+            <div class="sectiontitle mb-5">
+                <h2 class="fw-bold">
+                    Resumen
+                </h2>
+            </div>
+            <div
+                class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3 d-xl-flex justify-content-xl-center containerresumen__cajas">
+                <div class="col col__cajas">
+                    <h1 class="tituloprincipal">
+                        Mi Educación
+                    </h1>
+                    <div class="cajas__info1">
+                        <span class="badge text-bg-danger">2000 - 2004</span>
+                        <h2>
+                            Ciencias de la Computación
+                        </h2>
+                        <h3>
+                            Universidad Modelo
+                        </h3>
+                        <p>
+                            Y el pleito les interesaría más, y como algunos de vosotros perseguiréis a la fuerza, tal
+                            vez tendrían razón contra mí.
+                        </p>
+                    </div>
+                    <div class="cajas__info2">
+                        <span class="badge text-bg-danger">2000 - 2004</span>
+                        <h2>
+                            Ciencias de la Computación
+                        </h2>
+                        <h3>
+                            Universidad Modelo
+                        </h3>
+                        <p>
+                            Y el pleito les interesaría más, y como algunos de vosotros perseguiréis a la fuerza, tal
+                            vez tendrían razón contra mí.
+                        </p>
+                    </div>
+                    <div class="cajas__info2">
+                        <span class="badge text-bg-danger">2000 - 2004</span>
+                        <h2>
+                            Ciencias de la Computación
+                        </h2>
+                        <h3>
+                            Universidad Modelo
+                        </h3>
+                        <p>
+                            Y el pleito les interesaría más, y como algunos de vosotros perseguiréis a la fuerza, tal
+                            vez tendrían razón contra mí.
+                        </p>
+                    </div>
+                </div>
 
+                <div class="col col__cajas">
+                    <h1 class="tituloprincipal">
+                        Mi Experiencia
+                    </h1>
+                    <div class="cajas__info1">
+                        <span class="badge text-bg-danger">2000 - 2004</span>
+                        <h2>
+                            Ciencias de la Computación
+                        </h2>
+                        <h3>
+                            Universidad Modelo
+                        </h3>
+                        <p>
+                            Y el pleito les interesaría más, y como algunos de vosotros perseguiréis a la fuerza, tal
+                            vez tendrían razón contra mí.
+                        </p>
+                    </div>
+                    <div class="cajas__info2">
+                        <span class="badge text-bg-danger">2000 - 2004</span>
+                        <h2>
+                            Ciencias de la Computación
+                        </h2>
+                        <h3>
+                            Universidad Modelo
+                        </h3>
+                        <p>
+                            Y el pleito les interesaría más, y como algunos de vosotros perseguiréis a la fuerza, tal
+                            vez tendrían razón contra mí.
+                        </p>
+                    </div>
+                    <div class="cajas__info2">
+                        <span class="badge text-bg-danger">2000 - 2004</span>
+                        <h2>
+                            Ciencias de la Computación
+                        </h2>
+                        <h3>
+                            Universidad Modelo
+                        </h3>
+                        <p>
+                            Y el pleito les interesaría más, y como algunos de vosotros perseguiréis a la fuerza, tal
+                            vez tendrían razón contra mí.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="py-4 py-xl-5">
+                <div class="sectiontitle mt-3">
+                    <h2 class="fw-bold">
+                        Habilidades
+                    </h2>
+                </div>
+                <div class="container containerhabilidades">
+                    <div class="row g-0">
+                        <div class="col-md-6">
+                            <div class="text-white p-4 p-md-5">
+                                <h5 class="text-white mb-3">
+                                    HTML
+                                </h5>
+                                <div class="progress">
+                                    <div class="progress-bar habilidades__bar" aria-valuenow="50" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        80%
+                                    </div>
+                                </div>
+                                <h5 class="text-white mb-3 h5space">
+                                    CSS
+                                </h5>
+                                <div class="progress">
+                                    <div class="progress-bar habilidades__bar1" aria-valuenow="50" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        60%
+                                    </div>
+                                </div>
+                                <h5 class="text-white mb-3 h5space">
+                                    Javascript
+                                </h5>
+                                <div class="progress">
+                                    <div class="progress-bar habilidades__bar2" aria-valuenow="50" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        40%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 order-first order-md-last" style="min-height: 250px;">
+                            <div class="text-white p-4 p-md-5">
+                                <h5 class="text-white mb-3">
+                                    React JS
+                                </h5>
+                                <div class="progress">
+                                    <div class="progress-bar habilidades__bar3" aria-valuenow="50" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        10%
+                                    </div>
+                                </div>
+                                <h5 class="text-white mb-3 h5space">
+                                    BackEnd
+                                </h5>
+                                <div class="progress">
+                                    <div class="progress-bar habilidades__bar4" aria-valuenow="50" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        5%
+                                    </div>
+                                </div>
+                                <h5 class="text-white mb-3 h5space">
+                                    Node JS
+                                </h5>
+                                <div class="progress">
+                                    <div class="progress-bar habilidades__bar5" aria-valuenow="50" aria-valuemin="0"
+                                        aria-valuemax="100">
+                                        20%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listcontainer__btn">
+                        <button class="btn" type="button">
+                            <i class='bx bx-download'></i> Descargar Curriculum
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-- ====== Contenedor de Certificados ====== -->
+        <div class="py-4 py-xl-5 containercertificados">
+            <div class="sectiontitle mb-4">
+                <h2 class="fw-bold">
+                    Mis Certificados
+                </h2>
+            </div>
 
+            <!-- Para usar con mas de 1 certificado -->
+            <!-- <div class="container certificados__cajas">
+                <div class="row row__cajas">
+                    <div class="col-md-6 d-xl-flex justify-content-xl-center certificados">
+                        <img src="assets/img/certificado.png">
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="container py-4 py-xl-5">
+                <div class="row gy-4 row-cols-1 row-cols-md-2 d-xl-flex justify-content-xl-center">
+                    <div class="col">
+                        <div class="d-flex flex-column flex-lg-row"><img
+                                class="rounded img-fluid d-block w-100 fit-cover" src="assets/img/certificado.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
 
 
 
+        <!-- EDITANDO POR ACA -->
 
+        <!-- ====== Contenedor de Portafolio Imagenes ====== -->
+        <div class="container-fluid py-4 py-xl-5 containerportafolio">
+            <div class="container">
 
+                <div class="sectiontitle mb-5">
+                    <h2 class="fw-bold">
+                        Mis Trabajos
+                    </h2>
+                </div>
 
+                <div class="row portafolio__search">
+                    <form action="">
+                        <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+                    </form>
+                </div>
 
+                <div class="categorias" id="categorias">
+                    <a href="" class="active fw-bold hvr-underline-from-left">Todos</a>
+                    <a href="" class="fw-bold hvr-underline-from-left">Páginas</a>
+                    <a href="" class="fw-bold hvr-underline-from-left">App Web</a>
+                    <a href="" class="fw-bold hvr-underline-from-left">App Móvil</a>
+                    <a href="" class="fw-bold hvr-underline-from-left">Templates</a>
+                </div>
 
+                <section class="grid" id="grid">
+
+                    <div class="item" data-categoria="páginas" data-etiquetas="paginas clou doc"
+                        data-descripcion="3. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/naturaleza1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="páginas" data-etiquetas="paginas clou doc"
+                        data-descripcion="3. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/persona1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="páginas" data-etiquetas="paginas clou doc"
+                        data-descripcion="3. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/naturaleza1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="item" data-categoria="app web" data-etiquetas="app dashboard"
+                        data-descripcion="1. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/ciudad1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="app web" data-etiquetas="app dashboard"
+                        data-descripcion="1. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/ciudad2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="item" data-categoria="app móvil" data-etiquetas="movil celular stout"
+                        data-descripcion="1. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/persona2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="app móvil" data-etiquetas="movil celular stout"
+                        data-descripcion="1. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/persona1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="item" data-categoria="templates"
+                        data-etiquetas="templates free gratis dashboardtemplate"
+                        data-descripcion="3. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/animal1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="item" data-categoria="templates"
+                        data-etiquetas="templates free gratis dashboardtemplate"
+                        data-descripcion="3. - Lorem impsun dolor sit amet consectetour.">
+                        <div class="item-contenido">
+                            <img src="/assets/img/animal2.png" alt="">
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="overlay" id="overlay">
+                    <div class="contenedor__img">
+                        <button id="btn-cerrar-popup"><i class="fa-solid fa-x"></i></button>
+                        <img src="/assets/img/ciudad1.png" alt="">
+                    </div>
+                    <p class="descripcion">
+                        3. - Lorem impsun dolor sit amet consectetour.
+                    </p>
+                </section>
+
+            </div>
+        </div>
 
 
 
@@ -282,33 +702,17 @@
 
 
 
-    <!-- Bootstrap Script -->
+    <!-- ====== Script de Bootstrap ====== -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
         </script>
-    <!-- Script de AOS -->
+    <!-- ====== Script de AOS ====== -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            easing: 'ease-out-back', duration: 2000
-        }) 
-    </script>
-    <script>
-        const body = document.querySelector('body'),
-            sidebar = body.querySelector('nav'),
-            toggle = body.querySelector(".toggle"),
-            searchBtn = body.querySelector(".search-box"),
-            modeText = body.querySelector(".mode-text");
-
-
-        toggle.addEventListener("click", () => {
-            sidebar.classList.toggle("close");
-        })
-
-        searchBtn.addEventListener("click", () => {
-            sidebar.classList.remove("close");
-        })
-    </script>
+    <!-- ====== Script de Muuri ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+    <!-- ====== Script de mi Codigo ====== -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

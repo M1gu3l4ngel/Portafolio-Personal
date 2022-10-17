@@ -49,12 +49,23 @@
         }
     }
 
-    .containercolor {
+
+    .containerconoceme {
         background-color: $primary-color-light;
 
-        .container__info {
+        .sectiontitle {
+
+            h2 {
+                color: $text-color;
+                font-size: 44px;
+                text-align: center;
+            }
+        }
+
+        .conoceme__info {
             margin-top: 20px;
-            h1 {
+
+            h2 {
                 text-align: left;
                 color: $text-color;
                 font-size: 32px;
@@ -71,7 +82,7 @@
         }
     }
 
-    .listcontainer {
+    .conoceme__list {
         ul {
             width: 350px;
 
@@ -111,7 +122,378 @@
             }
         }
     }
+
+    /* ====== Stats de Conoceme mas ====== */
+    .containerstats {
+        .stats__size {
+            h2 {
+                font-size: 3.5rem;
+                color: $text-color;
+            }
+
+            .stats__sum {
+                color: $secondary-color;
+            }
+
+            p {
+                font-size: 1.1rem;
+                color: $paragraph;
+            }
+
+            .col {
+                margin-bottom: 40px;
+            }
+        }
+    }
+
+
+    /* ====== Lo que Hago ====== */
+    .containerskills {
+        .sectiontitle {
+            h2 {
+                color: $text-color;
+                font-size: 44px;
+                text-align: center;
+            }
+        }
+
+        .containerskills__info {
+            .skills__icon {
+                width: 120px;
+                height: 45px;
+                background-color: $primary-color;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                i {
+                    font-size: 30px;
+                    color: $secondary-color;
+                }
+            }
+
+            .skills__info {
+                h4 {
+                    color: $text-color;
+                }
+
+                p {
+                    color: $paragraph;
+                }
+            }
+        }
+
+        .spacing {
+            margin-top: 10px;
+        }
+    }
+
+
+    /* ====== Resumen ====== */
+    .containerresumen {
+        background-color: $primary-color;
+
+        .sectiontitle {
+
+            h2 {
+                color: $text-color;
+                font-size: 44px;
+                text-align: center;
+            }
+        }
+
+        .containerresumen__cajas {
+            .col__cajas {
+                .tituloprincipal {
+                    color: $text-color;
+                    font-size: 24px;
+                    margin-bottom: 26px;
+                }
+
+                .cajas__info1 {
+                    background-color: $sidebar-color;
+                    height: 205px;
+                    padding: 24px;
+                    border-radius: 10px;
+
+                    .badge {
+                        margin-bottom: 15px;
+                    }
+
+                    h2 {
+                        color: $text-color;
+                        font-size: 21px;
+                    }
+
+                    h3 {
+                        color: $secondary-color;
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        color: $paragraph;
+                    }
+                }
+
+                .cajas__info2 {
+                    background-color: $sidebar-color;
+                    height: 205px;
+                    padding: 24px;
+                    border-radius: 10px;
+                    margin-top: 25px;
+
+                    .badge {
+                        margin-bottom: 15px;
+                    }
+
+                    h2 {
+                        color: $text-color;
+                        font-size: 21px;
+                    }
+
+                    h3 {
+                        color: $secondary-color;
+                        font-size: 16px;
+                        margin-bottom: 20px;
+                    }
+
+                    p {
+                        color: $paragraph;
+                    }
+                }
+            }
+        }
+
+        /* ====== Habilidades ====== */
+        .containerhabilidades {
+            .h5space {
+                margin-top: 20px;
+            }
+
+            .progress {
+                .progress-bar {
+                    background-color: $secondary-color;
+                    color: $sidebar-color;
+                }
+            }
+
+            .habilidades__bar {
+                width: 80%;
+            }
+
+            .habilidades__bar1 {
+                width: 60%;
+            }
+
+            .habilidades__bar2 {
+                width: 40%;
+            }
+
+            .habilidades__bar3 {
+                width: 10%;
+            }
+
+            .habilidades__bar4 {
+                width: 5%;
+            }
+
+            .habilidades__bar5 {
+                width: 20%;
+            }
+
+            .listcontainer__btn {
+                margin-top: 15px;
+                text-align: center;
+
+                button {
+                    background-color: $sidebar-color;
+                    color: $text-color;
+                    border: none;
+
+                    &:hover {
+                        background-color: $secondary-color;
+                        color: $sidebar-color;
+                    }
+
+                    i {
+                        margin-right: 3px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    /* ====== Certificados ====== */
+    .containercertificados {
+
+        .sectiontitle {
+
+            h2 {
+                color: $text-color;
+                font-size: 44px;
+                text-align: center;
+            }
+        }
+
+        .certificados__cajas {
+            .certificados {
+                margin-top: 25px;
+
+                img {
+                    width: 100%;
+                    height: 370px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+
+    /* EDITANDO POR ACA */
+
+    /* ====== Portafolio ====== */
+
+    .containerportafolio {
+        background-color: $primary-color;
+
+        .sectiontitle {
+
+            h2 {
+                color: $text-color;
+                font-size: 44px;
+                text-align: center;
+            }
+        }
+
+        .portafolio__search {
+            text-align: center;
+
+            .barra-busqueda {
+                width: 70%;
+                height: 40px;
+                line-height: 40px;
+                background-color: #fff;
+                padding: 0 20px;
+                border-radius: 5px;
+                border: none;
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+
+        .categorias {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            a {
+                color: $text-color;
+                margin: 25px 20px;
+                font-size: 16px;
+                text-decoration: none;
+
+                &:hover {
+                    color: $paragraph;
+                }
+            }
+
+            .active {
+                color: $paragraph;
+            }
+        }
+
+        .grid {
+            position: relative;
+            width: 100%;
+            opacity: 0;
+            transition: opacity 0.5s linear 1s;
+
+            .item {
+                position: absolute;
+                display: block;
+                padding: 0;
+                margin: 10px;
+                width: calc(33.333333% - 20px);
+            }
+
+            .item-contenido {
+                position: relative;
+
+                img {
+                    border-radius: 5px;
+                    width: 100%;
+                    cursor: pointer
+                }
+            }
+        }
+
+        .grid.imagenes-cargadas {
+            opacity: 1;
+        }
+
+        .overlay {
+            position: fixed;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, .9);
+            width: 100%;
+            height: 100vh;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .contenedor__img {
+                position: relative;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .descripcion {
+                display: block;
+                background: #fff;
+                padding: 20px;
+                text-align: center;
+                margin-top: 5px;
+                border-radius: 5px;
+                max-width: 50%;
+            }
+
+            #btn-cerrar-popup {
+                background: none;
+                font-size: 20px;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                position: absolute;
+                right: -20px;
+                top: -20px;
+            }
+        }
+
+        .overlay.activo {
+            display: flex;
+        }
+
+        
+    }
+
+
+
+
+
+
 }
+
+
 
 
 

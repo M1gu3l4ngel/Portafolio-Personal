@@ -188,7 +188,13 @@ body .sidebar.close .toggle {
   height: 100vh;
   width: calc(100% - 250px);
   background-color: #18191a;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  /* ====== Stats de Conoceme mas ====== */
+  /* ====== Lo que Hago ====== */
+  /* ====== Resumen ====== */
+  /* ====== Certificados ====== */
+  /* EDITANDO POR ACA */
+  /* ====== Portafolio ====== */ }
   .home .cont1__main {
     height: 100vh;
     /* background-image: url(/assets/img/programmer.jpg);
@@ -214,44 +220,249 @@ body .sidebar.close .toggle {
         .home .cont1__main .cont1__maininfo a i {
           margin-right: 5px;
           margin-top: 3px; }
-  .home .containercolor {
+  .home .containerconoceme {
     background-color: #3a3b3c; }
-    .home .containercolor .container__info {
+    .home .containerconoceme .sectiontitle h2 {
+      color: #ccc;
+      font-size: 44px;
+      text-align: center; }
+    .home .containerconoceme .conoceme__info {
       margin-top: 20px; }
-      .home .containercolor .container__info h1 {
+      .home .containerconoceme .conoceme__info h2 {
         text-align: left;
         color: #ccc;
         font-size: 32px; }
-        .home .containercolor .container__info h1 .colorspan {
+        .home .containerconoceme .conoceme__info h2 .colorspan {
           color: #5ed42ff6; }
-      .home .containercolor .container__info p {
+      .home .containerconoceme .conoceme__info p {
         text-align: left;
         color: #9b9d9e; }
-  .home .listcontainer ul {
+  .home .conoceme__list ul {
     width: 350px; }
-    .home .listcontainer ul li {
+    .home .conoceme__list ul li {
       background-color: #3a3b3c;
       color: #ccc; }
-    .home .listcontainer ul a:link,
-    .home .listcontainer ul a:visited,
-    .home .listcontainer ul a:active {
+    .home .conoceme__list ul a:link,
+    .home .conoceme__list ul a:visited,
+    .home .conoceme__list ul a:active {
       text-decoration: none;
       color: #5ed42ff6; }
-      .home .listcontainer ul a:link:hover,
-      .home .listcontainer ul a:visited:hover,
-      .home .listcontainer ul a:active:hover {
+      .home .conoceme__list ul a:link:hover,
+      .home .conoceme__list ul a:visited:hover,
+      .home .conoceme__list ul a:active:hover {
         color: #3fa716f6; }
-  .home .listcontainer .listcontainer__btn {
+  .home .conoceme__list .listcontainer__btn {
     margin-top: 15px; }
-    .home .listcontainer .listcontainer__btn button {
+    .home .conoceme__list .listcontainer__btn button {
       background-color: #242526;
       color: #ccc;
       border: none; }
-      .home .listcontainer .listcontainer__btn button:hover {
+      .home .conoceme__list .listcontainer__btn button:hover {
         background-color: #5ed42ff6;
         color: #242526; }
-      .home .listcontainer .listcontainer__btn button i {
+      .home .conoceme__list .listcontainer__btn button i {
         margin-right: 3px; }
+  .home .containerstats .stats__size h2 {
+    font-size: 3.5rem;
+    color: #ccc; }
+  .home .containerstats .stats__size .stats__sum {
+    color: #5ed42ff6; }
+  .home .containerstats .stats__size p {
+    font-size: 1.1rem;
+    color: #9b9d9e; }
+  .home .containerstats .stats__size .col {
+    margin-bottom: 40px; }
+  .home .containerskills .sectiontitle h2 {
+    color: #ccc;
+    font-size: 44px;
+    text-align: center; }
+  .home .containerskills .containerskills__info .skills__icon {
+    width: 120px;
+    height: 45px;
+    background-color: #3a3b3c;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .home .containerskills .containerskills__info .skills__icon i {
+      font-size: 30px;
+      color: #5ed42ff6; }
+  .home .containerskills .containerskills__info .skills__info h4 {
+    color: #ccc; }
+  .home .containerskills .containerskills__info .skills__info p {
+    color: #9b9d9e; }
+  .home .containerskills .spacing {
+    margin-top: 10px; }
+  .home .containerresumen {
+    background-color: #3a3b3c;
+    /* ====== Habilidades ====== */ }
+    .home .containerresumen .sectiontitle h2 {
+      color: #ccc;
+      font-size: 44px;
+      text-align: center; }
+    .home .containerresumen .containerresumen__cajas .col__cajas .tituloprincipal {
+      color: #ccc;
+      font-size: 24px;
+      margin-bottom: 26px; }
+    .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info1 {
+      background-color: #242526;
+      height: 205px;
+      padding: 24px;
+      border-radius: 10px; }
+      .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info1 .badge {
+        margin-bottom: 15px; }
+      .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info1 h2 {
+        color: #ccc;
+        font-size: 21px; }
+      .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info1 h3 {
+        color: #5ed42ff6;
+        font-size: 16px;
+        margin-bottom: 20px; }
+      .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info1 p {
+        color: #9b9d9e; }
+    .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info2 {
+      background-color: #242526;
+      height: 205px;
+      padding: 24px;
+      border-radius: 10px;
+      margin-top: 25px; }
+      .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info2 .badge {
+        margin-bottom: 15px; }
+      .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info2 h2 {
+        color: #ccc;
+        font-size: 21px; }
+      .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info2 h3 {
+        color: #5ed42ff6;
+        font-size: 16px;
+        margin-bottom: 20px; }
+      .home .containerresumen .containerresumen__cajas .col__cajas .cajas__info2 p {
+        color: #9b9d9e; }
+    .home .containerresumen .containerhabilidades .h5space {
+      margin-top: 20px; }
+    .home .containerresumen .containerhabilidades .progress .progress-bar {
+      background-color: #5ed42ff6;
+      color: #242526; }
+    .home .containerresumen .containerhabilidades .habilidades__bar {
+      width: 80%; }
+    .home .containerresumen .containerhabilidades .habilidades__bar1 {
+      width: 60%; }
+    .home .containerresumen .containerhabilidades .habilidades__bar2 {
+      width: 40%; }
+    .home .containerresumen .containerhabilidades .habilidades__bar3 {
+      width: 10%; }
+    .home .containerresumen .containerhabilidades .habilidades__bar4 {
+      width: 5%; }
+    .home .containerresumen .containerhabilidades .habilidades__bar5 {
+      width: 20%; }
+    .home .containerresumen .containerhabilidades .listcontainer__btn {
+      margin-top: 15px;
+      text-align: center; }
+      .home .containerresumen .containerhabilidades .listcontainer__btn button {
+        background-color: #242526;
+        color: #ccc;
+        border: none; }
+        .home .containerresumen .containerhabilidades .listcontainer__btn button:hover {
+          background-color: #5ed42ff6;
+          color: #242526; }
+        .home .containerresumen .containerhabilidades .listcontainer__btn button i {
+          margin-right: 3px; }
+  .home .containercertificados .sectiontitle h2 {
+    color: #ccc;
+    font-size: 44px;
+    text-align: center; }
+  .home .containercertificados .certificados__cajas .certificados {
+    margin-top: 25px; }
+    .home .containercertificados .certificados__cajas .certificados img {
+      width: 100%;
+      height: 370px;
+      border-radius: 5px; }
+  .home .containerportafolio {
+    background-color: #3a3b3c; }
+    .home .containerportafolio .sectiontitle h2 {
+      color: #ccc;
+      font-size: 44px;
+      text-align: center; }
+    .home .containerportafolio .portafolio__search {
+      text-align: center; }
+      .home .containerportafolio .portafolio__search .barra-busqueda {
+        width: 70%;
+        height: 40px;
+        line-height: 40px;
+        background-color: #fff;
+        padding: 0 20px;
+        border-radius: 5px;
+        border: none;
+        text-align: center;
+        font-size: 16px; }
+    .home .containerportafolio .categorias {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap; }
+      .home .containerportafolio .categorias a {
+        color: #ccc;
+        margin: 25px 20px;
+        font-size: 16px;
+        text-decoration: none; }
+        .home .containerportafolio .categorias a:hover {
+          color: #9b9d9e; }
+      .home .containerportafolio .categorias .active {
+        color: #9b9d9e; }
+    .home .containerportafolio .grid {
+      position: relative;
+      width: 100%;
+      opacity: 0;
+      transition: opacity 0.5s linear 1s; }
+      .home .containerportafolio .grid .item {
+        position: absolute;
+        display: block;
+        padding: 0;
+        margin: 10px;
+        width: calc(33.333333% - 20px); }
+      .home .containerportafolio .grid .item-contenido {
+        position: relative; }
+        .home .containerportafolio .grid .item-contenido img {
+          border-radius: 5px;
+          width: 100%;
+          cursor: pointer; }
+    .home .containerportafolio .grid.imagenes-cargadas {
+      opacity: 1; }
+    .home .containerportafolio .overlay {
+      position: fixed;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.9);
+      width: 100%;
+      height: 100vh;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; }
+      .home .containerportafolio .overlay .contenedor__img {
+        position: relative; }
+        .home .containerportafolio .overlay .contenedor__img img {
+          max-width: 100%; }
+      .home .containerportafolio .overlay .descripcion {
+        display: block;
+        background: #fff;
+        padding: 20px;
+        text-align: center;
+        margin-top: 5px;
+        border-radius: 5px;
+        max-width: 50%; }
+      .home .containerportafolio .overlay #btn-cerrar-popup {
+        background: none;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        position: absolute;
+        right: -20px;
+        top: -20px; }
+    .home .containerportafolio .overlay.activo {
+      display: flex; }
 
 /* Siempre debe ir de ultimo */
 .sidebar.close ~ .home {
