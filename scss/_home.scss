@@ -8,6 +8,7 @@
     background-color: $body-color;
     transition: $tran-05;
 
+    /* ======= Contenedor de Inicio ======= */
     .cont1__main {
         height: 100vh;
         /* background-image: url(/assets/img/programmer.jpg);
@@ -20,15 +21,15 @@
             text-align: center;
 
             h5 {
-                font-size: 20px;
+                font-size: $text18;
             }
 
             h1 {
-                font-size: 44px;
+                font-size: $text44;
             }
 
             p {
-                font-size: 16px;
+                font-size: $text18;
             }
 
             a {
@@ -49,7 +50,7 @@
         }
     }
 
-
+    /* ======= Contenedor de Conoceme mas ======= */
     .containerconoceme {
         background-color: $primary-color-light;
 
@@ -57,7 +58,7 @@
 
             h2 {
                 color: $text-color;
-                font-size: 44px;
+                font-size: $text44;
                 text-align: center;
             }
         }
@@ -68,7 +69,7 @@
             h2 {
                 text-align: left;
                 color: $text-color;
-                font-size: 32px;
+                font-size: $text30;
 
                 .colorspan {
                     color: $secondary-color;
@@ -78,81 +79,97 @@
             p {
                 text-align: left;
                 color: $paragraph;
+                font-size: $parrafos16;
             }
         }
-    }
 
-    .conoceme__list {
-        ul {
-            width: 350px;
 
-            li {
-                background-color: $primary-color;
-                color: $text-color;
-            }
+        .col1__infoconoceme {
+            width: 420px;
+            display: flex;
+            justify-content: start;
+            padding: 10px 10px;
 
-            a:link,
-            a:visited,
-            a:active {
-                text-decoration: none;
-                color: $secondary-color;
+            .conoceme__list {
 
-                &:hover {
-                    color: $secondary-color2;
+
+                ul {
+                    width: 350px;
+                    list-style: none;
+                    padding: 0px;
+
+                    li {
+                        color: $text-color;
+                        padding: 5px;
+                    }
+
+                    a:link,
+                    a:visited,
+                    a:active {
+                        text-decoration: none;
+                        color: $secondary-color;
+
+                        &:hover {
+                            color: $secondary-color2;
+                        }
+                    }
+                }
+
+                .listcontainer__btn {
+                    margin-top: 15px;
+
+                    button {
+                        background-color: $sidebar-color;
+                        color: $text-color;
+                        border: none;
+
+                        &:hover {
+                            background-color: $secondary-color;
+                            color: $sidebar-color;
+                        }
+
+                        i {
+                            margin-right: 3px;
+                        }
+                    }
                 }
             }
         }
 
-        .listcontainer__btn {
-            margin-top: 15px;
 
-            button {
-                background-color: $sidebar-color;
-                color: $text-color;
-                border: none;
-
-                &:hover {
-                    background-color: $secondary-color;
-                    color: $sidebar-color;
+        /* ====== Stats de Conoceme mas ====== */
+        .containerstats {
+            .stats__size {
+                h2 {
+                    font-size: $text48;
+                    color: $text-color;
                 }
 
-                i {
-                    margin-right: 3px;
+                .stats__sum {
+                    color: $secondary-color;
+                }
+
+                p {
+                    font-size: $parrafos16;
+                    color: $paragraph;
+                }
+
+                .col {
+                    margin-bottom: 40px;
                 }
             }
         }
     }
 
-    /* ====== Stats de Conoceme mas ====== */
-    .containerstats {
-        .stats__size {
-            h2 {
-                font-size: 3.5rem;
-                color: $text-color;
-            }
 
-            .stats__sum {
-                color: $secondary-color;
-            }
-
-            p {
-                font-size: 1.1rem;
-                color: $paragraph;
-            }
-
-            .col {
-                margin-bottom: 40px;
-            }
-        }
-    }
-
-
-    /* ====== Lo que Hago ====== */
+    /* ======= Contenedor de Lo que hago ======= */
     .containerskills {
+        background-color: $body-color;
+
         .sectiontitle {
             h2 {
                 color: $text-color;
-                font-size: 44px;
+                font-size: $text44;
                 text-align: center;
             }
         }
@@ -168,7 +185,7 @@
                 justify-content: center;
 
                 i {
-                    font-size: 30px;
+                    font-size: $text24;
                     color: $secondary-color;
                 }
             }
@@ -176,21 +193,23 @@
             .skills__info {
                 h4 {
                     color: $text-color;
+                    font-size: $text24;
                 }
 
                 p {
                     color: $paragraph;
+                    font-size: $parrafos16;
                 }
             }
         }
 
         .spacing {
-            margin-top: 10px;
+            margin-top: 15px;
         }
     }
 
 
-    /* ====== Resumen ====== */
+    /* ======= Contenedor de Resumen ======= */
     .containerresumen {
         background-color: $primary-color;
 
@@ -198,70 +217,71 @@
 
             h2 {
                 color: $text-color;
-                font-size: 44px;
+                font-size: $text44;
                 text-align: center;
             }
         }
 
         .containerresumen__cajas {
-            .col__cajas {
-                .tituloprincipal {
+
+            .tituloprincipal {
+                color: $text-color;
+                font-size: $text24;
+                font-weight: bold;
+                margin-bottom: 26px;
+            }
+
+            .cajas__info1 {
+                background-color: $sidebar-color;
+                height: 205px;
+                padding: 24px;
+                border-radius: 10px;
+
+                .badge {
+                    margin-bottom: 15px;
+                }
+
+                h2 {
                     color: $text-color;
-                    font-size: 24px;
-                    margin-bottom: 26px;
+                    font-size: 21px;
                 }
 
-                .cajas__info1 {
-                    background-color: $sidebar-color;
-                    height: 205px;
-                    padding: 24px;
-                    border-radius: 10px;
-
-                    .badge {
-                        margin-bottom: 15px;
-                    }
-
-                    h2 {
-                        color: $text-color;
-                        font-size: 21px;
-                    }
-
-                    h3 {
-                        color: $secondary-color;
-                        font-size: 16px;
-                        margin-bottom: 20px;
-                    }
-
-                    p {
-                        color: $paragraph;
-                    }
+                h3 {
+                    color: $secondary-color;
+                    font-size: 16px;
+                    margin-bottom: 20px;
                 }
 
-                .cajas__info2 {
-                    background-color: $sidebar-color;
-                    height: 205px;
-                    padding: 24px;
-                    border-radius: 10px;
-                    margin-top: 25px;
+                p {
+                    color: $paragraph;
+                }
+            }
 
-                    .badge {
-                        margin-bottom: 15px;
-                    }
+            .cajas__info2 {
+                background-color: $sidebar-color;
+                height: 205px;
+                padding: 24px;
+                border-radius: 10px;
+                margin-top: 25px;
 
-                    h2 {
-                        color: $text-color;
-                        font-size: 21px;
-                    }
+                .badge {
+                    margin-bottom: 15px;
+                }
 
-                    h3 {
-                        color: $secondary-color;
-                        font-size: 16px;
-                        margin-bottom: 20px;
-                    }
+                h2 {
+                    color: $text-color;
+                    font-size: $text24;
+                }
 
-                    p {
-                        color: $paragraph;
-                    }
+                h3 {
+                    color: $secondary-color;
+                    font-size: $text17;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: $paragraph;
+                    font-size: $parrafos16;
                 }
             }
         }
@@ -326,14 +346,15 @@
 
     }
 
-    /* ====== Certificados ====== */
+    /* ======= Contenedor de Certificados ======= */
     .containercertificados {
+        background-color: $body-color;
 
         .sectiontitle {
 
             h2 {
                 color: $text-color;
-                font-size: 44px;
+                font-size: $text44;
                 text-align: center;
             }
         }
@@ -352,7 +373,7 @@
     }
 
 
-    /* ====== Portafolio ====== */
+    /* ======= Contenedor de Portafolio ======= */
 
     .containerportafolio {
         background-color: $primary-color;
@@ -361,7 +382,7 @@
 
             h2 {
                 color: $text-color;
-                font-size: 44px;
+                font-size: $text44;
                 text-align: center;
             }
         }
@@ -378,7 +399,7 @@
                 border-radius: 5px;
                 border: none;
                 text-align: center;
-                font-size: 16px;
+                font-size: $parrafos16;
             }
         }
 
@@ -390,7 +411,7 @@
             a {
                 color: $text-color;
                 margin: 25px 20px;
-                font-size: 16px;
+                font-size: $parrafos16;
                 text-decoration: none;
 
                 &:hover {
@@ -457,7 +478,7 @@
 
             .descripcion {
                 display: block;
-                background: #fff;
+                background: $toggle-color;
                 padding: 20px;
                 text-align: center;
                 margin-top: 5px;
@@ -467,8 +488,8 @@
 
             #btn-cerrar-popup {
                 background: none;
-                font-size: 20px;
-                color: #fff;
+                font-size: $text17;
+                color: $secondary-color;
                 border: none;
                 cursor: pointer;
                 position: absolute;
@@ -482,174 +503,160 @@
         }
     }
 
+    /* ======= Contenedor de Testimonios ======= */
+    .containertestimonio {
+        background-color: $body-color;
 
+        .sectiontitle {
 
-
-    /* ======================== */
-    /* EDITANDO POR ACA */
-    /* ======================== */
-
-    .sectiontitle {
-
-        h2 {
-            color: $text-color;
-            font-size: 44px;
-            text-align: center;
+            h2 {
+                color: $text-color;
+                font-size: $text44;
+                text-align: center;
+            }
         }
-    }
 
-    .body {
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+        .slide-container {
+            max-width: 1120px;
+            width: 100%;
+            padding: 40px 0;
+        }
 
-    .slide-container {
-        max-width: 1120px;
-        width: 100%;
-        padding: 40px 0;
-    }
+        .slide-content {
+            margin: 0 40px;
+            overflow: hidden;
+            border-radius: 25px;
+        }
 
-    .slide-content {
-        margin: 0 40px;
-        overflow: hidden;
-        border-radius: 25px;
-    }
+        .card {
+            border-radius: 25px;
+            background-color: #FFF;
+        }
 
-    .card {
-        border-radius: 25px;
-        background-color: #FFF;
-    }
+        .image-content,
+        .card-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 14px;
+        }
 
-    .image-content,
-    .card-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px 14px;
-    }
+        .image-content {
+            position: relative;
+            row-gap: 5px;
+            padding: 25px 0;
+        }
 
-    .image-content {
-        position: relative;
-        row-gap: 5px;
-        padding: 25px 0;
-    }
+        .overlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background-color: $primary-color;
+            border-radius: 25px 25px 0 25px;
+        }
 
-    .overlay {
-        position: absolute;
-        left: 0;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        background-color: $primary-color;
-        border-radius: 25px 25px 0 25px;
-    }
+        .overlay::before,
+        .overlay::after {
+            position: absolute;
+            right: 0;
+            bottom: -40px;
+            height: 40px;
+            width: 40px;
+            background-color: $primary-color;
+        }
 
-    .overlay::before,
-    .overlay::after {
-        content: '';
-        position: absolute;
-        right: 0;
-        bottom: -40px;
-        height: 40px;
-        width: 40px;
-        background-color: $primary-color;
-    }
+        .overlay::after {
+            border-radius: 0 25px 0 0;
+            background-color: #FFF;
+        }
 
-    .overlay::after {
-        border-radius: 0 25px 0 0;
-        background-color: #FFF;
-    }
+        .card-image {
+            position: relative;
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            background: #FFF;
+            padding: 3px;
+        }
 
-    .card-image {
-        position: relative;
-        height: 150px;
-        width: 150px;
-        border-radius: 50%;
-        background: #FFF;
-        padding: 3px;
-    }
+        .card-image .card-img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid $secondary-color;
+        }
 
-    .card-image .card-img {
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 50%;
-        border: 4px solid $secondary-color;
-    }
-
-    .name {
-        font-size: 18px;
-        font-weight: 500;
-        color: #333;
-    }
-
-    .description {
-        font-size: 14px;
-        color: #707070;
-        text-align: center;
-    }
-
-    button {
-        background-color: $sidebar-color;
-        color: $text-color;
-        border: none;
-
-        &:hover {
-            background-color: $secondary-color;
+        .name {
+            font-size: $text18;
+            font-weight: 500;
             color: $sidebar-color;
         }
 
-        i {
-            margin-right: 3px;
+        .description {
+            font-size: $text14;
+            color: $paragraph;
+            text-align: center;
         }
-    }
 
-    .swiper-navBtn {
-        color: $secondary-color;
-        transition: color 0.3s ease;
-    }
+        button {
+            background-color: $sidebar-color;
+            color: $text-color;
+            border: none;
 
-    .swiper-navBtn:hover {
-        color: $secondary-color2;
-    }
+            &:hover {
+                background-color: $secondary-color;
+                color: $sidebar-color;
+            }
 
-    .swiper-navBtn::before,
-    .swiper-navBtn::after {
-        font-size: 35px;
-    }
-
-    .swiper-button-next {
-        right: 0;
-    }
-
-    .swiper-button-prev {
-        left: 0;
-    }
-
-    .swiper-pagination-bullet {
-        background-color: $secondary-color2;
-        opacity: 1;
-    }
-
-    .swiper-pagination-bullet-active {
-        background-color: $secondary-color;
-    }
-
-    @media screen and (max-width: 768px) {
-        .slide-content {
-            margin: 0 10px;
+            i {
+                margin-right: 3px;
+            }
         }
 
         .swiper-navBtn {
-            display: none;
+            color: $secondary-color;
+            transition: color 0.3s ease;
+        }
+
+        .swiper-navBtn:hover {
+            color: $secondary-color2;
+        }
+
+        .swiper-navBtn::before,
+        .swiper-navBtn::after {
+            font-size: 35px;
+        }
+
+        .swiper-button-next {
+            right: 0;
+        }
+
+        .swiper-button-prev {
+            left: 0;
+        }
+
+        .swiper-pagination-bullet {
+            background-color: $secondary-color2;
+            opacity: 1;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: $secondary-color;
+        }
+
+        @media screen and (max-width: 768px) {
+            .slide-content {
+                margin: 0 10px;
+            }
+
+            .swiper-navBtn {
+                display: none;
+            }
         }
     }
-
-
-
-
 }
 
 

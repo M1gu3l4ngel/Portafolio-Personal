@@ -1,4 +1,4 @@
-/* ====== Colors ====== */
+/* ====== Colores Principales ====== */
 $body-color: #18191a;
 $sidebar-color: #242526;
 $primary-color: #3a3b3c;
@@ -9,7 +9,21 @@ $toggle-color: #fff;
 $text-color: #ccc;
 $paragraph: #9b9d9e;
 
-/* ====== Transition ====== */
+/* Variables para Fonts - Browser */
+$text48: 3rem; /*48px*/
+$text44: 2.75rem; /*44px*/
+$text30: 1.875rem; /*30px*/
+$text24: 1.5rem; /*24px*/
+$text22: 1.375rem; /*22px*/
+$text18: 1.125rem; /*18px*/
+$text17: 1.063rem; /*17px*/
+$parrafos16: 1rem; /*16px*/
+$text14: 0.875rem; /*14px*/
+
+/* Variables para Fonts - Mobile */
+
+
+/* ====== Transiciones ====== */
 $tran-03: all 0.2s ease;
 $tran-03: all 0.3s ease;
 $tran-04: all 0.3s ease;
