@@ -1,0 +1,83 @@
+<div class="col-md-6 col1__infoconoceme">
+    <div class="conoceme__list">
+        <ul>
+            <li><span>
+                    <strong>Name:</strong> Miguel Serrao
+                </span>
+            </li>
+            <li>
+                <span>
+                    <strong>Email:</strong>
+                    <a href="">
+                        miguelserrao15@gmail.com
+                    </a>
+                </span>
+            </li>
+            <li>
+                <span>
+                    <strong>Edad:</strong> 25
+                </span>
+            </li>
+            <li>
+                <span>
+                    📍 México, Mérida.
+                </span>
+            </li>
+        </ul>
+        <div class="listcontainer__btn">
+            <button class="btn" type="button">
+                <i class='bx bx-download'></i> Descargar Curriculum
+            </button>
+        </div>
+    </div>
+</div>
+
+.col1__infoconoceme {
+    width: 420px;
+    display: flex;
+    justify-content: start;
+    padding: 10px 10px;
+
+    .conoceme__list {
+        ul {
+            width: 350px;
+            list-style: none;
+            padding: 0px;
+
+            li {
+                color: $text-color;
+                padding: 5px;
+            }
+
+            a:link,
+            a:visited,
+            a:active {
+                text-decoration: none;
+                color: $secondary-color;
+
+                &:hover {
+                    color: $secondary-color2;
+                }
+            }
+        }
+
+        .listcontainer__btn {
+            margin-top: 15px;
+
+            button {
+                background-color: $sidebar-color;
+                color: $text-color;
+                border: none;
+
+                &:hover {
+                    background-color: $secondary-color;
+                    color: $sidebar-color;
+                }
+
+                i {
+                    margin-right: 3px;
+                }
+            }
+        }
+    }
+}

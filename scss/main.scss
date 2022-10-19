@@ -9,6 +9,17 @@
 }
 
 @import "vars";
-@import "body";
 @import "sidebar";
 @import "home";
+
+body {
+    min-height: 100vh;
+    background-color: $body-color;
+    transition: $tran-05;
+}
+
+/* Color al copiar texto en web */
+::selection {
+    background-color: $primary-color-light;
+    color: $toggle-color;
+}

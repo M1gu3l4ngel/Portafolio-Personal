@@ -8,16 +8,6 @@
 
 /* ====== Colors ====== */
 /* ====== Transition ====== */
-body {
-  min-height: 100vh;
-  background-color: #18191a;
-  transition: all 0.3s ease; }
-
-/* Color al copiar texto en web */
-::selection {
-  background-color: #3a3b3c;
-  color: #fff; }
-
 body .sidebar {
   position: fixed;
   top: 0;
@@ -573,3 +563,13 @@ body .sidebar.close .toggle {
   left: 80px;
   height: 100vh;
   width: calc(100% - 80px); }
+
+body {
+  min-height: 100vh;
+  background-color: #18191a;
+  transition: all 0.3s ease; }
+
+/* Color al copiar texto en web */
+::selection {
+  background-color: #3a3b3c;
+  color: #fff; }
