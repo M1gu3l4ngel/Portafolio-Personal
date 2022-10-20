@@ -1,214 +1,60 @@
 .home {
+    height: 100vh;
+    width: calc(100% - 250px);
     position: absolute;
     top: 0;
     top: 0;
     left: 250px;
-    height: 100vh;
-    width: calc(100% - 250px);
     background-color: $body-color;
     transition: $tran-05;
 
+
+    
     /* ======= Contenedor de Inicio ======= */
-    .cont1__main {
+    .cont-inicio {
         height: 100vh;
-        /* background-image: url(/assets/img/programmer.jpg);
-        background-position: center;
-        background-size: cover; */
-
-        .cont1__maininfo {
-            color: $text-color;
-            max-width: 750px;
-            text-align: center;
-
-            h5 {
-                font-size: $text18;
-            }
-
-            h1 {
-                font-size: $text44;
-            }
-
-            p {
-                font-size: $text18;
-            }
-
-            a {
-                background-color: $primary-color;
-                color: $text-color;
-                border: none;
-
-                &:hover {
-                    background-color: $secondary-color;
-                    color: $sidebar-color;
-                }
-
-                i {
-                    margin-right: 5px;
-                    margin-top: 3px;
-                }
-            }
-        }
-    }
-
-    /* ======= Contenedor de Conoceme mas ======= */
-    .containerconoceme {
-        background-color: $primary-color-light;
-
-        .sectiontitle {
-
-            h2 {
-                color: $text-color;
-                font-size: $text44;
-                text-align: center;
-            }
-        }
-
-        .conoceme__info {
-            margin-top: 20px;
-
-            h2 {
-                text-align: left;
-                color: $text-color;
-                font-size: $text30;
-
-                .colorspan {
-                    color: $secondary-color;
-                }
-            }
-
-            p {
-                text-align: left;
-                color: $paragraph;
-                font-size: $parrafos16;
-            }
-        }
-
-
-        .col1__infoconoceme {
-            width: 420px;
-            display: flex;
-            justify-content: start;
-            padding: 10px 10px;
-
-            .conoceme__list {
-
-
-                ul {
-                    width: 350px;
-                    list-style: none;
-                    padding: 0px;
-
-                    li {
-                        color: $text-color;
-                        padding: 5px;
-                    }
-
-                    a:link,
-                    a:visited,
-                    a:active {
-                        text-decoration: none;
-                        color: $secondary-color;
-
-                        &:hover {
-                            color: $secondary-color2;
-                        }
-                    }
-                }
-
-                .listcontainer__btn {
-                    margin-top: 15px;
-
-                    button {
-                        background-color: $sidebar-color;
-                        color: $text-color;
-                        border: none;
-
-                        &:hover {
-                            background-color: $secondary-color;
-                            color: $sidebar-color;
-                        }
-
-                        i {
-                            margin-right: 3px;
-                        }
-                    }
-                }
-            }
-        }
-
-
-        /* ====== Stats de Conoceme mas ====== */
-        .containerstats {
-            .stats__size {
-                h2 {
-                    font-size: $text48;
-                    color: $text-color;
-                }
-
-                .stats__sum {
-                    color: $secondary-color;
-                }
-
-                p {
-                    font-size: $parrafos16;
-                    color: $paragraph;
-                }
-
-                .col {
-                    margin-bottom: 40px;
-                }
-            }
-        }
-    }
-
-
-    /* ======= Contenedor de Lo que hago ======= */
-    .containerskills {
         background-color: $body-color;
 
-        .sectiontitle {
-            h2 {
-                color: $text-color;
-                font-size: $text44;
-                text-align: center;
-            }
-        }
-
-        .containerskills__info {
-            .skills__icon {
-                width: 120px;
-                height: 45px;
-                background-color: $primary-color;
-                border-radius: 5px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-
-                i {
-                    font-size: $text24;
-                    color: $secondary-color;
-                }
-            }
-
-            .skills__info {
-                h4 {
-                    color: $text-color;
-                    font-size: $text24;
-                }
-
-                p {
-                    color: $paragraph;
-                    font-size: $parrafos16;
-                }
-            }
-        }
-
-        .spacing {
-            margin-top: 15px;
+        section {
+            height: 100vh
         }
     }
 
 
+
+
+
+
+
+
+
+    
+
+    /* ======= Contenedor de Conoceme mas ======= */
+    
+    .contconoceme {
+        color: $text-color;
+    }
+
+
+
+
+    /* ======= Contenedor de Que te ofrezco ======= */
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     /* ======= Contenedor de Resumen ======= */
     .containerresumen {
         background-color: $primary-color;

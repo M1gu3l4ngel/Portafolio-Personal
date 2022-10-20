@@ -20,7 +20,9 @@
 /* Variables para Fonts - Mobile */
 /* ====== Transiciones ====== */
 body {
-  background-color: #18191a; }
+  background-color: #18191a;
+  min-height: 100vh;
+  transition: all 0.3s ease; }
   body .sidebar {
     position: fixed;
     top: 0;
@@ -179,132 +181,28 @@ body {
     transform: translateY(-50%) rotate(0deg); }
 
 .home {
+  height: 100vh;
+  width: calc(100% - 250px);
   position: absolute;
   top: 0;
   top: 0;
   left: 250px;
-  height: 100vh;
-  width: calc(100% - 250px);
   background-color: #18191a;
   transition: all 0.3s ease;
   /* ======= Contenedor de Inicio ======= */
   /* ======= Contenedor de Conoceme mas ======= */
-  /* ======= Contenedor de Lo que hago ======= */
+  /* ======= Contenedor de Que te ofrezco ======= */
   /* ======= Contenedor de Resumen ======= */
   /* ======= Contenedor de Certificados ======= */
   /* ======= Contenedor de Portafolio ======= */
   /* ======= Contenedor de Testimonios ======= */ }
-  .home .cont1__main {
+  .home .cont-inicio {
     height: 100vh;
-    /* background-image: url(/assets/img/programmer.jpg);
-        background-position: center;
-        background-size: cover; */ }
-    .home .cont1__main .cont1__maininfo {
-      color: #ccc;
-      max-width: 750px;
-      text-align: center; }
-      .home .cont1__main .cont1__maininfo h5 {
-        font-size: 1.125rem; }
-      .home .cont1__main .cont1__maininfo h1 {
-        font-size: 2.75rem; }
-      .home .cont1__main .cont1__maininfo p {
-        font-size: 1.125rem; }
-      .home .cont1__main .cont1__maininfo a {
-        background-color: #3a3b3c;
-        color: #ccc;
-        border: none; }
-        .home .cont1__main .cont1__maininfo a:hover {
-          background-color: #5ed42ff6;
-          color: #242526; }
-        .home .cont1__main .cont1__maininfo a i {
-          margin-right: 5px;
-          margin-top: 3px; }
-  .home .containerconoceme {
-    background-color: #3a3b3c;
-    /* ====== Stats de Conoceme mas ====== */ }
-    .home .containerconoceme .sectiontitle h2 {
-      color: #ccc;
-      font-size: 2.75rem;
-      text-align: center; }
-    .home .containerconoceme .conoceme__info {
-      margin-top: 20px; }
-      .home .containerconoceme .conoceme__info h2 {
-        text-align: left;
-        color: #ccc;
-        font-size: 1.875rem; }
-        .home .containerconoceme .conoceme__info h2 .colorspan {
-          color: #5ed42ff6; }
-      .home .containerconoceme .conoceme__info p {
-        text-align: left;
-        color: #9b9d9e;
-        font-size: 1rem; }
-    .home .containerconoceme .col1__infoconoceme {
-      width: 420px;
-      display: flex;
-      justify-content: start;
-      padding: 10px 10px; }
-      .home .containerconoceme .col1__infoconoceme .conoceme__list ul {
-        width: 350px;
-        list-style: none;
-        padding: 0px; }
-        .home .containerconoceme .col1__infoconoceme .conoceme__list ul li {
-          color: #ccc;
-          padding: 5px; }
-        .home .containerconoceme .col1__infoconoceme .conoceme__list ul a:link,
-        .home .containerconoceme .col1__infoconoceme .conoceme__list ul a:visited,
-        .home .containerconoceme .col1__infoconoceme .conoceme__list ul a:active {
-          text-decoration: none;
-          color: #5ed42ff6; }
-          .home .containerconoceme .col1__infoconoceme .conoceme__list ul a:link:hover,
-          .home .containerconoceme .col1__infoconoceme .conoceme__list ul a:visited:hover,
-          .home .containerconoceme .col1__infoconoceme .conoceme__list ul a:active:hover {
-            color: #3fa716f6; }
-      .home .containerconoceme .col1__infoconoceme .conoceme__list .listcontainer__btn {
-        margin-top: 15px; }
-        .home .containerconoceme .col1__infoconoceme .conoceme__list .listcontainer__btn button {
-          background-color: #242526;
-          color: #ccc;
-          border: none; }
-          .home .containerconoceme .col1__infoconoceme .conoceme__list .listcontainer__btn button:hover {
-            background-color: #5ed42ff6;
-            color: #242526; }
-          .home .containerconoceme .col1__infoconoceme .conoceme__list .listcontainer__btn button i {
-            margin-right: 3px; }
-    .home .containerconoceme .containerstats .stats__size h2 {
-      font-size: 3rem;
-      color: #ccc; }
-    .home .containerconoceme .containerstats .stats__size .stats__sum {
-      color: #5ed42ff6; }
-    .home .containerconoceme .containerstats .stats__size p {
-      font-size: 1rem;
-      color: #9b9d9e; }
-    .home .containerconoceme .containerstats .stats__size .col {
-      margin-bottom: 40px; }
-  .home .containerskills {
     background-color: #18191a; }
-    .home .containerskills .sectiontitle h2 {
-      color: #ccc;
-      font-size: 2.75rem;
-      text-align: center; }
-    .home .containerskills .containerskills__info .skills__icon {
-      width: 120px;
-      height: 45px;
-      background-color: #3a3b3c;
-      border-radius: 5px;
-      display: flex;
-      align-items: center;
-      justify-content: center; }
-      .home .containerskills .containerskills__info .skills__icon i {
-        font-size: 1.5rem;
-        color: #5ed42ff6; }
-    .home .containerskills .containerskills__info .skills__info h4 {
-      color: #ccc;
-      font-size: 1.5rem; }
-    .home .containerskills .containerskills__info .skills__info p {
-      color: #9b9d9e;
-      font-size: 1rem; }
-    .home .containerskills .spacing {
-      margin-top: 15px; }
+    .home .cont-inicio section {
+      height: 100vh; }
+  .home .contconoceme {
+    color: #ccc; }
   .home .containerresumen {
     background-color: #3a3b3c;
     /* ====== Habilidades ====== */ }
@@ -584,10 +482,7 @@ body {
   height: 100vh;
   width: calc(100% - 80px); }
 
-body {
-  min-height: 100vh;
-  transition: all 0.3s ease; }
-
+/* Por debajo de 992px */
 /* Color al copiar texto en web */
 ::selection {
   background-color: #3a3b3c;
