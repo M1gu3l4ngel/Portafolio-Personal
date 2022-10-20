@@ -11,6 +11,7 @@
 /*48px*/
 /*44px*/
 /*30px*/
+/*38px*/
 /*24px*/
 /*22px*/
 /*18px*/
@@ -190,7 +191,7 @@ body {
   background-color: #18191a;
   transition: all 0.3s ease;
   /* ======= Contenedor de Inicio ======= */
-  /* ======= Contenedor de Conoceme mas ======= */
+  /* ======= Contenedor de Acerca de Mi ======= */
   /* ======= Contenedor de Que te ofrezco ======= */
   /* ======= Contenedor de Resumen ======= */
   /* ======= Contenedor de Certificados ======= */
@@ -201,8 +202,99 @@ body {
     background-color: #18191a; }
     .home .cont-inicio section {
       height: 100vh; }
-  .home .contconoceme {
-    color: #ccc; }
+      .home .cont-inicio section .container {
+        height: 100vh; }
+        .home .cont-inicio section .container .fila__inicio {
+          height: 100vh; }
+          .home .cont-inicio section .container .fila__inicio .info__inicio {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
+              text-transform: uppercase;
+              font-weight: bold;
+              font-size: 2.75rem;
+              color: #ccc; }
+            .home .cont-inicio section .container .fila__inicio .info__inicio p {
+              margin-bottom: 24px;
+              color: #9b9d9e;
+              font-size: 1rem; }
+            .home .cont-inicio section .container .fila__inicio .info__inicio .listcontainer__btn {
+              margin-top: 15px;
+              text-align: center; }
+              .home .cont-inicio section .container .fila__inicio .info__inicio .listcontainer__btn .btninicio {
+                background-color: #3a3b3c;
+                color: #ccc;
+                border: none; }
+                .home .cont-inicio section .container .fila__inicio .info__inicio .listcontainer__btn .btninicio:hover {
+                  background-color: #5ed42ff6;
+                  color: #242526; }
+                .home .cont-inicio section .container .fila__inicio .info__inicio .listcontainer__btn .btninicio i {
+                  margin-right: 3px; }
+              .home .cont-inicio section .container .fila__inicio .info__inicio .listcontainer__btn .btninicio1 {
+                background-color: #5ed42ff6;
+                color: #242526;
+                border: none; }
+                .home .cont-inicio section .container .fila__inicio .info__inicio .listcontainer__btn .btninicio1:hover {
+                  background-color: #3fa716f6;
+                  color: #242526; }
+                .home .cont-inicio section .container .fila__inicio .info__inicio .listcontainer__btn .btninicio1 i {
+                  margin-right: 3px; }
+  .home .cont-conoceme {
+    background-color: #3a3b3c; }
+    .home .cont-conoceme .cont__titleconoceme {
+      height: 150px; }
+      .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center; }
+        .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
+          color: #ccc;
+          font-size: 38px;
+          font-weight: bold;
+          text-transform: uppercase; }
+        .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme p {
+          color: #9b9d9e;
+          font-size: 1rem; }
+    .home .cont-conoceme .sect1-conoceme .sect1__contconoceme {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .home .cont-conoceme .sect1-conoceme .sect1__contconoceme .sect1__infoconoceme {
+        max-width: 450px; }
+        .home .cont-conoceme .sect1-conoceme .sect1__contconoceme .sect1__infoconoceme h2 {
+          text-transform: uppercase;
+          font-weight: bold;
+          color: #ccc;
+          font-size: 32px; }
+        .home .cont-conoceme .sect1-conoceme .sect1__contconoceme .sect1__infoconoceme p {
+          color: #9b9d9e;
+          font-size: 1rem; }
+        .home .cont-conoceme .sect1-conoceme .sect1__contconoceme .sect1__infoconoceme .listcontainer__btnconoceme {
+          margin-top: 15px;
+          text-align: left; }
+          .home .cont-conoceme .sect1-conoceme .sect1__contconoceme .sect1__infoconoceme .listcontainer__btnconoceme .btninicio {
+            background-color: #242526;
+            color: #ccc;
+            border: none; }
+            .home .cont-conoceme .sect1-conoceme .sect1__contconoceme .sect1__infoconoceme .listcontainer__btnconoceme .btninicio:hover {
+              background-color: #5ed42ff6;
+              color: #242526; }
+            .home .cont-conoceme .sect1-conoceme .sect1__contconoceme .sect1__infoconoceme .listcontainer__btnconoceme .btninicio i {
+              margin-right: 3px; }
+  .home .listcontainer__btn {
+    margin-top: 15px;
+    text-align: center; }
+    .home .listcontainer__btn button {
+      background-color: #242526;
+      color: #ccc;
+      border: none; }
+      .home .listcontainer__btn button:hover {
+        background-color: #5ed42ff6;
+        color: #242526; }
+      .home .listcontainer__btn button i {
+        margin-right: 3px; }
   .home .containerresumen {
     background-color: #3a3b3c;
     /* ====== Habilidades ====== */ }

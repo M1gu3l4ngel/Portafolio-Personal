@@ -117,30 +117,33 @@
 
 
 
-    
+
     <main class="home">
+
         <!-- ====== Contenedor de Inicio ====== -->
         <div class="cont-inicio">
-            <section class="py-4 py-xl-5">
-                <div class="container h-100">
-                    <div class="row h-100">
+            <section>
+                <div class="container">
+                    <div class="row fila__inicio">
                         <div
-                            class="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
-                            <div>
-                                <h2 class="text-uppercase fw-bold mb-3">
-                                    BIENVENIDOS A MI PORTAFOLIO
+                            class="col-md-10 col-xl-8 d-sm-flex d-md-flex mx-auto justify-content-md-start align-items-md-center justify-content-xl-center info__inicio ">
+                            <div class="bubbles">
+                                <h2 id="messageLabel">
+                                    Bienvenido a mi portafolio
                                 </h2>
-                                <p class="mb-4">
+                                <p>
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iure vel optio
                                     cumque minima libero reiciendis ut maiores unde deleniti totam blanditiis facere
-                                    sit, rerum sed perspiciatis.
+                                    sit, rerum sed.
                                 </p>
-                                <button class="btn btn-primary fs-5 me-2 py-2 px-4" type="button">
-                                    Button
-                                </button>
-                                <button class="btn btn-primary fs-5 me-2 py-2 px-4" type="button">
-                                    Button
-                                </button>
+                                <div class="listcontainer__btn">
+                                    <button class="btn btninicio" type="button">
+                                        <i class="fa-brands fa-slideshare"></i> Contrátame
+                                    </button>
+                                    <button class="btn btninicio1" type="button">
+                                        Solicitar Cotización
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -152,46 +155,63 @@
         <!-- ====== Contenedor de Conoceme mas ====== -->
 
 
-        <!-- =================================== -->
-        <!-- ====== EDITAR POR ACA ====== -->
-        <!-- =================================== -->
 
-        <div class="container-fluid contconoceme" style="background-color: #3a3b3c;">
-            <div class="container py-4 py-xl-5" style="height: 150px;">
-                <div class="row mb-5">
-                    <div class="col-md-8 col-xl-6 text-center mx-auto">
-                        <h2>Heading</h2>
-                        <p class="w-lg-50">Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis
-                            nostra
-                            nunc. Vestibulum dui eget ultrices.</p>
+
+        <div class="container-fluid cont-conoceme">
+            <div class="container py-4 py-xl-5 cont__titleconoceme">
+                <div class="row">
+                    <div class="col-md-8 col-xl-6 cont__infoconoceme">
+                        <h2>
+                            Acerca de mi 👨‍🦱
+                        </h2>
+                        <p class="w-lg-50">
+                            Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis
+                        </p>
                     </div>
                 </div>
             </div>
+
+            <!-- =================================== -->
+            <!-- ====== EDITAR POR ACA ====== -->
+            <!-- =================================== -->
+
             <div class="container py-4 py-xl-5">
                 <div class="row gy-4 gy-md-0">
                     <div
                         class="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
-                        <div style="max-width: 350px;">
-                            <h2 class="text-uppercase fw-bold">Soy Miguel serrao, desarrollador web</h2>
-                            <p class="my-3">is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-                                has
-                                been the industry's standard dummy text ever since the 1500s, when an unknown printer
-                                took a
+                        <div style="width: 588px;">
+                            <h2 class="text-uppercase fw-bold">
+                                SOY MIGUEL SERRAO, DESARROLLADOR WEB
+                            </h2>
+                            <p class="my-3">
+                                is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                                industry's standard dummy text ever since the 1500s, when an unknown printer took a
                                 galley of type and scrambled it to make a type specimen book. It has survived not only
-                                five
-                                centuries, but also the leap into electronic typesetting, remaining essentially
+                                five centuries, but also the leap into electronic typesetting, remaining essentially
                                 unchanged.
-                            </p><a class="btn btn-primary btn-lg me-2" role="button" href="#">Button</a><a
-                                class="btn btn-outline-primary btn-lg" role="button" href="#">Button</a>
+                            </p>
+                            <a class="btn btn-primary btn-lg me-2" role="button" href="#">
+                                Button</a>
+                            <a class="btn btn-outline-primary btn-lg" role="button" href="#">
+                                Button
+                            </a>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="p-xl-5 m-xl-5"><img class="rounded img-fluid w-100 fit-cover"
-                                style="min-height: 300px;"
-                                src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png"></div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="d-flex d-sm-flex justify-content-center align-items-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-start p-xl-5 m-xl-5"
+                            style="width: 400px;height: 190px;">
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                                <li>Item 4</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+
+
             <div class="container py-4 py-xl-5">
                 <div class="text-center text-white-50 bg-primary border rounded border-0 p-3">
                     <div class="row row-cols-2 row-cols-md-4">
@@ -234,7 +254,7 @@
         <!-- =================================== -->
         <!-- ====== EDITAR POR ACA ====== -->
         <!-- =================================== -->
-       
+
         <div class="container-fluid" style="background-color: #18191a;">
 
 

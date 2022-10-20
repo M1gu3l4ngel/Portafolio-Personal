@@ -1,18 +1,20 @@
 /* ====== Colores Principales ====== */
+
 $body-color: #18191a;
 $sidebar-color: #242526;
 $primary-color: #3a3b3c;
 $secondary-color: #5ed42ff6;
 $secondary-color2: #3fa716f6;
-$primary-color-light: #3a3b3c;
 $toggle-color: #fff;
 $text-color: #ccc;
-$paragraph: #9b9d9e;
+$paragraphcolor: #9b9d9e;
 
 /* Variables para Fonts - Browser */
+
 $text48: 3rem; /*48px*/
 $text44: 2.75rem; /*44px*/
 $text30: 1.875rem; /*30px*/
+$text38: 2.375rem; /*38px*/
 $text24: 1.5rem; /*24px*/
 $text22: 1.375rem; /*22px*/
 $text18: 1.125rem; /*18px*/
@@ -24,7 +26,21 @@ $text14: 0.875rem; /*14px*/
 
 
 /* ====== Transiciones ====== */
+
 $tran-03: all 0.2s ease;
 $tran-03: all 0.3s ease;
 $tran-04: all 0.3s ease;
 $tran-05: all 0.3s ease;
+
+
+
+
+
+$bg: #2980b9;
+$color: #2c3e50;
+$mt: 100px;
+$fs: 50px;
+$fs2: 2em;
+$fs3: 1.5em;
+$res: 850px;
+$res2: 550px;

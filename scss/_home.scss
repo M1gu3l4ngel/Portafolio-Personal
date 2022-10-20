@@ -9,14 +9,79 @@
     transition: $tran-05;
 
 
-    
+
     /* ======= Contenedor de Inicio ======= */
+
     .cont-inicio {
         height: 100vh;
         background-color: $body-color;
 
         section {
-            height: 100vh
+            height: 100vh;
+
+            .container {
+                height: 100vh;
+
+                .fila__inicio {
+                    height: 100vh;
+
+                    .info__inicio {
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        h2 {
+                            text-transform: uppercase;
+                            font-weight: bold;
+                            font-size: $text44;
+                            color: $text-color;
+                        }
+
+                        p {
+                            margin-bottom: 24px;
+                            color: $paragraphcolor;
+                            font-size: $parrafos16;
+                        }
+
+                        .listcontainer__btn {
+                            margin-top: 15px;
+                            text-align: center;
+
+                            .btninicio {
+                                background-color: $primary-color;
+                                color: $text-color;
+                                border: none;
+
+                                &:hover {
+                                    background-color: $secondary-color;
+                                    color: $sidebar-color;
+                                }
+
+                                i {
+                                    margin-right: 3px;
+                                }
+                            }
+
+                            .btninicio1 {
+                                background-color: $secondary-color;
+                                color: $sidebar-color;
+                                border: none;
+
+
+                                &:hover {
+                                    background-color: $secondary-color2;
+                                    color: $sidebar-color;
+                                }
+
+                                i {
+                                    margin-right: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
@@ -28,19 +93,116 @@
 
 
 
-    
 
-    /* ======= Contenedor de Conoceme mas ======= */
-    
-    .contconoceme {
-        color: $text-color;
+
+    /* ======= Contenedor de Acerca de Mi ======= */
+
+    .cont-conoceme {
+        background-color: $primary-color;
+
+        .cont__titleconoceme {
+            height: 150px;
+
+            .cont__infoconoceme {
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+
+                h2 {
+                    color: $text-color;
+                    font-size: 38px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    color: $paragraphcolor;
+                    font-size: $parrafos16;
+                }
+            }
+        }
+
+        .sect1-conoceme {
+
+            .sect1__contconoceme {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .sect1__infoconoceme {
+                    max-width: 450px;
+
+                    h2 {
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        color: $text-color;
+                        font-size: 32px;
+                    }
+
+                    p {
+                        color: $paragraphcolor;
+                        font-size: $parrafos16;
+                    }
+
+                    .listcontainer__btnconoceme {
+                        margin-top: 15px;
+                        text-align: left;
+
+                        .btninicio {
+                            background-color: $sidebar-color;
+                            color: $text-color;
+                            border: none;
+
+
+                            &:hover {
+                                background-color: $secondary-color;
+                                color: $sidebar-color;
+                            }
+
+                            i {
+                                margin-right: 3px;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
     }
 
 
 
 
+
+
+
+
+
+
+
+
     /* ======= Contenedor de Que te ofrezco ======= */
-    
+
+
+    .listcontainer__btn {
+        margin-top: 15px;
+        text-align: center;
+
+        button {
+            background-color: $sidebar-color;
+            color: $text-color;
+            border: none;
+
+            &:hover {
+                background-color: $secondary-color;
+                color: $sidebar-color;
+            }
+
+            i {
+                margin-right: 3px;
+            }
+        }
+    }
 
 
 
@@ -53,8 +215,6 @@
 
 
 
-
-    
     /* ======= Contenedor de Resumen ======= */
     .containerresumen {
         background-color: $primary-color;
@@ -99,7 +259,7 @@
                 }
 
                 p {
-                    color: $paragraph;
+                    color: $paragraphcolor;
                 }
             }
 
@@ -126,7 +286,7 @@
                 }
 
                 p {
-                    color: $paragraph;
+                    color: $paragraphcolor;
                     font-size: $parrafos16;
                 }
             }
@@ -261,12 +421,12 @@
                 text-decoration: none;
 
                 &:hover {
-                    color: $paragraph;
+                    color: $paragraphcolor;
                 }
             }
 
             .active {
-                color: $paragraph;
+                color: $paragraphcolor;
             }
         }
 
@@ -443,7 +603,7 @@
 
         .description {
             font-size: $text14;
-            color: $paragraph;
+            color: $paragraphcolor;
             text-align: center;
         }
 
