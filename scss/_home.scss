@@ -8,8 +8,6 @@
     background-color: $body-color;
     transition: $tran-05;
 
-
-
     /* ======= Contenedor de Inicio ======= */
 
     .cont-inicio {
@@ -52,6 +50,9 @@
                                 background-color: $primary-color;
                                 color: $text-color;
                                 border: none;
+                                margin-right: 3px;
+                                margin-bottom: 8px;
+                                font-size: $text14;
 
                                 &:hover {
                                     background-color: $secondary-color;
@@ -67,6 +68,9 @@
                                 background-color: $secondary-color;
                                 color: $sidebar-color;
                                 border: none;
+                                margin-left: 3px;
+                                margin-bottom: 8px;
+                                font-size: $text14;
 
 
                                 &:hover {
@@ -84,14 +88,6 @@
             }
         }
     }
-
-
-
-
-
-
-
-
 
 
 
@@ -123,49 +119,132 @@
         }
 
         .sect1-conoceme {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-            .sect1__contconoceme {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            .sect1__info {
+                max-width: 550px;
 
-                .sect1__infoconoceme {
-                    max-width: 450px;
+                h2 {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    color: $text-color;
+                    font-size: $text30;
+                }
 
-                    h2 {
-                        text-transform: uppercase;
-                        font-weight: bold;
+                p {
+                    color: $paragraphcolor;
+                    font-size: $parrafos16;
+                }
+
+                .sect1__btn {
+                    margin-top: 15px;
+                    text-align: left;
+                    
+                    button {
+                        background-color: $sidebar-color;
                         color: $text-color;
-                        font-size: 32px;
-                    }
-
-                    p {
-                        color: $paragraphcolor;
-                        font-size: $parrafos16;
-                    }
-
-                    .listcontainer__btnconoceme {
-                        margin-top: 15px;
-                        text-align: left;
-
-                        .btninicio {
-                            background-color: $sidebar-color;
-                            color: $text-color;
-                            border: none;
-
-
-                            &:hover {
-                                background-color: $secondary-color;
-                                color: $sidebar-color;
-                            }
-
-                            i {
-                                margin-right: 3px;
-                            }
+                        border: none;
+                        font-size: $text14;
+            
+                        &:hover {
+                            background-color: $secondary-color;
+                            color: $sidebar-color;
+                        }
+            
+                        i {
+                            margin-right: 3px;
                         }
                     }
                 }
+            }
+        }
 
+        .sect2-conoceme {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .sect2__info {
+                height: auto;
+                padding: 24px;
+                background-color: $sidebar-color;
+                border-radius: 7px;
+                box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+
+                .badge {
+                    background-color: $secondary-color;
+                    color: $sidebar-color;
+                    margin-bottom: 12px;
+                }
+
+                h4 {
+                    color: $text-color;
+                }
+
+                ul {
+                    list-style: none;
+                    padding: 2px;
+                }
+
+                li {
+                    color: $paragraphcolor;
+
+                    span {
+                        color: $text-color;
+                    }
+                }
+
+                .cont__infowork {
+                    display: flex;
+
+                    img {
+                        margin-right: 15px;
+                    }
+
+                    .info__work {
+                        .p1 {
+                            font-weight: bold;
+                            margin-bottom: 0;
+                            color: $secondary-color;
+                        }
+
+                        .p2 {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sect3-stats {
+            padding-top: 24px;
+            padding-bottom: 24px;
+
+            .sect__info {
+                text-align: center;
+                background-color: $sidebar-color;
+                border-radius: 7px;
+                padding: 16px;
+                box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+
+                .cont__infostats {
+                    padding: 16px;
+
+                    h4 {
+                        font-weight: bold;
+                        color: $text-color;
+                        margin-bottom: 0;
+                    }
+
+                    p {
+                        margin-bottom: 0;
+                        color: $paragraphcolor;
+                        font-size: $parrafos16;
+                    }
+                }
             }
         }
     }
@@ -173,36 +252,18 @@
 
 
 
+    /* ============================================= */
+    /* ======= EDITANDO POR ACA ======= */
+    /* ============================================= */
 
+    /* ======= Contenedor Que puedo ofrecer? ======= */
 
-
-
-
-
-
-
-    /* ======= Contenedor de Que te ofrezco ======= */
-
-
-    .listcontainer__btn {
-        margin-top: 15px;
-        text-align: center;
-
-        button {
-            background-color: $sidebar-color;
-            color: $text-color;
-            border: none;
-
-            &:hover {
-                background-color: $secondary-color;
-                color: $sidebar-color;
-            }
-
-            i {
-                margin-right: 3px;
-            }
-        }
+    .cont-ofrecer {
+        background-color: $body-color;
+        
     }
+
+    
 
 
 
