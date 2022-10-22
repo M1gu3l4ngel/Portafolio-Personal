@@ -7,6 +7,7 @@
     left: 250px;
     background-color: $body-color;
     transition: $tran-05;
+    
 
     /* ======= Contenedor de Inicio ======= */
 
@@ -42,53 +43,12 @@
                             font-size: $parrafos16;
                         }
 
-                        .listcontainer__btn {
-                            margin-top: 15px;
-                            text-align: center;
-
-                            .btninicio {
-                                background-color: $primary-color;
-                                color: $text-color;
-                                border: none;
-                                margin-right: 3px;
-                                margin-bottom: 8px;
-                                font-size: $text14;
-
-                                &:hover {
-                                    background-color: $secondary-color;
-                                    color: $sidebar-color;
-                                }
-
-                                i {
-                                    margin-right: 3px;
-                                }
-                            }
-
-                            .btninicio1 {
-                                background-color: $secondary-color;
-                                color: $sidebar-color;
-                                border: none;
-                                margin-left: 3px;
-                                margin-bottom: 8px;
-                                font-size: $text14;
-
-
-                                &:hover {
-                                    background-color: $secondary-color2;
-                                    color: $sidebar-color;
-                                }
-
-                                i {
-                                    margin-right: 3px;
-                                }
-                            }
-                        }
+                        @include cont__btndoble;
                     }
                 }
             }
         }
     }
-
 
 
     /* ======= Contenedor de Acerca de Mi ======= */
@@ -118,46 +78,36 @@
             }
         }
 
-        .sect1-conoceme {
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .cont-sect1 {
+            margin-top: 40px;
 
-            .sect1__info {
-                max-width: 550px;
+            .sect1-conoceme {
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-                h2 {
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    color: $text-color;
-                    font-size: $text30;
-                }
 
-                p {
-                    color: $paragraphcolor;
-                    font-size: $parrafos16;
-                }
+                .sect1__info {
+                    max-width: 550px;
+                    height: auto;
+                    padding: 24px;
+                    background-color: $sidebar-color;
+                    border-radius: 7px;
+                    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
 
-                .sect1__btn {
-                    margin-top: 15px;
-                    text-align: left;
-                    
-                    button {
-                        background-color: $sidebar-color;
+                    h2 {
+                        text-transform: uppercase;
+                        font-weight: bold;
                         color: $text-color;
-                        border: none;
-                        font-size: $text14;
-            
-                        &:hover {
-                            background-color: $secondary-color;
-                            color: $sidebar-color;
-                        }
-            
-                        i {
-                            margin-right: 3px;
-                        }
+                        font-size: $text30;
                     }
+
+                    p {
+                        color: $paragraphcolor;
+                        font-size: $parrafos16;
+                    }
+
+                    @include cont__btnizq;
                 }
             }
         }
@@ -169,16 +119,14 @@
 
             .sect2__info {
                 height: auto;
+                width: 100%;
                 padding: 24px;
                 background-color: $sidebar-color;
                 border-radius: 7px;
                 box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+                margin-top: 13px;
 
-                .badge {
-                    background-color: $secondary-color;
-                    color: $sidebar-color;
-                    margin-bottom: 12px;
-                }
+                @include badge-green;
 
                 h4 {
                     color: $text-color;
@@ -223,12 +171,14 @@
             padding-top: 24px;
             padding-bottom: 24px;
 
+
             .sect__info {
                 text-align: center;
                 background-color: $sidebar-color;
                 border-radius: 7px;
                 padding: 16px;
                 box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+                margin-bottom: 30px;
 
                 .cont__infostats {
                     padding: 16px;
@@ -250,42 +200,133 @@
     }
 
 
+    /* ======= Contenedor Que puedo ofrecer? ======= */
+
+    .cont-ofrecer {
+        background-color: $body-color;
+
+        .titulo__ofrecer {
+            margin-bottom: 40px;
+
+            .info__ofrecer {
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+
+                h2 {
+                    color: $text-color;
+                    font-size: 38px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    color: $paragraphcolor;
+                    font-size: $parrafos16;
+                }
+            }
+        }
+
+        .cajas-ofrecer {
+            margin-bottom: 30px;
+
+            .sect__ofrecer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .caja__ofrecer {
+                    height: auto;
+                    padding: 24px;
+                    background-color: $sidebar-color;
+                    border-radius: 7px;
+                    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+
+                    .titulos__ofrecer {
+                        display: flex;
+
+                        img {
+                            flex-shrink: 0;
+                            border-radius: 50%;
+                            margin-right: 16px;
+                            width: 50px;
+                            height: 50px;
+                        }
+
+                        .texto__ofrecer {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            h6 {
+                                font-weight: bold;
+                                color: $secondary-color;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+
+                    .caja__infofrecer {
+                        display: flex;
+
+                        .info__ofrecer {
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+
+                            p {
+                                margin-bottom: 0;
+                                color: $paragraphcolor;
+                                font-size: $parrafos16;
+                            }
+                        }
+                    }
+
+                    @include badge-html;
+                    @include badge-css;
+                    @include badge-js;
+                    @include badge-react;
+                    @include badge-mongo;
+                    @include badge-mysql;
+                    @include badge-illustrator;
+                    @include badge-photoshop;
+                    @include badge-figma;
+                }
+            }
+        }
+    }
+
+
+
+
 
 
     /* ============================================= */
     /* ======= EDITANDO POR ACA ======= */
     /* ============================================= */
 
-    /* ======= Contenedor Que puedo ofrecer? ======= */
-
-    .cont-ofrecer {
-        background-color: $body-color;
-        
-    }
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
     /* ======= Contenedor de Resumen ======= */
     .containerresumen {
         background-color: $primary-color;
 
-        .sectiontitle {
+        .titulo__ofrecer {
+            margin-bottom: 40px;
 
-            h2 {
-                color: $text-color;
-                font-size: $text44;
+            .info__ofrecer {
+                margin-right: auto;
+                margin-left: auto;
                 text-align: center;
+
+                h2 {
+                    color: $text-color;
+                    font-size: 38px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    color: $paragraphcolor;
+                    font-size: $parrafos16;
+                }
             }
         }
 
@@ -390,27 +431,8 @@
                 width: 20%;
             }
 
-            .listcontainer__btn {
-                margin-top: 15px;
-                text-align: center;
-
-                button {
-                    background-color: $sidebar-color;
-                    color: $text-color;
-                    border: none;
-
-                    &:hover {
-                        background-color: $secondary-color;
-                        color: $sidebar-color;
-                    }
-
-                    i {
-                        margin-right: 3px;
-                    }
-                }
-            }
+            @include listcontainer__btn;
         }
-
     }
 
     /* ======= Contenedor de Certificados ======= */

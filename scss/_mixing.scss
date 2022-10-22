@@ -1,0 +1,163 @@
+/* Mix de Boton Centrales */
+@mixin listcontainer__btn {
+    margin-top: 15px;
+    text-align: center;
+
+    button {
+        background-color: $sidebar-color;
+        color: $text-color;
+        border: none;
+        font-size: $text14;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: $sidebar-color;
+        }
+
+        i {
+            margin-right: 3px;
+        }
+    }
+}
+
+
+/* Mix de Boton Izquierdos */
+@mixin cont__btnizq {
+    margin-top: 15px;
+    text-align: left;
+
+    button {
+        background-color: $primary-color;
+        color: $text-color;
+        border: none;
+        font-size: $text14;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: $sidebar-color;
+        }
+
+        i {
+            margin-right: 3px;
+        }
+    }
+}
+
+
+/* Mix de Botones Dobles */
+
+@mixin cont__btndoble {
+    margin-top: 15px;
+    text-align: center;
+
+    .btn1 {
+        background-color: $primary-color;
+        color: $text-color;
+        border: none;
+        margin-right: 2px;
+        margin-bottom: 8px;
+        font-size: $text14;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: $sidebar-color;
+        }
+
+        i {
+            margin-right: 3px;
+        }
+    }
+
+    .btn2 {
+        background-color: $secondary-color;
+        color: $sidebar-color;
+        border: none;
+        margin-left: 2px;
+        margin-bottom: 8px;
+        font-size: $text14;
+
+
+        &:hover {
+            background-color: $secondary-color2;
+            color: $sidebar-color;
+        }
+
+        i {
+            margin-right: 3px;
+        }
+    }
+}
+
+
+/* Badge HTML */
+
+@mixin badge-green {
+    .badge-green {
+        background-color: $secondary-color;
+        color: $sidebar-color;
+        margin-bottom: 12px;
+    }
+}
+
+@mixin badge-html {
+    .badge-html {
+        background-color: #fc6b03;
+        color: $sidebar-color;
+    }
+}
+
+@mixin badge-css {
+    .badge-css {
+        background-color: #03a1fc;
+        color: $sidebar-color;
+    }
+}
+
+@mixin badge-js {
+    .badge-js {
+        background-color: #fcf003;
+        color: $sidebar-color;
+    }
+}
+
+@mixin badge-react {
+    .badge-react {
+        background-color: #03f8fc;
+        color: $sidebar-color;
+    }
+}
+
+@mixin badge-mongo {
+    .badge-mongo {
+        background-color: #00ED64;
+        color: $sidebar-color;
+    }
+}
+
+@mixin badge-mysql {
+    .badge-mysql {
+        background-color: #2b5d80;
+        color: $sidebar-color;
+    }
+}
+
+@mixin badge-illustrator {
+    .badge-illustrator {
+        background-color: #eeecec;
+        color: $sidebar-color;
+    }
+}
+
+@mixin badge-photoshop {
+    .badge-photoshop {
+        background-color: #9581e0;
+        color: $sidebar-color;
+    }
+}
+
+@mixin badge-figma {
+    .badge-figma {
+        background-color: #f59393;
+        color: $sidebar-color;
+    }
+}
