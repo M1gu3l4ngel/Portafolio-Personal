@@ -47,14 +47,12 @@
 /* Mix de Botones Dobles */
 
 @mixin cont__btndoble {
-    margin-top: 15px;
     text-align: center;
 
     .btn1 {
         background-color: $primary-color;
         color: $text-color;
         border: none;
-        margin-right: 2px;
         margin-bottom: 8px;
         font-size: $text14;
 
@@ -72,7 +70,6 @@
         background-color: $secondary-color;
         color: $sidebar-color;
         border: none;
-        margin-left: 2px;
         margin-bottom: 8px;
         font-size: $text14;
 
@@ -94,6 +91,14 @@
 @mixin badge-green {
     .badge-green {
         background-color: $secondary-color;
+        color: $sidebar-color;
+        margin-bottom: 12px;
+    }
+}
+
+@mixin badge-red {
+    .badge-red {
+        background-color: #ff1919;
         color: $sidebar-color;
         margin-bottom: 12px;
     }

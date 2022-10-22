@@ -197,10 +197,10 @@ body {
   /* ======= Contenedor de Inicio ======= */
   /* ======= Contenedor de Acerca de Mi ======= */
   /* ======= Contenedor Que puedo ofrecer? ======= */
+  /* ======= Contenedor de Resumen ======= */
   /* ============================================= */
   /* ======= EDITANDO POR ACA ======= */
   /* ============================================= */
-  /* ======= Contenedor de Resumen ======= */
   /* ======= Contenedor de Certificados ======= */
   /* ======= Contenedor de Portafolio ======= */
   /* ======= Contenedor de Testimonios ======= */ }
@@ -218,7 +218,6 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 15px;
             text-align: center; }
             .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
               text-transform: uppercase;
@@ -233,7 +232,6 @@ body {
               background-color: #3a3b3c;
               color: #ccc;
               border: none;
-              margin-right: 2px;
               margin-bottom: 8px;
               font-size: 0.875rem; }
               .home .cont-inicio section .container .fila__inicio .info__inicio .btn1:hover {
@@ -245,7 +243,6 @@ body {
               background-color: #5ed530f6;
               color: #242526;
               border: none;
-              margin-left: 2px;
               margin-bottom: 8px;
               font-size: 0.875rem; }
               .home .cont-inicio section .container .fila__inicio .info__inicio .btn2:hover {
@@ -439,7 +436,8 @@ body {
             color: #242526; }
   .home .containerresumen {
     background-color: #3a3b3c;
-    /* ====== Habilidades ====== */ }
+    /* ====== Cajas de Resumen ====== */
+    /* ====== Cajas de Habilidades ====== */ }
     .home .containerresumen .titulo__ofrecer {
       margin-bottom: 40px; }
       .home .containerresumen .titulo__ofrecer .info__ofrecer {
@@ -454,75 +452,124 @@ body {
         .home .containerresumen .titulo__ofrecer .info__ofrecer p {
           color: #9b9d9e;
           font-size: 1rem; }
-    .home .containerresumen .containerresumen__cajas .tituloprincipal {
-      color: #ccc;
-      font-size: 1.5rem;
-      font-weight: bold;
-      margin-bottom: 26px; }
-    .home .containerresumen .containerresumen__cajas .cajas__info1 {
-      background-color: #242526;
-      height: 205px;
-      padding: 24px;
-      border-radius: 10px; }
-      .home .containerresumen .containerresumen__cajas .cajas__info1 .badge {
-        margin-bottom: 15px; }
-      .home .containerresumen .containerresumen__cajas .cajas__info1 h2 {
-        color: #ccc;
-        font-size: 21px; }
-      .home .containerresumen .containerresumen__cajas .cajas__info1 h3 {
-        color: #5ed530f6;
-        font-size: 16px;
-        margin-bottom: 20px; }
-      .home .containerresumen .containerresumen__cajas .cajas__info1 p {
-        color: #9b9d9e; }
-    .home .containerresumen .containerresumen__cajas .cajas__info2 {
-      background-color: #242526;
-      height: 205px;
-      padding: 24px;
-      border-radius: 10px;
-      margin-top: 25px; }
-      .home .containerresumen .containerresumen__cajas .cajas__info2 .badge {
-        margin-bottom: 15px; }
-      .home .containerresumen .containerresumen__cajas .cajas__info2 h2 {
-        color: #ccc;
-        font-size: 1.5rem; }
-      .home .containerresumen .containerresumen__cajas .cajas__info2 h3 {
-        color: #5ed530f6;
-        font-size: 1.063rem;
-        margin-bottom: 20px; }
-      .home .containerresumen .containerresumen__cajas .cajas__info2 p {
-        color: #9b9d9e;
-        font-size: 1rem; }
-    .home .containerresumen .containerhabilidades {
-      margin-top: 15px;
-      text-align: center; }
-      .home .containerresumen .containerhabilidades .h5space {
-        margin-top: 20px; }
-      .home .containerresumen .containerhabilidades .progress .progress-bar {
-        background-color: #5ed530f6;
-        color: #242526; }
-      .home .containerresumen .containerhabilidades .habilidades__bar {
-        width: 80%; }
-      .home .containerresumen .containerhabilidades .habilidades__bar1 {
-        width: 60%; }
-      .home .containerresumen .containerhabilidades .habilidades__bar2 {
-        width: 40%; }
-      .home .containerresumen .containerhabilidades .habilidades__bar3 {
-        width: 10%; }
-      .home .containerresumen .containerhabilidades .habilidades__bar4 {
-        width: 5%; }
-      .home .containerresumen .containerhabilidades .habilidades__bar5 {
-        width: 20%; }
-      .home .containerresumen .containerhabilidades button {
+    .home .containerresumen .cajas-resumen {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .home .containerresumen .cajas-resumen .cont__resumen {
+        width: 460px; }
+      .home .containerresumen .cajas-resumen .subtitle__resumen h2 {
+        text-align: center;
+        color: #ccc; }
+      .home .containerresumen .cajas-resumen .caja__resumen {
+        height: auto;
+        padding: 24px;
         background-color: #242526;
-        color: #ccc;
-        border: none;
-        font-size: 0.875rem; }
-        .home .containerresumen .containerhabilidades button:hover {
-          background-color: #5ed530f6;
-          color: #242526; }
-        .home .containerresumen .containerhabilidades button i {
-          margin-right: 3px; }
+        border-radius: 7px;
+        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+        margin-top: 20px; }
+        .home .containerresumen .cajas-resumen .caja__resumen .badge-red {
+          background-color: #ff1919;
+          color: #242526;
+          margin-bottom: 12px; }
+        .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
+          color: #ccc;
+          font-size: 1.5rem; }
+        .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
+          color: #5ed530f6;
+          font-size: 1.125rem; }
+        .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen p {
+          margin-bottom: 0;
+          color: #9b9d9e;
+          font-size: 1rem; }
+    .home .containerresumen .cont-habilidades {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+      .home .containerresumen .cont-habilidades .titulo__habilidades {
+        margin-bottom: 15px; }
+        .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades {
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center; }
+          .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades h2 {
+            color: #ccc;
+            font-size: 2.375rem;
+            font-weight: bold;
+            text-transform: uppercase; }
+          .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades p {
+            color: #9b9d9e;
+            font-size: 1rem; }
+      .home .containerresumen .cont-habilidades .caja__habilidades {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades {
+          width: 300px;
+          margin-top: 2px; }
+          .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades {
+            height: auto;
+            padding: 24px;
+            background-color: #242526;
+            border-radius: 7px;
+            box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+            margin-top: 20px; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-html {
+              background-color: #fc6b03;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-css {
+              background-color: #03a1fc;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-js {
+              background-color: #fcf003;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-react {
+              background-color: #03f8fc;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-mongo {
+              background-color: #00ED64;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-mysql {
+              background-color: #2b5d80;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-illustrator {
+              background-color: #eeecec;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-photoshop {
+              background-color: #9581e0;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-figma {
+              background-color: #f59393;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades {
+              text-align: center; }
+              .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades {
+                margin-top: 15px; }
+                .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .html {
+                  width: 69%;
+                  background-color: #5ed530f6;
+                  color: #242526; }
+                .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .css {
+                  width: 52%;
+                  background-color: #5ed530f6;
+                  color: #242526; }
+                .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .jss {
+                  width: 26%;
+                  background-color: #5ed530f6;
+                  color: #242526; }
+                .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .react {
+                  width: 12%;
+                  background-color: #5ed530f6;
+                  color: #242526; }
+                .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .mongo {
+                  width: 18%;
+                  background-color: #5ed530f6;
+                  color: #242526; }
+                .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .figma {
+                  width: 35%;
+                  background-color: #5ed530f6;
+                  color: #242526; }
   .home .containercertificados {
     background-color: #18191a; }
     .home .containercertificados .sectiontitle h2 {
