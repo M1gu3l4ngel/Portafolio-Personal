@@ -1,7 +1,170 @@
-/* Por debajo de 992px */
-
-@media screen and (max-width: 768px) {
-    
-
-    
+/* Por debajo de 1400px */
+@media screen and (max-width: 1400px) {
+    .text__form {
+        font-size: 0.75rem;
+    }
 }
+
+/* Por debajo de 1200px */
+@media screen and (max-width: 1200px) {}
+
+/* Por debajo de 992px */
+@media screen and (max-width: 992px) {
+    #messageLabel {
+        font-size: 2.4rem;
+    }
+
+    .home .cont-inicio section .container .fila__inicio .info__inicio p {
+        font-size: 0.8rem;
+    }
+
+    .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
+        font-size: 0.775rem;
+    }
+
+    .home .cont-inicio section .container .fila__inicio .info__inicio .btn2 {
+        font-size: 0.775rem;
+    }
+
+    .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme p {
+        font-size: 0.76rem;
+    }
+
+    .home .cont-conoceme .cont-sect1 {
+        margin-top: 0;
+    }
+
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+        font-size: 1.6rem;
+    }
+
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info p {
+        font-size: 0.875rem;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info {
+        height: 385px;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info h4 {
+        font-size: 20px;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info li {
+        font-size: 13px;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
+        display: block;
+        text-align: center;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p1 {
+        font-size: 0.875rem;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p2 {
+        font-size: 0.75rem;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
+        margin: 10px 0 0 0;
+    }
+
+    .home .cont-conoceme .sect3-stats .sect__info .cont__infostats p {
+        font-size: 0.875rem;
+    }
+
+    .home .cont-ofrecer .titulo__ofrecer .info__ofrecer p {
+        font-size: 0.76rem;
+    }
+
+    .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .caja__infofrecer .info__ofrecer p {
+        font-size: 0.875rem;
+    }
+
+    .home .containerresumen .titulo__ofrecer .info__ofrecer p {
+        font-size: 0.76rem;
+    }
+
+    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
+        font-size: 1.1rem;
+    }
+
+    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
+        font-size: 0.95rem;
+    }
+
+    .home .certificados .titulo__certificados .info__certificados p {
+        font-size: 0.76rem;
+    }
+
+    .home .containerportafolio .titulo__portafolio .info__portafolio p {
+        font-size: 0.76rem;
+    }
+
+    .home .containerportafolio .categorias a {
+        font-size: 0.875rem;
+    }
+
+    .home .containertestimonio .titulo__testimonio .info__testimonio p {
+        font-size: 0.76rem;
+    }
+
+    .home .containertestimonio .description {
+        font-size: 12px;
+    }
+
+    .home .containertestimonio button {
+        font-size: 0.775rem;
+    }
+
+    .home .containerresumen .cont-habilidades button {
+        font-size: 0.775rem;
+    }
+
+    .home .contacto .titulo__contacto .info__contacto p {
+        font-size: 0.76rem;
+    }
+
+    .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto h6 {
+        font-size: 1rem;
+    }
+
+    .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto p {
+        font-size: 0.875rem;
+    }
+
+    .home .contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
+        font-size: 0.875rem;
+    }
+
+    .home .contacto .container__contacto .columna2__contacto button {
+        font-size: 0.775rem;
+    }
+
+    .home .footer .col1__footer p {
+        font-size: 0.875rem;
+    }
+
+    .home .footer .col3__footer ul li a {
+        font-size: 0.875rem;
+    }
+}
+
+
+
+/* Por debajo de 768px */
+@media screen and (max-width: 768px) {
+
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+/* Por debajo de 576px */
+@media screen and (max-width: 576px) {}

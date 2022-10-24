@@ -29,7 +29,7 @@
 
 <body>
 
-    <!-- ====== Comienzo del Header y SideBar ====== -->
+    <!-- ====== Comienzo del SideBar ====== -->
     <nav class="sidebar close">
         <header>
             <div class="image-text">
@@ -61,47 +61,60 @@
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="#acerca">
                             <i class="fa-solid fa-person icon"></i>
                             <span class="text nav-text">Acerca de mi</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="#servicios">
+                            <i class="fa-solid fa-hand-holding-heart icon"></i>
+                            <span class="text nav-text">Servicios</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#resumen">
                             <i class="fa-solid fa-file icon"></i>
                             <span class="text nav-text">Resumen</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="#habilidades">
                             <i class="fa-solid fa-bolt icon"></i>
                             <span class="text nav-text">Habilidades</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
-                            <i class="bx bx-heart icon"></i>
+                        <a href="#certificados">
+                            <i class="fa-solid fa-user-graduate icon"></i>
+                            <span class="text nav-text">Certificados</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#portafolio">
+                            <i class="fa-solid fa-laptop-code icon"></i>
                             <span class="text nav-text">Portafolio</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="#testimonios">
                             <i class="fa-solid fa-users icon"></i>
                             <span class="text nav-text">Testimonios</span>
                         </a>
                     </li>
 
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="#contacto">
                             <i class="fa-solid fa-address-book icon"></i>
                             <span class="text nav-text">Contacto</span>
                         </a>
                     </li>
-
                 </ul>
             </div>
             <div class="bottom-content">
@@ -119,19 +132,18 @@
 
 
     <main class="home">
-
         <!-- ====== Contenedor de Inicio ====== -->
         <div class="cont-inicio">
             <section>
                 <div class="container">
                     <div class="row fila__inicio">
                         <div
-                            class="col-md-10 col-xl-8 d-sm-flex d-md-flex mx-auto justify-content-md-start align-items-md-center justify-content-xl-center info__inicio ">
+                            class="col-md-10 col-xl-8 d-sm-flex d-md-flex justify-content-md-start align-items-md-center justify-content-xl-center info__inicio ">
                             <div class="bubbles">
                                 <h2 id="messageLabel">
                                     Bienvenido a mi portafolio
                                 </h2>
-                                <p>
+                                <p class="parrafo__inicio">
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus iure vel optio
                                     cumque minima libero reiciendis ut maiores unde deleniti totam blanditiis facere
                                     sit, rerum sed.
@@ -157,7 +169,7 @@
             <div class="container py-4 py-xl-5 cont__titleconoceme">
                 <div class="row">
                     <div class="col-md-8 col-xl-6 cont__infoconoceme">
-                        <h2>
+                        <h2 id="acerca">
                             Acerca de mi 👨‍🦱
                         </h2>
                         <p class="w-lg-50">
@@ -197,20 +209,20 @@
                                 Desarrollador Full Stack
                             </span>
                             <h4>
-                                Conóceme un poco mas&nbsp;
+                                Conóceme más&nbsp;
                             </h4>
                             <ul>
                                 <li>
-                                    <span class="fw-bold">Nombre:</span> Miguel Angel Serrao
+                                    <span class="fw-bold">Nombre:</span><br>Miguel Serrao
                                 </li>
                                 <li>
-                                    <span class="fw-bold">Correo:</span> miguelserrao15@gmail.com
+                                    <span class="fw-bold">Correo:</span><br>miguel@gmail.com
                                 </li>
                                 <li>
-                                    <span class="fw-bold">Locación:</span> Mérida, Yucatán, México
+                                    <span class="fw-bold">Locación:</span><br>Mérida, México
                                 </li>
                                 <li>
-                                    <span class="fw-bold">Edad:</span> 25 años
+                                    <span class="fw-bold">Edad:</span><br>25 años
                                 </li>
                             </ul>
                             <div class="cont__infowork">
@@ -276,14 +288,14 @@
         </div>
 
 
-        <!-- ====== Contenedor Que puedo ofrecer? ====== -->
+        <!-- ====== Contenedor Servicios ====== -->
         <div class="container-fluid cont-ofrecer">
             <div class="container py-4 py-xl-5">
 
                 <div class="row titulo__ofrecer">
                     <div class="col-md-8 col-xl-6 info__ofrecer">
-                        <h2>
-                            Que puedo ofrecer? 👨‍💻
+                        <h2 id="servicios">
+                            Servicios Dev 👨‍💻
                         </h2>
                         <p class="w-lg-50">
                             Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis
@@ -455,7 +467,7 @@
 
                 <div class="row titulo__ofrecer">
                     <div class="col-md-8 col-xl-6 info__ofrecer">
-                        <h2>
+                        <h2 id="resumen">
                             Resumen 📃
                         </h2>
                         <p class="w-lg-50">
@@ -592,11 +604,12 @@
                 </div>
             </div>
 
+            <!-- ====== Columna 3 - Habilidades ====== -->
             <div class="container cont-habilidades">
 
                 <div class="row titulo__habilidades">
                     <div class="col-md-8 col-xl-6 info__habilidades">
-                        <h2>
+                        <h2 id="habilidades">
                             Habilidades 📊
                         </h2>
                     </div>
@@ -606,7 +619,7 @@
                     class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-lg-3 d-xl-flex justify-content-xl-center caja__habilidades">
                     <div class="col-xl-4 col__habilidades">
 
-                        <div class="cont__infohabilidades">
+                        <div class="cont__infohabilidades hvr-grow">
                             <div class="texto__habilidades">
                                 <span class="badge badge-html">
                                     HTML
@@ -620,7 +633,7 @@
                             </div>
                         </div>
 
-                        <div class="cont__infohabilidades">
+                        <div class="cont__infohabilidades hvr-grow">
                             <div class="texto__habilidades">
                                 <span class="badge badge-css">
                                     CSS
@@ -634,7 +647,7 @@
                             </div>
                         </div>
 
-                        <div class="cont__infohabilidades">
+                        <div class="cont__infohabilidades hvr-grow">
                             <div class="texto__habilidades">
                                 <span class="badge badge-js">
                                     Javascript
@@ -651,7 +664,7 @@
 
                     <div class="col-xl-4 col__habilidades">
 
-                        <div class="cont__infohabilidades">
+                        <div class="cont__infohabilidades hvr-grow">
                             <div class="texto__habilidades">
                                 <span class="badge badge-react">
                                     React
@@ -665,7 +678,7 @@
                             </div>
                         </div>
 
-                        <div class="cont__infohabilidades">
+                        <div class="cont__infohabilidades hvr-grow">
                             <div class="texto__habilidades">
                                 <span class="badge badge-mongo">
                                     MongoDB
@@ -679,7 +692,7 @@
                             </div>
                         </div>
 
-                        <div class="cont__infohabilidades">
+                        <div class="cont__infohabilidades hvr-grow">
                             <div class="texto__habilidades">
                                 <span class="badge badge-figma">
                                     Figma
@@ -694,42 +707,53 @@
                         </div>
                     </div>
                 </div>
+                <div class="listcontainer__btn">
+                    <button class="btn" type="button">
+                        <i class="fa-solid fa-file-arrow-down"></i> Descargar Curriculum
+                    </button>
+                </div>
             </div>
         </div>
 
 
-
-        <!-- =================================== -->
-        <!-- ====== EDITANDO POR ACA ====== -->
-        <!-- =================================== -->
-
         <!-- ====== Contenedor de Certificados ====== -->
-        <div class="py-4 py-xl-5 containercertificados">
+        <div class="py-4 py-xl-5 certificados">
             <div class="container">
-                <div class="sectiontitle mb-4">
-                    <h2 class="fw-bold">
-                        Mis Certificados
-                    </h2>
-                </div>
 
-                <!-- Para usar con mas de 1 certificado -->
-                <!-- <div class="container certificados__cajas">
-                <div class="row row__cajas">
-                    <div class="col-md-6 d-xl-flex justify-content-xl-center certificados">
-                        <img src="assets/img/certificado.png">
+                <div class="row titulo__certificados">
+                    <div class="col-md-8 col-xl-6 info__certificados">
+                        <h2 id="certificados">
+                            Certificados 🎓
+                        </h2>
+                        <p class="w-lg-50">
+                            Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis
+                        </p>
                     </div>
                 </div>
-            </div> -->
 
-                <div class="container py-4 py-xl-5">
-                    <div class="row gy-4 row-cols-1 row-cols-md-2 d-xl-flex justify-content-xl-center">
-                        <div class="col">
-                            <div class="d-flex flex-column flex-lg-row">
-                                <img class="rounded img-fluid d-block w-100 fit-cover" src="assets/img/certificado.png">
-                            </div>
-                        </div>
+                <div class="row gx-2 gy-2 row-cols-1 row-cols-md-2 row-cols-xl-2" data-bss-baguettebox="">
+                    <div class="col item">
+                        <a href="https://www.coderhouse.com.mx/certificados/634c000e43db13000efc6430" target="_blank">
+                            <img class="img-fluid" src="./assets/img/certificado.png">
+                        </a>
+                    </div>
+                    <div class="col item">
+                        <a href="https://www.coderhouse.com.mx/certificados/634c000e43db13000efc6430" target="_blank">
+                            <img class="img-fluid" src="./assets/img/certificado.png">
+                        </a>
+                    </div>
+                    <div class="col item">
+                        <a href="https://www.coderhouse.com.mx/certificados/634c000e43db13000efc6430" target="_blank">
+                            <img class="img-fluid" src="./assets/img/certificado.png">
+                        </a>
+                    </div>
+                    <div class="col item">
+                        <a href="https://www.coderhouse.com.mx/certificados/634c000e43db13000efc6430" target="_blank">
+                            <img class="img-fluid" src="./assets/img/certificado.png">
+                        </a>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -739,10 +763,15 @@
         <div class="container-fluid py-4 py-xl-5 containerportafolio">
             <div class="container">
 
-                <div class="sectiontitle mb-5">
-                    <h2 class="fw-bold">
-                        Mis Trabajos
-                    </h2>
+                <div class="row titulo__portafolio">
+                    <div class="col-md-8 col-xl-6 info__portafolio">
+                        <h2 id="portafolio">
+                            Portafolio 💻
+                        </h2>
+                        <p class="w-lg-50">
+                            Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis
+                        </p>
+                    </div>
                 </div>
 
                 <div class="row portafolio__search">
@@ -760,48 +789,50 @@
                 </div>
 
                 <section class="grid" id="grid">
-                    <div class="item" data-categoria="páginas" data-etiquetas="paginas clou doc"
-                        data-descripcion="xd. - Lorem impsun dolor sit amet consectetour.">
+                    <div class="item" data-categoria="páginas" data-etiquetas="paginas clou doc" data-descripcion="ClouDoc Software: Página creada para una empresa americana
+                        se utilizará para promover el producto de un software para automatizar
+                        procesos en el area de documentación y datos sobre facturación.">
                         <div class="item-contenido">
-                            <img src="./assets/img/naturaleza1.png" alt="Imagen Naturaleza">
+                            <img src="./assets/img/cloudoc.png" alt="Proyecto ClouDoc">
                         </div>
                     </div>
-                    <div class="item" data-categoria="páginas" data-etiquetas="paginas clou doc"
-                        data-descripcion="xd2. - Lorem impsun dolor sit amet consectetour.">
+                    <div class="item" data-categoria="páginas" data-etiquetas="paginas clou doc" data-descripcion="ClouDoc Software: Página creada para una empresa americana
+                        se utilizará para promover el producto de un software para automatizar
+                        procesos en el area de documentación y datos sobre facturación.">
                         <div class="item-contenido">
-                            <img src="./assets/img/persona1.png" alt="Imagen de Personas">
+                            <img src="./assets/img/cloudoc.png" alt="Proyecto ClouDoc">
                         </div>
                     </div>
                     <div class="item" data-categoria="páginas" data-etiquetas="paginas clou doc"
                         data-descripcion="xdd. - Lorem impsun dolor sit amet consectetour.">
                         <div class="item-contenido">
-                            <img src="./assets/img/naturaleza1.png" alt="Imagen Naturaleza">
+                            <img src="./assets/img/cloudoc.png" alt="Imagen Naturaleza">
                         </div>
                     </div>
 
                     <div class="item" data-categoria="app web" data-etiquetas="app dashboard"
                         data-descripcion="xdd. - Lorem impsun dolor sit amet consectetour.">
                         <div class="item-contenido">
-                            <img src="./assets/img/ciudad1.png" alt="Imagen de Ciudad">
+                            <img src="./assets/img/cloudoc.png" alt="Imagen de Ciudad">
                         </div>
                     </div>
                     <div class="item" data-categoria="app web" data-etiquetas="app dashboard"
                         data-descripcion="xdd. - Lorem impsun dolor sit amet consectetour.">
                         <div class="item-contenido">
-                            <img src="./assets/img/ciudad2.png" alt="Imagen de Ciudad">
+                            <img src="./assets/img/cloudoc.png" alt="Imagen de Ciudad">
                         </div>
                     </div>
 
                     <div class="item" data-categoria="app móvil" data-etiquetas="movil celular stout"
                         data-descripcion="xdd. - Lorem impsun dolor sit amet consectetour.">
                         <div class="item-contenido">
-                            <img src="./assets/img/persona2.png" alt="Imagen de Personas">
+                            <img src="./assets/img/cloudoc.png" alt="Imagen de Personas">
                         </div>
                     </div>
                     <div class="item" data-categoria="app móvil" data-etiquetas="movil celular stout"
                         data-descripcion="xdd. - Lorem impsun dolor sit amet consectetour.">
                         <div class="item-contenido">
-                            <img src="./assets/img/persona1.png" alt="Imagen de Personas">
+                            <img src="./assets/img/cloudoc.png" alt="Imagen de Personas">
                         </div>
                     </div>
 
@@ -809,14 +840,14 @@
                         data-etiquetas="templates free gratis dashboardtemplate"
                         data-descripcion="xdd. - Lorem impsun dolor sit amet consectetour.">
                         <div class="item-contenido">
-                            <img src="./assets/img/animal1.png" alt="Imagen de Animales">
+                            <img src="./assets/img/cloudoc.png" alt="Imagen de Animales">
                         </div>
                     </div>
                     <div class="item" data-categoria="templates"
                         data-etiquetas="templates free gratis dashboardtemplate"
                         data-descripcion="xdd. - Lorem impsun dolor sit amet consectetour.">
                         <div class="item-contenido">
-                            <img src="./assets/img/animal2.png" alt="Imagen de Animales">
+                            <img src="./assets/img/cloudoc.png" alt="Imagen de Animales">
                         </div>
                     </div>
                 </section>
@@ -832,21 +863,23 @@
         </div>
 
 
-
-
         <!-- ====== Contenedor de Testimonios ====== -->
         <div class="container-fluid py-4 py-xl-5 containertestimonio">
             <div class="container">
 
-                <div class="sectiontitle mb-5">
-                    <h2 class="fw-bold">
-                        Testimonios
-                    </h2>
+                <div class="row titulo__testimonio">
+                    <div class="col-md-8 col-xl-6 info__testimonio">
+                        <h2 id="testimonios">
+                            Testimonios 🙌
+                        </h2>
+                        <p class="w-lg-50">
+                            Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis
+                        </p>
+                    </div>
                 </div>
 
                 <div class="slide-container swiper">
                     <div class="slide-content">
-
                         <div class="card-wrapper swiper-wrapper">
 
                             <div class="card swiper-slide">
@@ -864,7 +897,34 @@
                                     </h2>
                                     <p class="description">The lorem text the section that contains header with having
                                         open
-                                        functionality. Lorem dolor sit amet consectetur adipisicing elit.
+                                        functionality. Lorem dolor sit amet consectetur adipisicing.
+                                    </p>
+
+                                    <div class="listcontainer__btn">
+                                        <button class="btn" type="button">
+                                            <i class="fa-brands fa-linkedin"></i> Ver comentario
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card swiper-slide">
+
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+
+                                    <div class="card-image">
+                                        <img src="./assets/img/profile1.jpg" alt="" class="card-img">
+                                    </div>
+                                </div>
+
+                                <div class="card-content">
+                                    <h2 class="name">
+                                        Miguel Serrao
+                                    </h2>
+                                    <p class="description">The lorem text the section that contains header with having
+                                        open
+                                        functionality. Lorem dolor sit amet consectetur adipisicing.
                                     </p>
 
                                     <div class="listcontainer__btn">
@@ -890,7 +950,7 @@
                                     </h2>
                                     <p class="description">The lorem text the section that contains header with having
                                         open
-                                        functionality. Lorem dolor sit amet consectetur adipisicing elit.
+                                        functionality. Lorem dolor sit amet consectetur adipisicing.
                                     </p>
 
                                     <div class="listcontainer__btn">
@@ -900,49 +960,152 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src="./assets/img/profile1.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">
-                                        Miguel Serrao
-                                    </h2>
-                                    <p class="description">The lorem text the section that contains header with having
-                                        open
-                                        functionality. Lorem dolor sit amet consectetur adipisicing elit.
-                                    </p>
-
-                                    <div class="listcontainer__btn">
-                                        <button class="btn" type="button">
-                                            <i class="fa-brands fa-linkedin"></i> Ver comentario
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-
-
                         </div>
                     </div>
-
                     <div class="swiper-button-next swiper-navBtn"></div>
                     <div class="swiper-button-prev swiper-navBtn"></div>
                     <div class="swiper-pagination"></div>
                 </div>
-
             </div>
         </div>
 
 
+        <!-- ====== Contenedor de Contacto ====== -->
+        <div class="container-fluid contacto">
+            <div class=" py-4 py-xl-5">
+                <div class="container">
+
+                    <div class="row titulo__contacto">
+                        <div class="col-md-8 col-xl-6 info__contacto">
+                            <h2 id="contacto">
+                                Contacto 📨
+                            </h2>
+                            <p class="w-lg-50">
+                                Curae hendrerit donec commodo hendrerit egestas tempus, turpis facilisis
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row container__contacto">
+                        <div class="col-md-6 col-lg-4 col-xl-4">
+                            <div class="columna1__contacto">
+
+                                <div class="contenido__contacto">
+                                    <i class="fa-solid fa-phone-volume"></i>
+                                    <div class="info__contacto">
+                                        <h6>
+                                            Whatsapp
+                                        </h6>
+                                        <p>
+                                            (+52) 999 553 5854
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="contenido__contacto">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <div class="info__contacto">
+                                        <h6>
+                                            Email
+                                        </h6>
+                                        <p>
+                                            miguel@gmail.com
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="contenido__contacto">
+                                    <i class="fa-brands fa-discord"></i>
+                                    <div class="info__contacto">
+                                        <h6>
+                                            Comunidad Discord
+                                        </h6>
+                                        <p>
+                                            #MiguelWorldDev
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-5 col-xl-4">
+                            <div class="columna2__contacto">
+                                <form class="p-3 p-xl-4">
+
+                                    <div class="itemform__contacto">
+                                        <input class="form-control box__item" type="text" name="name"
+                                            placeholder="Tu nombre">
+                                    </div>
+
+                                    <div class="itemform__contacto">
+                                        <input class="form-control box__item" type="email" name="email"
+                                            placeholder="Tu Email">
+                                        <div id="emailHelp" class="form-text text__form">
+                                            No compartimos tu email con ninguna persona.
+                                        </div>
+                                    </div>
+
+                                    <div class="itemform__contacto">
+                                        <textarea class="form-control box__item" name="message" rows="6"
+                                            placeholder="Escribe un mensaje...">
+                                        </textarea>
+                                    </div>
+
+                                    <div class="listcontainer__btn">
+                                        <button class="btn" type="submit">
+                                            Enviar formulario
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+        <!-- ====== Contenedor del Footer ====== -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-3">
 
+                    <div class="col col1__footer">
+                        <p>Sitio creado con &#x2764;&#xfe0f; by Miguel Serrao.</p>
+                    </div>
+
+                    <div class="col col2__footer">
+                        <ul>
+                            <li class="item__footer">
+                                <div>
+                                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                </div>
+                            </li>
+
+                            <li class="item__footer">
+                                <div>
+                                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                                </div>
+                            </li>
+
+                            <li class="item__footer">
+                                <div>
+                                    <a href="#" target="_blank"><i class="fa-brands fa-discord"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col col3__footer">
+                        <ul>
+                            <li><a class="link__footer" href="#">Política de Privacidad</a></li>
+                            <li><a class="link__footer" href="#">Condiciones de Uso</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
 

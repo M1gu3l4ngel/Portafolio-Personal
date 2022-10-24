@@ -1,5 +1,6 @@
 /* Google Font Import - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -14,14 +15,15 @@
 /*30px*/
 /*24px*/
 /*22px*/
+/*20px*/
 /*18px*/
 /*17px*/
 /*16px*/
 /*14px*/
 /* Variables para Fonts - Mobile */
 /* ====== Transiciones ====== */
-/* Mix de Boton Centrales */
-/* Mix de Boton Izquierdos */
+/* Mix de Boton Central */
+/* Mix de Boton Izquierdo */
 /* Mix de Botones Dobles */
 /* Badge HTML */
 body {
@@ -198,12 +200,10 @@ body {
   /* ======= Contenedor de Acerca de Mi ======= */
   /* ======= Contenedor Que puedo ofrecer? ======= */
   /* ======= Contenedor de Resumen ======= */
-  /* ============================================= */
-  /* ======= EDITANDO POR ACA ======= */
-  /* ============================================= */
   /* ======= Contenedor de Certificados ======= */
   /* ======= Contenedor de Portafolio ======= */
-  /* ======= Contenedor de Testimonios ======= */ }
+  /* ======= Contenedor de Testimonios ======= */
+  /* ====== Contenedor de Contacto ====== */ }
   .home .cont-inicio {
     height: 100vh;
     background-color: #18191a; }
@@ -218,6 +218,8 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin-right: auto;
+            margin-left: auto;
             text-align: center; }
             .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
               text-transform: uppercase;
@@ -265,7 +267,7 @@ body {
           text-transform: uppercase; }
         .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme p {
           color: #9b9d9e;
-          font-size: 1rem; }
+          font-size: 0.875rem; }
     .home .cont-conoceme .cont-sect1 {
       margin-top: 40px; }
       .home .cont-conoceme .cont-sect1 .sect1-conoceme {
@@ -369,7 +371,7 @@ body {
           text-transform: uppercase; }
         .home .cont-ofrecer .titulo__ofrecer .info__ofrecer p {
           color: #9b9d9e;
-          font-size: 1rem; }
+          font-size: 0.875rem; }
     .home .cont-ofrecer .cajas-ofrecer {
       margin-bottom: 30px; }
       .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer {
@@ -451,7 +453,7 @@ body {
           text-transform: uppercase; }
         .home .containerresumen .titulo__ofrecer .info__ofrecer p {
           color: #9b9d9e;
-          font-size: 1rem; }
+          font-size: 0.875rem; }
     .home .containerresumen .cajas-resumen {
       display: flex;
       justify-content: center;
@@ -460,7 +462,8 @@ body {
         width: 460px; }
       .home .containerresumen .cajas-resumen .subtitle__resumen h2 {
         text-align: center;
-        color: #ccc; }
+        color: #ccc;
+        font-size: 1.5rem; }
       .home .containerresumen .cajas-resumen .caja__resumen {
         height: auto;
         padding: 24px;
@@ -474,17 +477,19 @@ body {
           margin-bottom: 12px; }
         .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
           color: #ccc;
-          font-size: 1.5rem; }
+          font-size: 1.25rem; }
         .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
           color: #5ed530f6;
-          font-size: 1.125rem; }
+          font-size: 1.063rem; }
         .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen p {
           margin-bottom: 0;
           color: #9b9d9e;
-          font-size: 1rem; }
+          font-size: 0.875rem; }
     .home .containerresumen .cont-habilidades {
       padding-top: 20px;
-      padding-bottom: 20px; }
+      padding-bottom: 20px;
+      margin-top: 15px;
+      text-align: center; }
       .home .containerresumen .cont-habilidades .titulo__habilidades {
         margin-bottom: 15px; }
         .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades {
@@ -504,7 +509,7 @@ body {
         justify-content: center;
         align-items: center;
         margin-top: 20px;
-        margin-bottom: 20px; }
+        margin-bottom: 25px; }
         .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades {
           width: 300px;
           margin-top: 2px; }
@@ -570,24 +575,46 @@ body {
                   width: 35%;
                   background-color: #5ed530f6;
                   color: #242526; }
-  .home .containercertificados {
-    background-color: #18191a; }
-    .home .containercertificados .sectiontitle h2 {
-      color: #ccc;
-      font-size: 2.75rem;
+      .home .containerresumen .cont-habilidades button {
+        background-color: #242526;
+        color: #ccc;
+        border: none;
+        font-size: 0.875rem; }
+        .home .containerresumen .cont-habilidades button:hover {
+          background-color: #5ed530f6;
+          color: #242526; }
+        .home .containerresumen .cont-habilidades button i {
+          margin-right: 3px; }
+  .home .certificados .titulo__certificados {
+    margin-bottom: 40px; }
+    .home .certificados .titulo__certificados .info__certificados {
+      margin-right: auto;
+      margin-left: auto;
       text-align: center; }
-    .home .containercertificados .certificados__cajas .certificados {
-      margin-top: 25px; }
-      .home .containercertificados .certificados__cajas .certificados img {
-        width: 100%;
-        height: 370px;
-        border-radius: 5px; }
+      .home .certificados .titulo__certificados .info__certificados h2 {
+        color: #ccc;
+        font-size: 38px;
+        font-weight: bold;
+        text-transform: uppercase; }
+      .home .certificados .titulo__certificados .info__certificados p {
+        color: #9b9d9e;
+        font-size: 0.875rem; }
   .home .containerportafolio {
     background-color: #3a3b3c; }
-    .home .containerportafolio .sectiontitle h2 {
-      color: #ccc;
-      font-size: 2.75rem;
-      text-align: center; }
+    .home .containerportafolio .titulo__portafolio {
+      margin-bottom: 40px; }
+      .home .containerportafolio .titulo__portafolio .info__portafolio {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center; }
+        .home .containerportafolio .titulo__portafolio .info__portafolio h2 {
+          color: #ccc;
+          font-size: 38px;
+          font-weight: bold;
+          text-transform: uppercase; }
+        .home .containerportafolio .titulo__portafolio .info__portafolio p {
+          color: #9b9d9e;
+          font-size: 0.875rem; }
     .home .containerportafolio .portafolio__search {
       text-align: center; }
       .home .containerportafolio .portafolio__search .barra-busqueda {
@@ -670,11 +697,23 @@ body {
     .home .containerportafolio .overlay.activo {
       display: flex; }
   .home .containertestimonio {
-    background-color: #18191a; }
-    .home .containertestimonio .sectiontitle h2 {
-      color: #ccc;
-      font-size: 2.75rem;
-      text-align: center; }
+    background-color: #18191a;
+    margin-top: 15px;
+    text-align: center; }
+    .home .containertestimonio .titulo__testimonio {
+      margin-bottom: 40px; }
+      .home .containertestimonio .titulo__testimonio .info__testimonio {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center; }
+        .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
+          color: #ccc;
+          font-size: 38px;
+          font-weight: bold;
+          text-transform: uppercase; }
+        .home .containertestimonio .titulo__testimonio .info__testimonio p {
+          color: #9b9d9e;
+          font-size: 0.875rem; }
     .home .containertestimonio .slide-container {
       max-width: 1120px;
       width: 100%;
@@ -739,7 +778,8 @@ body {
     .home .containertestimonio button {
       background-color: #242526;
       color: #ccc;
-      border: none; }
+      border: none;
+      font-size: 0.875rem; }
       .home .containertestimonio button:hover {
         background-color: #5ed530f6;
         color: #242526; }
@@ -762,11 +802,106 @@ body {
       opacity: 1; }
     .home .containertestimonio .swiper-pagination-bullet-active {
       background-color: #5ed530f6; }
-    @media screen and (max-width: 768px) {
-      .home .containertestimonio .slide-content {
-        margin: 0 10px; }
-      .home .containertestimonio .swiper-navBtn {
-        display: none; } }
+  .home .contacto {
+    background-color: #3a3b3c; }
+    .home .contacto .titulo__contacto {
+      margin-bottom: 40px; }
+      .home .contacto .titulo__contacto .info__contacto {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center; }
+        .home .contacto .titulo__contacto .info__contacto h2 {
+          color: #ccc;
+          font-size: 38px;
+          font-weight: bold;
+          text-transform: uppercase; }
+        .home .contacto .titulo__contacto .info__contacto p {
+          color: #9b9d9e;
+          font-size: 0.875rem; }
+    .home .contacto .container__contacto {
+      display: flex;
+      justify-content: center; }
+      .home .contacto .container__contacto .columna1__contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        height: 100%; }
+        .home .contacto .container__contacto .columna1__contacto .contenido__contacto {
+          display: flex;
+          align-items: center;
+          padding: 16px; }
+          .home .contacto .container__contacto .columna1__contacto .contenido__contacto i {
+            width: 1em;
+            height: 1em;
+            color: #5ed530f6;
+            font-size: 1.25rem; }
+          .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto {
+            padding: 8px;
+            padding-left: 8px; }
+            .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto h6 {
+              margin-bottom: 0;
+              color: #ccc;
+              font-size: 1.125rem; }
+            .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto p {
+              margin-bottom: 0;
+              color: #9b9d9e;
+              font-size: 1rem; }
+      .home .contacto .container__contacto .columna2__contacto {
+        margin-top: 15px;
+        text-align: center; }
+        .home .contacto .container__contacto .columna2__contacto .itemform__contacto {
+          margin-bottom: 16px; }
+          .home .contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
+            background-color: transparent;
+            border-color: #5ed530f6;
+            color: #9b9d9e;
+            font-size: 1rem; }
+        .home .contacto .container__contacto .columna2__contacto button {
+          background-color: #242526;
+          color: #ccc;
+          border: none;
+          font-size: 0.875rem; }
+          .home .contacto .container__contacto .columna2__contacto button:hover {
+            background-color: #5ed530f6;
+            color: #242526; }
+          .home .contacto .container__contacto .columna2__contacto button i {
+            margin-right: 3px; }
+  .home .footer {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #18191a; }
+    .home .footer .col1__footer p {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      color: #ccc;
+      font-size: 1rem; }
+    .home .footer .col2__footer ul {
+      padding-left: 0;
+      list-style: none;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; }
+      .home .footer .col2__footer ul .item__footer {
+        margin-right: 24px;
+        display: inline-block; }
+        .home .footer .col2__footer ul .item__footer a i {
+          font-size: 20px;
+          color: #5ed530f6; }
+          .home .footer .col2__footer ul .item__footer a i:hover {
+            color: #3fa716f6; }
+    .home .footer .col3__footer ul {
+      padding-left: 0;
+      list-style: none;
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; }
+      .home .footer .col3__footer ul li {
+        display: inline-block;
+        margin-right: 5px; }
+        .home .footer .col3__footer ul li a {
+          color: #ccc; }
+          .home .footer .col3__footer ul li a:hover {
+            color: #9b9d9e; }
 
 /* Siempre debe ir de ultimo */
 .sidebar.close ~ .home {
@@ -774,7 +909,94 @@ body {
   height: 100vh;
   width: calc(100% - 80px); }
 
+/* Por debajo de 1400px */
+@media screen and (max-width: 1400px) {
+  .text__form {
+    font-size: 0.75rem; } }
+
+/* Por debajo de 1200px */
 /* Por debajo de 992px */
+@media screen and (max-width: 992px) {
+  #messageLabel {
+    font-size: 2.4rem; }
+  .home .cont-inicio section .container .fila__inicio .info__inicio p {
+    font-size: 0.8rem; }
+  .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
+    font-size: 0.775rem; }
+  .home .cont-inicio section .container .fila__inicio .info__inicio .btn2 {
+    font-size: 0.775rem; }
+  .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme p {
+    font-size: 0.76rem; }
+  .home .cont-conoceme .cont-sect1 {
+    margin-top: 0; }
+  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+    font-size: 1.6rem; }
+  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info p {
+    font-size: 0.875rem; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info {
+    height: 385px; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info h4 {
+    font-size: 20px; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info li {
+    font-size: 13px; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
+    display: block;
+    text-align: center; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p1 {
+    font-size: 0.875rem; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p2 {
+    font-size: 0.75rem; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
+    margin: 10px 0 0 0; }
+  .home .cont-conoceme .sect3-stats .sect__info .cont__infostats p {
+    font-size: 0.875rem; }
+  .home .cont-ofrecer .titulo__ofrecer .info__ofrecer p {
+    font-size: 0.76rem; }
+  .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .caja__infofrecer .info__ofrecer p {
+    font-size: 0.875rem; }
+  .home .containerresumen .titulo__ofrecer .info__ofrecer p {
+    font-size: 0.76rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
+    font-size: 1.1rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
+    font-size: 0.95rem; }
+  .home .certificados .titulo__certificados .info__certificados p {
+    font-size: 0.76rem; }
+  .home .containerportafolio .titulo__portafolio .info__portafolio p {
+    font-size: 0.76rem; }
+  .home .containerportafolio .categorias a {
+    font-size: 0.875rem; }
+  .home .containertestimonio .titulo__testimonio .info__testimonio p {
+    font-size: 0.76rem; }
+  .home .containertestimonio .description {
+    font-size: 12px; }
+  .home .containertestimonio button {
+    font-size: 0.775rem; }
+  .home .containerresumen .cont-habilidades button {
+    font-size: 0.775rem; }
+  .home .contacto .titulo__contacto .info__contacto p {
+    font-size: 0.76rem; }
+  .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto h6 {
+    font-size: 1rem; }
+  .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto p {
+    font-size: 0.875rem; }
+  .home .contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
+    font-size: 0.875rem; }
+  .home .contacto .container__contacto .columna2__contacto button {
+    font-size: 0.775rem; }
+  .home .footer .col1__footer p {
+    font-size: 0.875rem; }
+  .home .footer .col3__footer ul li a {
+    font-size: 0.875rem; } }
+
+/* Por debajo de 768px */
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px; }
+  .swiper-navBtn {
+    display: none; } }
+
+/* Por debajo de 576px */
 /* Color al copiar texto en web */
 ::selection {
   background-color: #3a3b3c;
