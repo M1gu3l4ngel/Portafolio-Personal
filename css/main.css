@@ -1063,6 +1063,8 @@ body {
 
 /* Por debajo de 576px */
 @media screen and (max-width: 576px) {
+  body .sidebar.close .toggle {
+    display: none; }
   .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
     font-size: 0.875rem; }
   .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
@@ -1084,7 +1086,21 @@ body {
   .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
     font-size: 1.88rem; }
   .home .contacto .titulo__contacto .info__contacto h2 {
-    font-size: 1.88rem; } }
+    font-size: 1.88rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen {
+    height: 230px; }
+  .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer .texto__ofrecer h6 {
+    font-size: 0.875rem; }
+  .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-js {
+    display: none; }
+  .home .containerportafolio .categorias a {
+    font-size: 0.68rem; }
+  .home .contacto .container__contacto .columna2__contacto .itemform__contacto {
+    width: 250px; }
+  .text__form {
+    font-size: 0.65rem; }
+  .home .contacto .container__contacto .columna1__contacto .contenido__contacto i {
+    margin-right: 8px; } }
 
 /* Color al copiar texto en web */
 ::selection {
