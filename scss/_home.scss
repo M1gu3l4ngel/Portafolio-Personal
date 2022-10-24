@@ -505,6 +505,15 @@
                 }
             }
         }
+
+        .imagenes__certificados {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .item {
+                width: 475px;
+            }
+        }
     }
 
 

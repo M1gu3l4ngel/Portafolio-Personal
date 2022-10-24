@@ -599,6 +599,12 @@ body {
       .home .certificados .titulo__certificados .info__certificados p {
         color: #9b9d9e;
         font-size: 0.875rem; }
+  .home .certificados .imagenes__certificados {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .home .certificados .imagenes__certificados .item {
+      width: 475px; }
   .home .containerportafolio {
     background-color: #3a3b3c; }
     .home .containerportafolio .titulo__portafolio {
@@ -989,14 +995,97 @@ body {
   .home .footer .col3__footer ul li a {
     font-size: 0.875rem; } }
 
+/* Por debajo de 820px */
+@media screen and (max-width: 820px) {
+  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
+    width: 60px; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p1 {
+    font-size: 0.825rem; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info {
+    height: 416px; }
+  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+    font-size: 1.5rem; } }
+
 /* Por debajo de 768px */
 @media screen and (max-width: 768px) {
+  .bubbles {
+    width: 450px; }
+  #messageLabel {
+    font-size: 1.88em; }
+  .home .cont-inicio section .container .fila__inicio .info__inicio p {
+    font-size: 0.875rem; }
+  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
+    text-align: center; }
+  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+    font-size: 1.6rem; }
+  .home .cont-conoceme .sect2-conoceme .sect2__info {
+    text-align: center;
+    height: 390px; }
+  .home .containerresumen .cajas-resumen .subtitle__resumen h2 {
+    font-size: 1.4rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
+    font-size: 0.85rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
+    font-size: 0.80rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen p {
+    font-size: 0.81rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen {
+    height: 187px; }
+  .home .contacto .container__contacto .columna1__contacto {
+    align-items: center; }
+  .home .containerportafolio .categorias a {
+    font-size: 0.82rem; }
+  .home .certificados .imagenes__certificados {
+    text-align: center; }
+  .home .certificados .imagenes__certificados .item {
+    width: 260px; }
+  .home .certificados .imagenes__certificados .item img {
+    width: 300px; }
+  .home .containertestimonio .slide-container {
+    padding-top: 0; }
+  .home .contacto .titulo__contacto .info__contacto p {
+    margin-bottom: 0; }
+  .home .contacto .container__contacto .columna2__contacto .itemform__contacto {
+    width: 300px; }
+  .colform__contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .slide-content {
     margin: 0 10px; }
   .swiper-navBtn {
     display: none; } }
 
+/* Por debajo de 619px */
+@media screen and (max-width: 619px) {
+  .home .containerresumen .cajas-resumen .caja__resumen {
+    height: 210px; } }
+
 /* Por debajo de 576px */
+@media screen and (max-width: 576px) {
+  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+    font-size: 0.875rem; }
+  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+    font-size: 1.3rem; }
+  .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
+    font-size: 1.88rem; }
+  .home .cont-conoceme .cont-sect1 .sect1-conoceme {
+    margin-top: 0; }
+  .home .cont-ofrecer .titulo__ofrecer .info__ofrecer h2 {
+    font-size: 1.88rem; }
+  .home .containerresumen .titulo__ofrecer .info__ofrecer h2 {
+    font-size: 1.88rem; }
+  .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades h2 {
+    font-size: 1.88rem; }
+  .home .certificados .titulo__certificados .info__certificados h2 {
+    font-size: 1.88rem; }
+  .home .containerportafolio .titulo__portafolio .info__portafolio h2 {
+    font-size: 1.88rem; }
+  .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
+    font-size: 1.88rem; }
+  .home .contacto .titulo__contacto .info__contacto h2 {
+    font-size: 1.88rem; } }
+
 /* Color al copiar texto en web */
 ::selection {
   background-color: #3a3b3c;
