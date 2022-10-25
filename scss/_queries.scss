@@ -357,6 +357,10 @@
     .home .contacto .container__contacto .columna1__contacto .contenido__contacto i {
         margin-right: 8px;
     }
+
+    body .sidebar.close .text {
+        display: none;
+    }
 }
 
 
@@ -421,7 +425,6 @@
     }
 
     .home .certificados .imagenes__certificados .item img {
-        width: 220px;
         border-radius: 7px;
         margin-bottom: 10px;
     }

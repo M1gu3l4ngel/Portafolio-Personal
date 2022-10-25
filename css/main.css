@@ -1101,7 +1101,9 @@ body {
   .text__form {
     font-size: 0.65rem; }
   .home .contacto .container__contacto .columna1__contacto .contenido__contacto i {
-    margin-right: 8px; } }
+    margin-right: 8px; }
+  body .sidebar.close .text {
+    display: none; } }
 
 /*======================================*/
 /*=========== EDITANDO AQUI ============*/
@@ -1137,7 +1139,6 @@ body {
   .home .containerportafolio .grid .item {
     margin: 15px; }
   .home .certificados .imagenes__certificados .item img {
-    width: 220px;
     border-radius: 7px;
     margin-bottom: 10px; }
   .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
