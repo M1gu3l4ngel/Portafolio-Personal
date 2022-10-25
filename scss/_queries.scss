@@ -338,9 +338,9 @@
         font-size: 0.875rem;
     }
 
-    .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-js {
+    /* .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-js {
         display: none;
-    }
+    } */
 
     .home .containerportafolio .categorias a {
         font-size: 0.68rem;
@@ -357,4 +357,82 @@
     .home .contacto .container__contacto .columna1__contacto .contenido__contacto i {
         margin-right: 8px;
     }
+}
+
+
+/*======================================*/
+/*=========== EDITANDO AQUI ============*/
+/*======================================*/
+
+/* Por debajo de 393px */
+@media screen and (max-width: 393px) {
+    .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
+        font-size: 1.78rem;
+    }
+
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+        font-size: 1.2rem;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info h4 {
+        display: none;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info .badge-green {
+        margin-bottom: 20px;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info {
+        height: 366px;
+        margin-top: 23px;
+    }
+
+    .home .cont-ofrecer .titulo__ofrecer .info__ofrecer h2 {
+        font-size: 1.78rem;
+    }
+
+    .home .containerresumen .titulo__ofrecer .info__ofrecer h2 {
+        font-size: 1.78rem;
+    }
+
+    .home .containerresumen .cajas-resumen .caja__resumen {
+        height: 180px;
+    }
+
+    .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades h2 {
+        font-size: 1.78rem;
+    }
+
+    .home .certificados .titulo__certificados .info__certificados h2 {
+        font-size: 1.78rem;
+    }
+
+    .home .containerportafolio .titulo__portafolio .info__portafolio h2 {
+        font-size: 1.78rem;
+    }
+
+    .home .containerportafolio .portafolio__search .barra-busqueda {
+        height: 25px;
+        font-size: 0.81rem;
+    }
+
+    .home .containerportafolio .grid .item {
+        margin: 15px;
+    }
+
+    .home .certificados .imagenes__certificados .item img {
+        width: 220px;
+        border-radius: 7px;
+        margin-bottom: 10px;
+    }
+
+    .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
+        font-size: 1.78rem;
+    }
+
+    .home .contacto .titulo__contacto .info__contacto h2 {
+        font-size: 1.78rem;
+    }
+
+
 }
