@@ -97,7 +97,7 @@ body {
       justify-content: space-between;
       overflow-y: scroll; }
       body .sidebar .menu-bar .menu {
-        margin-top: 60px; }
+        margin-top: 40px; }
         body .sidebar .menu-bar .menu .search-box {
           border-radius: 6px;
           background-color: #3a3b3c;
@@ -725,7 +725,6 @@ body {
       width: 100%;
       padding: 40px 0; }
     .home .containertestimonio .slide-content {
-      margin: 0 40px;
       overflow: hidden;
       border-radius: 25px; }
     .home .containertestimonio .card {
@@ -926,25 +925,26 @@ body {
   #messageLabel {
     font-size: 2.4rem; }
   .home .cont-inicio section .container .fila__inicio .info__inicio p {
-    font-size: 0.8rem; }
+    font-size: 0.9rem; }
   .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
     font-size: 0.775rem; }
   .home .cont-inicio section .container .fila__inicio .info__inicio .btn2 {
     font-size: 0.775rem; }
   .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme p {
-    font-size: 0.76rem; }
+    font-size: 0.9rem; }
   .home .cont-conoceme .cont-sect1 {
     margin-top: 0; }
   .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
     font-size: 1.6rem; }
   .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info p {
-    font-size: 0.875rem; }
+    font-size: 1em;
+    text-align: left; }
   .home .cont-conoceme .sect2-conoceme .sect2__info {
     height: 385px; }
   .home .cont-conoceme .sect2-conoceme .sect2__info h4 {
     font-size: 20px; }
   .home .cont-conoceme .sect2-conoceme .sect2__info li {
-    font-size: 13px; }
+    font-size: 1em; }
   .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
     display: block;
     text-align: center; }
@@ -1013,7 +1013,7 @@ body {
   #messageLabel {
     font-size: 1.88em; }
   .home .cont-inicio section .container .fila__inicio .info__inicio p {
-    font-size: 0.875rem; }
+    font-size: 0.9rem; }
   .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
     text-align: center; }
   .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
@@ -1024,7 +1024,7 @@ body {
   .home .containerresumen .cajas-resumen .subtitle__resumen h2 {
     font-size: 1.4rem; }
   .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
-    font-size: 0.85rem; }
+    font-size: 0.9rem; }
   .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
     font-size: 0.80rem; }
   .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen p {
@@ -1089,8 +1089,6 @@ body {
     font-size: 1.88rem; }
   .home .containerresumen .cajas-resumen .caja__resumen {
     height: 230px; }
-  .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer .texto__ofrecer h6 {
-    font-size: 0.875rem; }
   /* .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-js {
         display: none;
     } */
@@ -1103,6 +1101,10 @@ body {
   .home .contacto .container__contacto .columna1__contacto .contenido__contacto i {
     margin-right: 8px; }
   body .sidebar.close .text {
+    display: none; }
+  .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer .texto__ofrecer h6 {
+    font-size: 18px; }
+  body .sidebar .bottom-content {
     display: none; } }
 
 /* ====== Por debajo de 393px ====== */
@@ -1116,7 +1118,7 @@ body {
   .home .cont-conoceme .sect2-conoceme .sect2__info .badge-green {
     margin-bottom: 20px; }
   .home .cont-conoceme .sect2-conoceme .sect2__info {
-    height: 366px;
+    height: 400px;
     margin-top: 23px; }
   .home .cont-ofrecer .titulo__ofrecer .info__ofrecer h2 {
     font-size: 1.78rem; }
@@ -1139,7 +1141,9 @@ body {
   .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
     font-size: 1.78rem; }
   .home .contacto .titulo__contacto .info__contacto h2 {
-    font-size: 1.78rem; } }
+    font-size: 1.78rem; }
+  .body > nav > div > div.menu > ul > li.nav-link.contactolink {
+    display: none; } }
 
 /* Color al copiar texto en web */
 ::selection {

@@ -17,7 +17,7 @@
     }
 
     .home .cont-inicio section .container .fila__inicio .info__inicio p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
@@ -29,7 +29,7 @@
     }
 
     .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme p {
-        font-size: 0.76rem;
+        font-size: 0.9rem;
     }
 
     .home .cont-conoceme .cont-sect1 {
@@ -41,7 +41,8 @@
     }
 
     .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info p {
-        font-size: 0.875rem;
+        font-size: 1em;
+        text-align: left;
     }
 
     .home .cont-conoceme .sect2-conoceme .sect2__info {
@@ -53,7 +54,7 @@
     }
 
     .home .cont-conoceme .sect2-conoceme .sect2__info li {
-        font-size: 13px;
+        font-size: 1em;
     }
 
     .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
@@ -187,7 +188,7 @@
     }
 
     .home .cont-inicio section .container .fila__inicio .info__inicio p {
-        font-size: 0.875rem;
+        font-size: 0.9rem;
     }
 
     .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
@@ -208,7 +209,7 @@
     }
 
     .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
@@ -269,6 +270,8 @@
     .swiper-navBtn {
         display: none;
     }
+
+    
 }
 
 
@@ -334,10 +337,6 @@
         height: 230px;
     }
 
-    .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer .texto__ofrecer h6 {
-        font-size: 0.875rem;
-    }
-
     /* .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-js {
         display: none;
     } */
@@ -359,6 +358,14 @@
     }
 
     body .sidebar.close .text {
+        display: none;
+    }
+
+    .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer .texto__ofrecer h6 {
+        font-size: 18px;
+    }
+
+    body .sidebar .bottom-content {
         display: none;
     }
 
@@ -385,7 +392,7 @@
     }
 
     .home .cont-conoceme .sect2-conoceme .sect2__info {
-        height: 366px;
+        height: 400px;
         margin-top: 23px;
     }
 
@@ -429,5 +436,9 @@
 
     .home .contacto .titulo__contacto .info__contacto h2 {
         font-size: 1.78rem;
+    }
+
+    .body > nav > div > div.menu > ul > li.nav-link.contactolink {
+        display: none;
     }
 }
