@@ -1105,10 +1105,7 @@ body {
   body .sidebar.close .text {
     display: none; } }
 
-/*======================================*/
-/*=========== EDITANDO AQUI ============*/
-/*======================================*/
-/* Por debajo de 393px */
+/* ====== Por debajo de 393px ====== */
 @media screen and (max-width: 393px) {
   .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
     font-size: 1.78rem; }
