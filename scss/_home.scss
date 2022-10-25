@@ -59,7 +59,8 @@
         background-color: $primary-color;
 
         .cont__titleconoceme {
-            height: 150px;
+            height: 40px;
+            margin-bottom: 20px;
 
             .cont__infoconoceme {
                 margin-right: auto;
@@ -72,16 +73,10 @@
                     font-weight: bold;
                     text-transform: uppercase;
                 }
-
-                p {
-                    color: $paragraphcolor;
-                    font-size: $text14;
-                }
             }
         }
 
         .cont-sect1 {
-            margin-top: 40px;
 
             .sect1-conoceme {
                 display: flex;
@@ -208,7 +203,7 @@
         background-color: $body-color;
 
         .titulo__ofrecer {
-            margin-bottom: 40px;
+            margin-bottom: 35px;
 
             .info__ofrecer {
                 margin-right: auto;
@@ -220,11 +215,6 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
-                }
-
-                p {
-                    color: $paragraphcolor;
-                    font-size: $text14;
                 }
             }
         }
@@ -316,14 +306,10 @@
                     font-weight: bold;
                     text-transform: uppercase;
                 }
-
-                p {
-                    color: $paragraphcolor;
-                    font-size: $text14;
-                }
             }
         }
 
+        
         /* ====== Cajas de Resumen ====== */
         .cajas-resumen {
             display: flex;
@@ -498,11 +484,6 @@
                     font-weight: bold;
                     text-transform: uppercase;
                 }
-
-                p {
-                    color: $paragraphcolor;
-                    font-size: $text14;
-                }
             }
         }
 
@@ -512,10 +493,15 @@
             align-items: center;
             .item {
                 width: 475px;
+                margin-bottom: 20px;
+
+                img {
+                    border-radius: 7px;
+                }
             }
         }
     }
-
+    
 
     /* ======= Contenedor de Portafolio ======= */
     .containerportafolio {
@@ -534,11 +520,6 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
-                }
-
-                p {
-                    color: $paragraphcolor;
-                    font-size: $text14;
                 }
             }
         }
@@ -664,7 +645,7 @@
         background-color: $body-color;
 
         .titulo__testimonio {
-            margin-bottom: 40px;
+            
 
             .info__testimonio {
                 margin-right: auto;
@@ -676,11 +657,6 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
-                }
-
-                p {
-                    color: $paragraphcolor;
-                    font-size: $text14;
                 }
             }
         }
@@ -809,7 +785,7 @@
         background-color: $primary-color;
 
         .titulo__contacto {
-            margin-bottom: 40px;
+            margin-bottom: 20px;
 
             .info__contacto {
                 margin-right: auto;
@@ -822,14 +798,9 @@
                     font-weight: bold;
                     text-transform: uppercase;
                 }
-
-                p {
-                    color: $paragraphcolor;
-                    font-size: $text14;
-                }
             }
         }
-
+        
         .container__contacto {
             display: flex;
             justify-content: center;
@@ -838,7 +809,7 @@
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                align-items: start;
+                align-items: center;
                 height: 100%;
 
                 .contenido__contacto {

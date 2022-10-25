@@ -1,444 +1,122 @@
-/* Por debajo de 1400px */
-@media screen and (max-width: 1400px) {
-    .text__form {
+/* ======= Por debajo de 1280px ======= */
+@media screen and (max-width: 1280px) {
+    .home .cont-conoceme .sect2-conoceme .sect2__info {
+        height: 335px;
+    }
+
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
+        height: 335px;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info h4 {
+        display: none;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
+        width: 50px;
+    }
+
+    .form-text {
         font-size: 0.75rem;
     }
 }
 
 
-/* Por debajo de 1200px */
-@media screen and (max-width: 1200px) {}
-
-
-/* Por debajo de 992px */
-@media screen and (max-width: 992px) {
-    #messageLabel {
-        font-size: 2.4rem;
-    }
-
-    .home .cont-inicio section .container .fila__inicio .info__inicio p {
-        font-size: 0.9rem;
-    }
-
-    .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
-        font-size: 0.775rem;
-    }
-
-    .home .cont-inicio section .container .fila__inicio .info__inicio .btn2 {
-        font-size: 0.775rem;
-    }
-
-    .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme p {
-        font-size: 0.9rem;
-    }
-
-    .home .cont-conoceme .cont-sect1 {
-        margin-top: 0;
-    }
-
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-        font-size: 1.6rem;
-    }
-
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info p {
-        font-size: 1em;
-        text-align: left;
+/* ======= Por debajo de 1114px ======= */
+@media screen and (max-width: 1114px) {
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
+        height: 380px;
     }
 
     .home .cont-conoceme .sect2-conoceme .sect2__info {
-        height: 385px;
+        height: 380px;
     }
 
-    .home .cont-conoceme .sect2-conoceme .sect2__info h4 {
-        font-size: 20px;
+    .home .cont-conoceme .sect2-conoceme .sect2__info ul {
+        margin: 20px 0;
+        text-align: left;
     }
 
-    .home .cont-conoceme .sect2-conoceme .sect2__info li {
-        font-size: 1em;
+    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 28px;
+        text-align: left;
+    }
+}
+
+
+/* ======= Por debajo de 884px ======= */
+@media screen and (max-width: 884px) {
+
+    .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
+        font-size: 2.4rem;
+    }
+
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
+        height: 460px;
+    }
+
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+        font-size: 1.62rem;
+    }
+
+    .cont_btnizq {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info {
+        height: 460px;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info ul {
+        margin: 30px 0;
     }
 
     .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
         display: block;
         text-align: center;
-    }
-
-    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p1 {
-        font-size: 0.875rem;
-    }
-
-    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p2 {
-        font-size: 0.75rem;
+        margin-top: 50px;
     }
 
     .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
-        margin: 10px 0 0 0;
+        margin-right: 0;
     }
 
-    .home .cont-conoceme .sect3-stats .sect__info .cont__infostats p {
-        font-size: 0.875rem;
+    .home .containertestimonio .swiper-button-next {
+        display: none;
     }
 
-    .home .cont-ofrecer .titulo__ofrecer .info__ofrecer p {
-        font-size: 0.76rem;
+    .home .containertestimonio .swiper-button-prev {
+        display: none;
     }
 
-    .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .caja__infofrecer .info__ofrecer p {
-        font-size: 0.875rem;
-    }
-
-    .home .containerresumen .titulo__ofrecer .info__ofrecer p {
-        font-size: 0.76rem;
-    }
-
-    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
-        font-size: 1.1rem;
-    }
-
-    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
-        font-size: 0.95rem;
-    }
-
-    .home .certificados .titulo__certificados .info__certificados p {
-        font-size: 0.76rem;
-    }
-
-    .home .containerportafolio .titulo__portafolio .info__portafolio p {
-        font-size: 0.76rem;
-    }
-
-    .home .containerportafolio .categorias a {
-        font-size: 0.875rem;
-    }
-
-    .home .containertestimonio .titulo__testimonio .info__testimonio p {
-        font-size: 0.76rem;
-    }
-
-    .home .containertestimonio .description {
-        font-size: 12px;
-    }
-
-    .home .containertestimonio button {
-        font-size: 0.775rem;
-    }
-
-    .home .containerresumen .cont-habilidades button {
-        font-size: 0.775rem;
-    }
-
-    .home .contacto .titulo__contacto .info__contacto p {
-        font-size: 0.76rem;
-    }
-
-    .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto h6 {
-        font-size: 1rem;
-    }
-
-    .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto p {
-        font-size: 0.875rem;
-    }
-
-    .home .contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
-        font-size: 0.875rem;
-    }
-
-    .home .contacto .container__contacto .columna2__contacto button {
-        font-size: 0.775rem;
-    }
-
-    .home .footer .col1__footer p {
-        font-size: 0.875rem;
-    }
-
-    .home .footer .col3__footer ul li a {
-        font-size: 0.875rem;
+    .form__contacto {
+        margin-top: 50px;
+        padding: 20px;
     }
 }
 
 
-/* Por debajo de 820px */
-@media screen and (max-width: 820px) {
-    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
-        width: 60px;
-    }
-
-    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p1 {
-        font-size: 0.825rem;
-    }
-
-    .home .cont-conoceme .sect2-conoceme .sect2__info {
-        height: 416px;
-    }
-
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-        font-size: 1.5rem;
-    }
-}
-
-
-/* Por debajo de 768px */
+/* ======= Por debajo de 768px ======= */
 @media screen and (max-width: 768px) {
-
-    .bubbles {
-        width: 450px;
+    .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
+        font-size: 2.29rem;
     }
 
-    #messageLabel {
-        font-size: 1.88em;
-    }
-
-    .home .cont-inicio section .container .fila__inicio .info__inicio p {
-        font-size: 0.9rem;
-    }
-
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
-        text-align: center;
-    }
 
     .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-        font-size: 1.6rem;
-    }
-
-    .home .cont-conoceme .sect2-conoceme .sect2__info {
-        text-align: center;
-        height: 390px;
-    }
-
-    .home .containerresumen .cajas-resumen .subtitle__resumen h2 {
         font-size: 1.4rem;
     }
 
-    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
-        font-size: 0.9rem;
-    }
-
-    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
-        font-size: 0.80rem;
-    }
-
-    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen p {
-        font-size: 0.81rem;
-    }
-
-    .home .containerresumen .cajas-resumen .caja__resumen {
-        height: 187px;
-    }
-
-    .home .contacto .container__contacto .columna1__contacto {
-        align-items: center;
-    }
-
-    .home .containerportafolio .categorias a {
-        font-size: 0.82rem;
-    }
-
-    .home .certificados .imagenes__certificados {
-        text-align: center;
-    }
-
-    .home .certificados .imagenes__certificados .item {
-        width: 260px;
-    }
-
-    .home .certificados .imagenes__certificados .item img {
-        width: 300px;
-    }
-
-    .home .containertestimonio .slide-container {
-        padding-top: 0;
-    }
-
-    .home .contacto .titulo__contacto .info__contacto p {
-        margin-bottom: 0;
-    }
-
-    .home .contacto .container__contacto .columna2__contacto .itemform__contacto {
-        width: 300px;
-
-    }
-
-    .colform__contacto {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .slide-content {
-        margin: 0 10px;
-    }
-
-    .swiper-navBtn {
-        display: none;
-    }
-
-    
-}
-
-
-/* Por debajo de 619px */
-@media screen and (max-width: 619px) {
-    .home .containerresumen .cajas-resumen .caja__resumen {
-        height: 210px;
-    }
-}
-
-
-/* Por debajo de 576px */
-@media screen and (max-width: 576px) {
-    body .sidebar.close .toggle {
-        display: none;
-    }
-
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-        font-size: 0.875rem;
-    }
-
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-        font-size: 1.3rem;
-    }
-
-    .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
-        font-size: 1.88rem;
-    }
-
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme {
-        margin-top: 0;
-    }
-
-    .home .cont-ofrecer .titulo__ofrecer .info__ofrecer h2 {
-        font-size: 1.88rem;
-    }
-
-    .home .containerresumen .titulo__ofrecer .info__ofrecer h2 {
-        font-size: 1.88rem;
-    }
-
-    .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades h2 {
-        font-size: 1.88rem;
-    }
-
-    .home .certificados .titulo__certificados .info__certificados h2 {
-        font-size: 1.88rem;
-    }
-
-    .home .containerportafolio .titulo__portafolio .info__portafolio h2 {
-        font-size: 1.88rem;
-    }
-
-    .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
-        font-size: 1.88rem;
-    }
-
-    .home .contacto .titulo__contacto .info__contacto h2 {
-        font-size: 1.88rem;
-    }
-
-    .home .containerresumen .cajas-resumen .caja__resumen {
-        height: 230px;
-    }
-
-    /* .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-js {
-        display: none;
-    } */
-
-    .home .containerportafolio .categorias a {
-        font-size: 0.68rem;
-    }
-
-    .home .contacto .container__contacto .columna2__contacto .itemform__contacto {
-        width: 250px;
-    }
-
-    .text__form {
-        font-size: 0.65rem;
-    }
-
-    .home .contacto .container__contacto .columna1__contacto .contenido__contacto i {
-        margin-right: 8px;
-    }
-
-    body .sidebar.close .text {
-        display: none;
-    }
-
-    .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer .texto__ofrecer h6 {
-        font-size: 18px;
-    }
-
-    body .sidebar .bottom-content {
-        display: none;
-    }
-
-    
-}
-
-
-/* ====== Por debajo de 393px ====== */
-@media screen and (max-width: 393px) {
-    .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
-        font-size: 1.78rem;
-    }
-
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-        font-size: 1.2rem;
-    }
-
-    .home .cont-conoceme .sect2-conoceme .sect2__info h4 {
-        display: none;
-    }
-
-    .home .cont-conoceme .sect2-conoceme .sect2__info .badge-green {
-        margin-bottom: 20px;
+    .cont_btnizq {
+        margin-top: 20px;
     }
 
     .home .cont-conoceme .sect2-conoceme .sect2__info {
-        height: 400px;
-        margin-top: 23px;
+        width: auto;
     }
 
-    .home .cont-ofrecer .titulo__ofrecer .info__ofrecer h2 {
-        font-size: 1.78rem;
-    }
-
-    .home .containerresumen .titulo__ofrecer .info__ofrecer h2 {
-        font-size: 1.78rem;
-    }
-
-    .home .containerresumen .cajas-resumen .caja__resumen {
-        height: 180px;
-    }
-
-    .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades h2 {
-        font-size: 1.78rem;
-    }
-
-    .home .certificados .titulo__certificados .info__certificados h2 {
-        font-size: 1.78rem;
-    }
-
-    .home .containerportafolio .titulo__portafolio .info__portafolio h2 {
-        font-size: 1.78rem;
-    }
-
-    .home .containerportafolio .portafolio__search .barra-busqueda {
-        height: 25px;
-        font-size: 0.81rem;
-    }
-
-    .home .certificados .imagenes__certificados .item img {
-        border-radius: 7px;
-        margin-bottom: 10px;
-    }
-
-    .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
-        font-size: 1.78rem;
-    }
-
-    .home .contacto .titulo__contacto .info__contacto h2 {
-        font-size: 1.78rem;
-    }
-
-    .body > nav > div > div.menu > ul > li.nav-link.contactolink {
-        display: none;
-    }
 }
