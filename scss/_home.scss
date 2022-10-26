@@ -86,7 +86,7 @@
 
                 .sect1__info {
                     max-width: 550px;
-                    height: auto;
+                    height: 330px;
                     padding: 24px;
                     background-color: $sidebar-color;
                     border-radius: 7px;
@@ -115,7 +115,7 @@
             align-items: center;
 
             .sect2__info {
-                height: auto;
+                height: 330px;
                 width: 100%;
                 padding: 24px;
                 background-color: $sidebar-color;
@@ -124,10 +124,6 @@
                 margin-top: 13px;
 
                 @include badge-green;
-
-                h4 {
-                    color: $text-color;
-                }
 
                 ul {
                     list-style: none;
@@ -147,6 +143,8 @@
 
                     img {
                         margin-right: 15px;
+                        width: 40px;
+                        height: 40px;
                     }
 
                     .info__work {
@@ -309,7 +307,7 @@
             }
         }
 
-        
+
         /* ====== Cajas de Resumen ====== */
         .cajas-resumen {
             display: flex;
@@ -491,9 +489,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
             .item {
                 width: 475px;
-                margin-bottom: 20px;
+                padding: 10px;
 
                 img {
                     border-radius: 7px;
@@ -501,7 +500,7 @@
             }
         }
     }
-    
+
 
     /* ======= Contenedor de Portafolio ======= */
     .containerportafolio {
@@ -645,7 +644,7 @@
         background-color: $body-color;
 
         .titulo__testimonio {
-            
+
 
             .info__testimonio {
                 margin-right: auto;
@@ -800,7 +799,7 @@
                 }
             }
         }
-        
+
         .container__contacto {
             display: flex;
             justify-content: center;
@@ -852,6 +851,10 @@
                         border-color: $secondary-color;
                         color: $paragraphcolor;
                         font-size: $parrafos16;
+                    }
+
+                    .text__form {
+                        font-size: 0.75rem;
                     }
                 }
 

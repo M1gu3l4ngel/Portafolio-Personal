@@ -85,14 +85,6 @@
         margin-right: 0;
     }
 
-    .home .containertestimonio .swiper-button-next {
-        display: none;
-    }
-
-    .home .containertestimonio .swiper-button-prev {
-        display: none;
-    }
-
     .form__contacto {
         margin-top: 50px;
         padding: 20px;
@@ -102,21 +94,169 @@
 
 /* ======= Por debajo de 768px ======= */
 @media screen and (max-width: 768px) {
-    .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
-        font-size: 2.29rem;
+    body .sidebar .menu-bar .icon {
+        font-size: 1.25rem;
     }
 
+    body .sidebar.close .text {
+        display: none;
+    }
 
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-        font-size: 1.4rem;
+    #contactolink {
+        display: none;
+    }
+
+    body .sidebar .menu-bar .menu {
+        margin-top: 20px;
+    }
+
+    body .sidebar.close .toggle {
+        display: none;
+    }
+
+    .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
+        font-size: 1.8rem;
+    }
+
+    .home .cont-inicio section .container .fila__inicio .info__inicio p {
+        font-size: 1rem;
+    }
+
+    .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
+        font-size: 0.75rem;
+    }
+
+    .home .cont-inicio section .container .fila__inicio .info__inicio .btn2 {
+        font-size: 0.75rem;
+    }
+
+    .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
+        font-size: 1.875rem;
     }
 
     .cont_btnizq {
         margin-top: 20px;
     }
 
-    .home .cont-conoceme .sect2-conoceme .sect2__info {
-        width: auto;
+
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
+        height: 520px;
     }
 
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
+        font-size: 1.21rem;
+    }
+
+    .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info button {
+        font-size: 0.75rem;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info {
+        height: 380px;
+        text-align: center;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
+        display: flex;
+        margin-top: 0;
+        text-align: start;
+    }
+
+    .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
+        margin-right: 10px;
+    }
+
+    .home .cont-ofrecer .titulo__ofrecer .info__ofrecer h2 {
+        font-size: 1.875rem;
+    }
+
+    .home .containerresumen .titulo__ofrecer .info__ofrecer h2 {
+        font-size: 1.875rem;
+    }
+
+    .home .containerresumen .cajas-resumen .subtitle__resumen h2 {
+        font-size: 1.4rem;
+    }
+
+    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
+        font-size: 1.125rem;
+    }
+
+    .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
+        font-size: 0.938rem;
+    }
+
+    .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades h2 {
+        font-size: 1.875rem;
+    }
+
+    .home .certificados .titulo__certificados .info__certificados h2 {
+        font-size: 1.875rem;
+    }
+
+    .home .certificados .imagenes__certificados {
+        text-align: center;
+    }
+
+    .home .certificados .imagenes__certificados .item img {
+        width: 260px;
+    }
+
+    .home .containerportafolio .titulo__portafolio .info__portafolio h2 {
+        font-size: 1.875rem;
+    }
+
+    .home .containerportafolio .categorias {
+        margin: 10px 0;
+    }
+
+    .home .containerportafolio .categorias a {
+        color: #ccc;
+        margin: 2px 6px;
+        font-size: 1rem;
+        margin-top: 10px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+    .home .containerportafolio .portafolio__search .barra-busqueda {
+        height: 32px;
+        font-size: 12px;
+    }
+
+    .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
+        font-size: 1.875rem;
+    }
+
+    .home .contacto .titulo__contacto .info__contacto h2 {
+        font-size: 1.875rem;
+    }
+
+    .form__contacto {
+        margin-top: 0;
+    }
+
+    .home .footer .col1__footer p {
+        font-size: 0.9rem;
+    }
+
+    .home .footer .col3__footer ul li a {
+        font-size: 0.875rem;
+    }
+
+    .home .containerresumen .cont-habilidades button {
+        font-size: 0.75rem;
+    }
+
+    .home .containertestimonio button {
+        font-size: 0.75rem;
+    }
+
+    .home .contacto .container__contacto .columna2__contacto .itemform__contacto .text__form {
+        display: none;
+    }
+
+   
+
+    
 }
