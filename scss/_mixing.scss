@@ -1,4 +1,4 @@
-/* Mix de Boton Central */
+/* ====== Mix de Boton Central ====== */
 @mixin listcontainer__btn {
     margin-top: 15px;
     text-align: center;
@@ -21,9 +21,9 @@
 }
 
 
-/* Mix de Boton Izquierdo */
+/* ====== Mix de Boton Izquierdo ====== */
 @mixin cont__btnizq {
-    margin-top: 15px;
+    
     text-align: left;
 
     button {
@@ -44,7 +44,7 @@
 }
 
 
-/* Mix de Botones Dobles */
+/* ====== Mix de Botones Dobles ====== */
 @mixin cont__btndoble {
     text-align: center;
 
@@ -85,12 +85,12 @@
 }
 
 
-/* Badge HTML */
+/* ====== Badge HTML ====== */
 @mixin badge-green {
     .badge-green {
         background-color: $secondary-color;
         color: $sidebar-color;
-        margin-bottom: 12px;
+        margin-bottom: 30px;
     }
 }
 

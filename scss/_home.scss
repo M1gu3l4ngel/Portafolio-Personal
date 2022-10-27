@@ -55,14 +55,17 @@
 
     /* ======= Contenedor de Acerca de Mi ======= */
 
-    .cont-conoceme {
+    .conoceme {
         background-color: $primary-color;
+        width: 100%;
 
-        .cont__titleconoceme {
+        .title__conoceme {
             height: 40px;
             margin-bottom: 20px;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
 
-            .cont__infoconoceme {
+            .info__conoceme {
                 margin-right: auto;
                 margin-left: auto;
                 text-align: center;
@@ -76,118 +79,117 @@
             }
         }
 
-        .cont-sect1 {
+        .container-conoceme {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
 
-            .sect1-conoceme {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            .fila__conoceme {
+                padding-top: 30px;
 
-
-                .sect1__info {
-                    max-width: 550px;
-                    height: 330px;
-                    padding: 24px;
+                .card__conoceme {
+                    flex: 1 1 auto;
+                    padding: 1.5rem;
+                    word-wrap: break-word;
                     background-color: $sidebar-color;
                     border-radius: 7px;
                     box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+                    text-align: center;
 
-                    h2 {
-                        text-transform: uppercase;
+                    h4 {
+                        margin-bottom: 0.5rem;
+                        font-size: 27px;
                         font-weight: bold;
                         color: $text-color;
-                        font-size: $text30;
                     }
 
                     p {
                         color: $paragraphcolor;
-                        font-size: $parrafos16;
                     }
 
                     @include cont__btnizq;
                 }
+
+                .col2-conoceme {
+                    .card2__conoceme {
+                        height: 315px;
+                        word-wrap: break-word;
+                        background-color: $sidebar-color;
+                        border-radius: 7px;
+                        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+                        text-align: center;
+
+                        .card-body__conoceme {
+                            height: 300px;
+
+
+                            @include badge-green;
+
+                            ul {
+                                list-style: none;
+                                line-height: 25px;
+                                padding: 0;
+                                margin-bottom: 30px;
+                                color: $paragraphcolor;
+                                text-align: center;
+                            }
+
+                            .cont-img__conoceme {
+                                text-align: center;
+
+                                img {
+                                    width: 45px;
+                                    height: 45px;
+                                    border-radius: 100%;
+                                    margin-bottom: 5px;
+                                }
+                            }
+
+                            .minibox__conoceme {
+                                h6 {
+                                    margin-bottom: 0px;
+                                    color: $secondary-color;
+                                    font-weight: bold;
+                                    margin-top: 4px;
+                                }
+
+                                p {
+                                    font-size: 14px;
+                                    color: $paragraphcolor;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
 
-        .sect2-conoceme {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .stats-conoceme {
+            padding-bottom: 70px;
 
-            .sect2__info {
-                height: 330px;
-                width: 100%;
-                padding: 24px;
+            .cont-stats__conoceme {
+                text-align: center;
+                padding: 16px;
+                word-wrap: break-word;
                 background-color: $sidebar-color;
                 border-radius: 7px;
                 box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
-                margin-top: 13px;
 
-                @include badge-green;
+                .boxs__conoceme {
+                    .box-in__conoceme {
+                        padding: 16px;
 
-                ul {
-                    list-style: none;
-                    padding: 2px;
-                }
-
-                li {
-                    color: $paragraphcolor;
-
-                    span {
-                        color: $text-color;
-                    }
-                }
-
-                .cont__infowork {
-                    display: flex;
-
-                    img {
-                        margin-right: 15px;
-                        width: 40px;
-                        height: 40px;
-                    }
-
-                    .info__work {
-                        .p1 {
+                        h4 {
+                            color: $text-color;
                             font-weight: bold;
+                            font-size: calc(1.425rem + 2.1vw);
+                            line-height: 1.2;
+                            margin-bottom: 0;
+                        }
+
+                        p {
                             margin-bottom: 0;
                             color: $secondary-color;
                         }
-
-                        .p2 {
-                            margin-bottom: 0;
-                        }
-                    }
-                }
-            }
-        }
-
-        .sect3-stats {
-            padding-top: 24px;
-            padding-bottom: 24px;
-
-
-            .sect__info {
-                text-align: center;
-                background-color: $sidebar-color;
-                border-radius: 7px;
-                padding: 16px;
-                box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
-                margin-bottom: 30px;
-
-                .cont__infostats {
-                    padding: 16px;
-
-                    h4 {
-                        font-weight: bold;
-                        color: $text-color;
-                        margin-bottom: 0;
-                    }
-
-                    p {
-                        margin-bottom: 0;
-                        color: $paragraphcolor;
-                        font-size: $parrafos16;
                     }
                 }
             }

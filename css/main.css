@@ -22,10 +22,10 @@
 /*14px*/
 /* Variables para Fonts - Mobile */
 /* ====== Transiciones ====== */
-/* Mix de Boton Central */
-/* Mix de Boton Izquierdo */
-/* Mix de Botones Dobles */
-/* Badge HTML */
+/* ====== Mix de Boton Central ====== */
+/* ====== Mix de Boton Izquierdo ====== */
+/* ====== Mix de Botones Dobles ====== */
+/* ====== Badge HTML ====== */
 body {
   background-color: #18191a;
   min-height: 100vh;
@@ -252,106 +252,109 @@ body {
                 color: #242526; }
               .home .cont-inicio section .container .fila__inicio .info__inicio .btn2 i {
                 margin-right: 3px; }
-  .home .cont-conoceme {
-    background-color: #3a3b3c; }
-    .home .cont-conoceme .cont__titleconoceme {
+  .home .conoceme {
+    background-color: #3a3b3c;
+    width: 100%; }
+    .home .conoceme .title__conoceme {
       height: 40px;
-      margin-bottom: 20px; }
-      .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme {
+      margin-bottom: 20px;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem; }
+      .home .conoceme .title__conoceme .info__conoceme {
         margin-right: auto;
         margin-left: auto;
         text-align: center; }
-        .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
+        .home .conoceme .title__conoceme .info__conoceme h2 {
           color: #ccc;
           font-size: 38px;
           font-weight: bold;
           text-transform: uppercase; }
-    .home .cont-conoceme .cont-sect1 .sect1-conoceme {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
-        max-width: 550px;
-        height: 330px;
-        padding: 24px;
-        background-color: #242526;
-        border-radius: 7px;
-        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
-        margin-top: 15px;
-        text-align: left; }
-        .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-          text-transform: uppercase;
-          font-weight: bold;
-          color: #ccc;
-          font-size: 1.875rem; }
-        .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info p {
-          color: #9b9d9e;
-          font-size: 1rem; }
-        .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info button {
-          background-color: #3a3b3c;
-          color: #ccc;
-          border: none;
-          font-size: 0.875rem; }
-          .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info button:hover {
-            background-color: #5ed530f6;
-            color: #242526; }
-          .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info button i {
-            margin-right: 3px; }
-    .home .cont-conoceme .sect2-conoceme {
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-      .home .cont-conoceme .sect2-conoceme .sect2__info {
-        height: 330px;
-        width: 100%;
-        padding: 24px;
-        background-color: #242526;
-        border-radius: 7px;
-        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
-        margin-top: 13px; }
-        .home .cont-conoceme .sect2-conoceme .sect2__info .badge-green {
-          background-color: #5ed530f6;
-          color: #242526;
-          margin-bottom: 12px; }
-        .home .cont-conoceme .sect2-conoceme .sect2__info ul {
-          list-style: none;
-          padding: 2px; }
-        .home .cont-conoceme .sect2-conoceme .sect2__info li {
-          color: #9b9d9e; }
-          .home .cont-conoceme .sect2-conoceme .sect2__info li span {
-            color: #ccc; }
-        .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
-          display: flex; }
-          .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
-            margin-right: 15px;
-            width: 40px;
-            height: 40px; }
-          .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p1 {
+    .home .conoceme .container-conoceme {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem; }
+      .home .conoceme .container-conoceme .fila__conoceme {
+        padding-top: 30px; }
+        .home .conoceme .container-conoceme .fila__conoceme .card__conoceme {
+          flex: 1 1 auto;
+          padding: 1.5rem;
+          word-wrap: break-word;
+          background-color: #242526;
+          border-radius: 7px;
+          box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+          text-align: center;
+          text-align: left; }
+          .home .conoceme .container-conoceme .fila__conoceme .card__conoceme h4 {
+            margin-bottom: 0.5rem;
+            font-size: 27px;
             font-weight: bold;
+            color: #ccc; }
+          .home .conoceme .container-conoceme .fila__conoceme .card__conoceme p {
+            color: #9b9d9e; }
+          .home .conoceme .container-conoceme .fila__conoceme .card__conoceme button {
+            background-color: #3a3b3c;
+            color: #ccc;
+            border: none;
+            font-size: 0.875rem; }
+            .home .conoceme .container-conoceme .fila__conoceme .card__conoceme button:hover {
+              background-color: #5ed530f6;
+              color: #242526; }
+            .home .conoceme .container-conoceme .fila__conoceme .card__conoceme button i {
+              margin-right: 3px; }
+        .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme {
+          height: 315px;
+          word-wrap: break-word;
+          background-color: #242526;
+          border-radius: 7px;
+          box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+          text-align: center; }
+          .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme {
+            height: 300px; }
+            .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .badge-green {
+              background-color: #5ed530f6;
+              color: #242526;
+              margin-bottom: 30px; }
+            .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme ul {
+              list-style: none;
+              line-height: 25px;
+              padding: 0;
+              margin-bottom: 30px;
+              color: #9b9d9e;
+              text-align: center; }
+            .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+              text-align: center; }
+              .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
+                width: 45px;
+                height: 45px;
+                border-radius: 100%;
+                margin-bottom: 5px; }
+            .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .minibox__conoceme h6 {
+              margin-bottom: 0px;
+              color: #5ed530f6;
+              font-weight: bold;
+              margin-top: 4px; }
+            .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .minibox__conoceme p {
+              font-size: 14px;
+              color: #9b9d9e; }
+    .home .conoceme .stats-conoceme {
+      padding-bottom: 70px; }
+      .home .conoceme .stats-conoceme .cont-stats__conoceme {
+        text-align: center;
+        padding: 16px;
+        word-wrap: break-word;
+        background-color: #242526;
+        border-radius: 7px;
+        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
+        .home .conoceme .stats-conoceme .cont-stats__conoceme .boxs__conoceme .box-in__conoceme {
+          padding: 16px; }
+          .home .conoceme .stats-conoceme .cont-stats__conoceme .boxs__conoceme .box-in__conoceme h4 {
+            color: #ccc;
+            font-weight: bold;
+            font-size: calc(1.425rem + 2.1vw);
+            line-height: 1.2;
+            margin-bottom: 0; }
+          .home .conoceme .stats-conoceme .cont-stats__conoceme .boxs__conoceme .box-in__conoceme p {
             margin-bottom: 0;
             color: #5ed530f6; }
-          .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork .info__work .p2 {
-            margin-bottom: 0; }
-    .home .cont-conoceme .sect3-stats {
-      padding-top: 24px;
-      padding-bottom: 24px; }
-      .home .cont-conoceme .sect3-stats .sect__info {
-        text-align: center;
-        background-color: #242526;
-        border-radius: 7px;
-        padding: 16px;
-        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
-        margin-bottom: 30px; }
-        .home .cont-conoceme .sect3-stats .sect__info .cont__infostats {
-          padding: 16px; }
-          .home .cont-conoceme .sect3-stats .sect__info .cont__infostats h4 {
-            font-weight: bold;
-            color: #ccc;
-            margin-bottom: 0; }
-          .home .cont-conoceme .sect3-stats .sect__info .cont__infostats p {
-            margin-bottom: 0;
-            color: #9b9d9e;
-            font-size: 1rem; }
   .home .cont-ofrecer {
     background-color: #18191a; }
     .home .cont-ofrecer .titulo__ofrecer {
@@ -895,148 +898,41 @@ body {
   height: 100vh;
   width: calc(100% - 80px); }
 
-/* ======= Por debajo de 1280px ======= */
-@media screen and (max-width: 1280px) {
-  .home .cont-conoceme .sect2-conoceme .sect2__info {
-    height: 335px; }
-  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
-    height: 335px; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info h4 {
-    display: none; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
-    width: 50px; }
-  .form-text {
-    font-size: 0.75rem; } }
+/* ====== Por encima de 1400px ====== */
+/* ====== Por debajo de 1400px ====== */
+/* ====== Por encima de 1200px ====== */
+@media screen and (min-width: 1200px) {
+  .home .conoceme .container-conoceme {
+    padding-top: 3rem; }
+  .col__conoceme {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    margin-left: 0; }
+  .stats-conoceme {
+    padding-bottom: 3rem; }
+  .box-in__conoceme h4 {
+    font-size: 3rem; } }
 
-/* ======= Por debajo de 1114px ======= */
-@media screen and (max-width: 1114px) {
-  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
-    height: 380px; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info {
-    height: 380px; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info ul {
-    margin: 20px 0;
-    text-align: left; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
+/* ====== Por debajo de 1200px ====== */
+/* ====== Por encima de 992px ====== */
+@media screen and (min-width: 992px) {
+  .fila__conoceme {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 28px;
-    text-align: left; } }
+    justify-content: center; } }
 
-/* ======= Por debajo de 884px ======= */
-@media screen and (max-width: 884px) {
-  .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
-    font-size: 2.4rem; }
-  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
-    height: 460px; }
-  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-    font-size: 1.62rem; }
-  .cont_btnizq {
-    text-align: center;
-    margin-top: 30px; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info {
-    height: 460px; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info ul {
-    margin: 30px 0; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
-    display: block;
-    text-align: center;
-    margin-top: 50px; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
-    margin-right: 0; }
-  .form__contacto {
-    margin-top: 50px;
-    padding: 20px; } }
+/* ====== Por debajo de 992px ====== */
+/* ====== Por encima de 768px ====== */
+@media screen and (min-width: 768px) {
+  .col__conoceme {
+    flex: 0 0 auto;
+    width: 58.33333333%; }
+  .col2-conoceme {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+    height: auto; } }
 
-/* ======= Por debajo de 768px ======= */
-@media screen and (max-width: 768px) {
-  body .sidebar .menu-bar .icon {
-    font-size: 1.25rem; }
-  body .sidebar.close .text {
-    display: none; }
-  #contactolink {
-    display: none; }
-  body .sidebar .menu-bar .menu {
-    margin-top: 20px; }
-  body .sidebar.close .toggle {
-    display: none; }
-  .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
-    font-size: 1.8rem; }
-  .home .cont-inicio section .container .fila__inicio .info__inicio p {
-    font-size: 1rem; }
-  .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
-    font-size: 0.75rem; }
-  .home .cont-inicio section .container .fila__inicio .info__inicio .btn2 {
-    font-size: 0.75rem; }
-  .home .cont-conoceme .cont__titleconoceme .cont__infoconoceme h2 {
-    font-size: 1.875rem; }
-  .cont_btnizq {
-    margin-top: 20px; }
-  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info {
-    height: 520px; }
-  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info h2 {
-    font-size: 1.21rem; }
-  .home .cont-conoceme .cont-sect1 .sect1-conoceme .sect1__info button {
-    font-size: 0.75rem; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info {
-    height: 380px;
-    text-align: center; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork {
-    display: flex;
-    margin-top: 0;
-    text-align: start; }
-  .home .cont-conoceme .sect2-conoceme .sect2__info .cont__infowork img {
-    margin-right: 10px; }
-  .home .cont-ofrecer .titulo__ofrecer .info__ofrecer h2 {
-    font-size: 1.875rem; }
-  .home .containerresumen .titulo__ofrecer .info__ofrecer h2 {
-    font-size: 1.875rem; }
-  .home .containerresumen .cajas-resumen .subtitle__resumen h2 {
-    font-size: 1.4rem; }
-  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
-    font-size: 1.125rem; }
-  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
-    font-size: 0.938rem; }
-  .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades h2 {
-    font-size: 1.875rem; }
-  .home .certificados .titulo__certificados .info__certificados h2 {
-    font-size: 1.875rem; }
-  .home .certificados .imagenes__certificados {
-    text-align: center; }
-  .home .certificados .imagenes__certificados .item img {
-    width: 260px; }
-  .home .containerportafolio .titulo__portafolio .info__portafolio h2 {
-    font-size: 1.875rem; }
-  .home .containerportafolio .categorias {
-    margin: 10px 0; }
-  .home .containerportafolio .categorias a {
-    color: #ccc;
-    margin: 2px 6px;
-    font-size: 1rem;
-    margin-top: 10px;
-    text-decoration: none;
-    font-size: 13px; }
-  .home .containerportafolio .portafolio__search .barra-busqueda {
-    height: 32px;
-    font-size: 12px; }
-  .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
-    font-size: 1.875rem; }
-  .home .contacto .titulo__contacto .info__contacto h2 {
-    font-size: 1.875rem; }
-  .form__contacto {
-    margin-top: 0; }
-  .home .footer .col1__footer p {
-    font-size: 0.9rem; }
-  .home .footer .col3__footer ul li a {
-    font-size: 0.875rem; }
-  .home .containerresumen .cont-habilidades button {
-    font-size: 0.75rem; }
-  .home .containertestimonio button {
-    font-size: 0.75rem; }
-  .home .contacto .container__contacto .columna2__contacto .itemform__contacto .text__form {
-    display: none; } }
-
+/* ====== Por debajo de 768px ====== */
+/* ====== Por debajo de 576px ====== */
 /* Color al copiar texto en web */
 ::selection {
   background-color: #3a3b3c;
