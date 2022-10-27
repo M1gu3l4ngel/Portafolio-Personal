@@ -37,6 +37,7 @@
                             font-weight: bold;
                             font-size: $text44;
                             color: $text-color;
+                            font-family: 'Bungee', cursive;
                         }
 
                         p {
@@ -75,6 +76,7 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
+                    font-family: 'Bungee', cursive;
                 }
             }
         }
@@ -87,7 +89,7 @@
                 padding-top: 30px;
 
                 .card__conoceme {
-                    flex: 1 1 auto;
+                    height: 100%;
                     padding: 1.5rem;
                     word-wrap: break-word;
                     background-color: $sidebar-color;
@@ -95,11 +97,15 @@
                     box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
                     text-align: center;
 
-                    h4 {
+                    h2 {
                         margin-bottom: 0.5rem;
-                        font-size: 27px;
+                        font-size: 26px;
                         font-weight: bold;
                         color: $text-color;
+                    }
+
+                    .card-name__conoceme {
+                        color: $secondary-color;
                     }
 
                     p {
@@ -111,15 +117,17 @@
 
                 .col2-conoceme {
                     .card2__conoceme {
-                        height: 315px;
+                        height: 100%;
                         word-wrap: break-word;
                         background-color: $sidebar-color;
                         border-radius: 7px;
                         box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
                         text-align: center;
+                        border-style: none;
 
                         .card-body__conoceme {
                             height: 300px;
+                            padding: 1.3rem;
 
 
                             @include badge-green;
@@ -135,16 +143,18 @@
 
                             .cont-img__conoceme {
                                 text-align: center;
+                                margin-bottom: 25px;
 
                                 img {
-                                    width: 45px;
-                                    height: 45px;
+                                    width: 150px;
+                                    height: 180px;
                                     border-radius: 100%;
                                     margin-bottom: 5px;
                                 }
                             }
 
                             .minibox__conoceme {
+
                                 h6 {
                                     margin-bottom: 0px;
                                     color: $secondary-color;
@@ -181,7 +191,7 @@
                         h4 {
                             color: $text-color;
                             font-weight: bold;
-                            font-size: calc(1.425rem + 2.1vw);
+                            font-size: calc(1.225rem + 2.1vw);
                             line-height: 1.2;
                             margin-bottom: 0;
                         }
@@ -197,94 +207,103 @@
     }
 
 
-    /* ======= Contenedor Que puedo ofrecer? ======= */
+    /* ======= Contenedor de Servicios ======= */
 
-    .cont-ofrecer {
+    .servicios {
         background-color: $body-color;
 
-        .titulo__ofrecer {
-            margin-bottom: 35px;
+        .cont__servicios {
 
-            .info__ofrecer {
-                margin-right: auto;
-                margin-left: auto;
-                text-align: center;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
 
-                h2 {
-                    color: $text-color;
-                    font-size: 38px;
-                    font-weight: bold;
-                    text-transform: uppercase;
+            .titulo__servicios {
+                margin-bottom: 35px;
+
+                .info__servicios {
+                    margin-right: auto;
+                    margin-left: auto;
+                    text-align: center;
+
+                    h2 {
+                        color: $text-color;
+                        font-size: 38px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-family: 'Bungee', cursive;
+                    }
                 }
             }
-        }
 
-        .cajas-ofrecer {
-            margin-bottom: 30px;
+            .cajas-servicios {
+                margin-bottom: 30px;
 
-            .sect__ofrecer {
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                .sect__servicios {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
 
-                .caja__ofrecer {
-                    height: auto;
-                    padding: 24px;
-                    background-color: $sidebar-color;
-                    border-radius: 7px;
-                    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+                    .caja__servicios {
+                        height: 100%;
+                        padding: 24px;
+                        background-color: $sidebar-color;
+                        border-radius: 7px;
+                        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
 
-                    .titulos__ofrecer {
-                        display: flex;
-
-                        img {
-                            flex-shrink: 0;
-                            border-radius: 50%;
-                            margin-right: 16px;
-                            width: 50px;
-                            height: 50px;
-                        }
-
-                        .texto__ofrecer {
+                        .titulos__servicios {
                             display: flex;
-                            justify-content: center;
-                            align-items: center;
 
-                            h6 {
-                                font-weight: bold;
-                                color: $secondary-color;
-                                margin-bottom: 0;
+                            img {
+                                flex-shrink: 0;
+                                border-radius: 50%;
+                                margin-right: 16px;
+                                width: 50px;
+                                height: 50px;
+                            }
+
+                            .texto__servicios {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+
+                                h6 {
+                                    font-weight: bold;
+                                    color: $secondary-color;
+                                    margin-bottom: 0;
+                                }
                             }
                         }
-                    }
 
-                    .caja__infofrecer {
-                        display: flex;
+                        .caja__infoservicios {
+                            display: flex;
 
-                        .info__ofrecer {
-                            margin-top: 10px;
-                            margin-bottom: 10px;
+                            .info2__servicios {
+                                margin-top: 10px;
+                                margin-bottom: 10px;
 
-                            p {
-                                margin-bottom: 0;
-                                color: $paragraphcolor;
-                                font-size: $parrafos16;
+                                p {
+                                    margin-bottom: 0;
+                                    color: $paragraphcolor;
+                                    font-size: $parrafos16;
+                                }
                             }
                         }
-                    }
 
-                    @include badge-html;
-                    @include badge-css;
-                    @include badge-js;
-                    @include badge-react;
-                    @include badge-mongo;
-                    @include badge-mysql;
-                    @include badge-illustrator;
-                    @include badge-photoshop;
-                    @include badge-figma;
+                        @include badge-html;
+                        @include badge-css;
+                        @include badge-js;
+                        @include badge-react;
+                        @include badge-mongo;
+                        @include badge-mysql;
+                        @include badge-illustrator;
+                        @include badge-photoshop;
+                        @include badge-figma;
+                    }
                 }
             }
         }
+
+
     }
 
 
@@ -292,10 +311,10 @@
     .containerresumen {
         background-color: $primary-color;
 
-        .titulo__ofrecer {
+        .titulo__resumen {
             margin-bottom: 40px;
 
-            .info__ofrecer {
+            .info__resumen {
                 margin-right: auto;
                 margin-left: auto;
                 text-align: center;
@@ -305,6 +324,7 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
+                    font-family: 'Bungee', cursive;
                 }
             }
         }
@@ -336,6 +356,7 @@
                 border-radius: 7px;
                 box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
                 margin-top: 20px;
+                text-align: center;
 
                 @include badge-red;
 
@@ -347,7 +368,8 @@
 
                     h5 {
                         color: $secondary-color;
-                        font-size: $text17;
+                        font-size: $text14;
+                        font-weight: 300;
                     }
 
                     p {
@@ -377,6 +399,7 @@
                         font-size: $text38;
                         font-weight: bold;
                         text-transform: uppercase;
+                        font-family: 'Bungee', cursive;
                     }
 
                     p {
@@ -483,6 +506,7 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
+                    font-family: 'Bungee', cursive;
                 }
             }
         }
@@ -521,6 +545,7 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
+                    font-family: 'Bungee', cursive;
                 }
             }
         }
@@ -658,6 +683,7 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
+                    font-family: 'Bungee', cursive;
                 }
             }
         }
@@ -798,6 +824,7 @@
                     font-size: 38px;
                     font-weight: bold;
                     text-transform: uppercase;
+                    font-family: 'Bungee', cursive;
                 }
             }
         }

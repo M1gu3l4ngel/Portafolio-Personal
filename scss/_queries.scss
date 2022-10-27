@@ -1,5 +1,14 @@
 /* ====== Por encima de 1400px ====== */
-@media screen and (min-width: 1400px) {}
+@media screen and (min-width: 1400px) {
+    .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .badge-green {
+        margin-bottom: 0;
+    }
+
+    .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+        margin-bottom: 5px;
+        margin-top: 0;
+    }
+}
 
 
 /* ====== Por debajo de 1400px ====== */
@@ -29,6 +38,14 @@
             font-size: 3rem;
         }
     }
+
+    .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
+        height: 200px;
+        width: 160px;
+        margin-bottom: 13px;
+    }
+    
+    
 }
 
 
@@ -64,11 +81,15 @@
     }
 }
 
-
-
 /* ====== Por debajo de 768px ====== */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+
+}
+
+
 
 
 /* ====== Por debajo de 576px ====== */
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+
+}

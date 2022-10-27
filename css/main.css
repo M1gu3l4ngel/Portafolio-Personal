@@ -1,4 +1,5 @@
-/* Google Font Import - Poppins */
+@charset "UTF-8";
+/* ======= Reseteo ======= */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 * {
@@ -7,6 +8,9 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif; }
 
+/* ======= Import SCSS ======= */
+/* Google Font Import - Poppins */
+/* Google Font Import - Bungee */
 /* ====== Colores Principales ====== */
 /* Variables para Fonts - Browser */
 /*48px*/
@@ -22,6 +26,30 @@
 /*14px*/
 /* Variables para Fonts - Mobile */
 /* ====== Transiciones ====== */
+/* Color al copiar texto en web */
+::selection {
+  background-color: #3a3b3c;
+  color: #fff; }
+
+html::-webkit-scrollbar {
+  /* Tamaño del scroll en horizontal */
+  width: 8px;
+  /* Tamaño del scroll en vertical */
+  height: 100vh;
+  background-color: #18191a;
+  border-radius: 4px;
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+html::-webkit-scrollbar-thumb {
+  background: #5ed530f6;
+  border-radius: 4px; }
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+html::-webkit-scrollbar-thumb:hover {
+  background: #3fa716f6;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); }
+
 /* ====== Mix de Boton Central ====== */
 /* ====== Mix de Boton Izquierdo ====== */
 /* ====== Mix de Botones Dobles ====== */
@@ -97,7 +125,7 @@ body {
       justify-content: space-between;
       overflow-y: scroll; }
       body .sidebar .menu-bar .menu {
-        margin-top: 40px; }
+        margin-top: 20px; }
         body .sidebar .menu-bar .menu .search-box {
           border-radius: 6px;
           background-color: #3a3b3c;
@@ -198,7 +226,7 @@ body {
   transition: all 0.3s ease;
   /* ======= Contenedor de Inicio ======= */
   /* ======= Contenedor de Acerca de Mi ======= */
-  /* ======= Contenedor Que puedo ofrecer? ======= */
+  /* ======= Contenedor de Servicios ======= */
   /* ======= Contenedor de Resumen ======= */
   /* ======= Contenedor de Certificados ======= */
   /* ======= Contenedor de Portafolio ======= */
@@ -225,7 +253,8 @@ body {
               text-transform: uppercase;
               font-weight: bold;
               font-size: 2.75rem;
-              color: #ccc; }
+              color: #ccc;
+              font-family: 'Bungee', cursive; }
             .home .cont-inicio section .container .fila__inicio .info__inicio p {
               margin-bottom: 24px;
               color: #9b9d9e;
@@ -268,14 +297,15 @@ body {
           color: #ccc;
           font-size: 38px;
           font-weight: bold;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          font-family: 'Bungee', cursive; }
     .home .conoceme .container-conoceme {
       padding-top: 1.5rem;
       padding-bottom: 1.5rem; }
       .home .conoceme .container-conoceme .fila__conoceme {
         padding-top: 30px; }
         .home .conoceme .container-conoceme .fila__conoceme .card__conoceme {
-          flex: 1 1 auto;
+          height: 100%;
           padding: 1.5rem;
           word-wrap: break-word;
           background-color: #242526;
@@ -283,11 +313,13 @@ body {
           box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
           text-align: center;
           text-align: left; }
-          .home .conoceme .container-conoceme .fila__conoceme .card__conoceme h4 {
+          .home .conoceme .container-conoceme .fila__conoceme .card__conoceme h2 {
             margin-bottom: 0.5rem;
-            font-size: 27px;
+            font-size: 26px;
             font-weight: bold;
             color: #ccc; }
+          .home .conoceme .container-conoceme .fila__conoceme .card__conoceme .card-name__conoceme {
+            color: #5ed530f6; }
           .home .conoceme .container-conoceme .fila__conoceme .card__conoceme p {
             color: #9b9d9e; }
           .home .conoceme .container-conoceme .fila__conoceme .card__conoceme button {
@@ -301,18 +333,20 @@ body {
             .home .conoceme .container-conoceme .fila__conoceme .card__conoceme button i {
               margin-right: 3px; }
         .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme {
-          height: 315px;
+          height: 100%;
           word-wrap: break-word;
           background-color: #242526;
           border-radius: 7px;
           box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
-          text-align: center; }
+          text-align: center;
+          border-style: none; }
           .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme {
-            height: 300px; }
+            height: 300px;
+            padding: 1.3rem; }
             .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .badge-green {
               background-color: #5ed530f6;
               color: #242526;
-              margin-bottom: 30px; }
+              margin-bottom: 12px; }
             .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme ul {
               list-style: none;
               line-height: 25px;
@@ -321,10 +355,11 @@ body {
               color: #9b9d9e;
               text-align: center; }
             .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
-              text-align: center; }
+              text-align: center;
+              margin-bottom: 25px; }
               .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
-                width: 45px;
-                height: 45px;
+                width: 150px;
+                height: 180px;
                 border-radius: 100%;
                 margin-bottom: 5px; }
             .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .minibox__conoceme h6 {
@@ -349,104 +384,109 @@ body {
           .home .conoceme .stats-conoceme .cont-stats__conoceme .boxs__conoceme .box-in__conoceme h4 {
             color: #ccc;
             font-weight: bold;
-            font-size: calc(1.425rem + 2.1vw);
+            font-size: calc(1.225rem + 2.1vw);
             line-height: 1.2;
             margin-bottom: 0; }
           .home .conoceme .stats-conoceme .cont-stats__conoceme .boxs__conoceme .box-in__conoceme p {
             margin-bottom: 0;
             color: #5ed530f6; }
-  .home .cont-ofrecer {
+  .home .servicios {
     background-color: #18191a; }
-    .home .cont-ofrecer .titulo__ofrecer {
-      margin-bottom: 35px; }
-      .home .cont-ofrecer .titulo__ofrecer .info__ofrecer {
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center; }
-        .home .cont-ofrecer .titulo__ofrecer .info__ofrecer h2 {
-          color: #ccc;
-          font-size: 38px;
-          font-weight: bold;
-          text-transform: uppercase; }
-    .home .cont-ofrecer .cajas-ofrecer {
-      margin-bottom: 30px; }
-      .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer {
-        display: flex;
-        justify-content: center;
-        align-items: center; }
-        .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer {
-          height: auto;
-          padding: 24px;
-          background-color: #242526;
-          border-radius: 7px;
-          box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer {
-            display: flex; }
-            .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer img {
-              flex-shrink: 0;
-              border-radius: 50%;
-              margin-right: 16px;
-              width: 50px;
-              height: 50px; }
-            .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer .texto__ofrecer {
-              display: flex;
-              justify-content: center;
-              align-items: center; }
-              .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .titulos__ofrecer .texto__ofrecer h6 {
-                font-weight: bold;
-                color: #5ed530f6;
-                margin-bottom: 0; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .caja__infofrecer {
-            display: flex; }
-            .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .caja__infofrecer .info__ofrecer {
-              margin-top: 10px;
-              margin-bottom: 10px; }
-              .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .caja__infofrecer .info__ofrecer p {
-                margin-bottom: 0;
-                color: #9b9d9e;
-                font-size: 1rem; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-html {
-            background-color: #fc6b03;
-            color: #242526; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-css {
-            background-color: #03a1fc;
-            color: #242526; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-js {
-            background-color: #fcf003;
-            color: #242526; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-react {
-            background-color: #03f8fc;
-            color: #242526; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-mongo {
-            background-color: #00ED64;
-            color: #242526; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-mysql {
-            background-color: #2b5d80;
-            color: #242526; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-illustrator {
-            background-color: #eeecec;
-            color: #242526; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-photoshop {
-            background-color: #9581e0;
-            color: #242526; }
-          .home .cont-ofrecer .cajas-ofrecer .sect__ofrecer .caja__ofrecer .badge-figma {
-            background-color: #f59393;
-            color: #242526; }
+    .home .servicios .cont__servicios {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem; }
+      .home .servicios .cont__servicios .titulo__servicios {
+        margin-bottom: 35px; }
+        .home .servicios .cont__servicios .titulo__servicios .info__servicios {
+          margin-right: auto;
+          margin-left: auto;
+          text-align: center; }
+          .home .servicios .cont__servicios .titulo__servicios .info__servicios h2 {
+            color: #ccc;
+            font-size: 38px;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-family: 'Bungee', cursive; }
+      .home .servicios .cont__servicios .cajas-servicios {
+        margin-bottom: 30px; }
+        .home .servicios .cont__servicios .cajas-servicios .sect__servicios {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios {
+            height: 100%;
+            padding: 24px;
+            background-color: #242526;
+            border-radius: 7px;
+            box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .titulos__servicios {
+              display: flex; }
+              .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .titulos__servicios img {
+                flex-shrink: 0;
+                border-radius: 50%;
+                margin-right: 16px;
+                width: 50px;
+                height: 50px; }
+              .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .titulos__servicios .texto__servicios {
+                display: flex;
+                justify-content: center;
+                align-items: center; }
+                .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .titulos__servicios .texto__servicios h6 {
+                  font-weight: bold;
+                  color: #5ed530f6;
+                  margin-bottom: 0; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .caja__infoservicios {
+              display: flex; }
+              .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .caja__infoservicios .info2__servicios {
+                margin-top: 10px;
+                margin-bottom: 10px; }
+                .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .caja__infoservicios .info2__servicios p {
+                  margin-bottom: 0;
+                  color: #9b9d9e;
+                  font-size: 1rem; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-html {
+              background-color: #fc6b03;
+              color: #242526; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-css {
+              background-color: #03a1fc;
+              color: #242526; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-js {
+              background-color: #fcf003;
+              color: #242526; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-react {
+              background-color: #03f8fc;
+              color: #242526; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-mongo {
+              background-color: #00ED64;
+              color: #242526; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-mysql {
+              background-color: #2b5d80;
+              color: #242526; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-illustrator {
+              background-color: #eeecec;
+              color: #242526; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-photoshop {
+              background-color: #9581e0;
+              color: #242526; }
+            .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .badge-figma {
+              background-color: #f59393;
+              color: #242526; }
   .home .containerresumen {
     background-color: #3a3b3c;
     /* ====== Cajas de Resumen ====== */
     /* ====== Cajas de Habilidades ====== */ }
-    .home .containerresumen .titulo__ofrecer {
+    .home .containerresumen .titulo__resumen {
       margin-bottom: 40px; }
-      .home .containerresumen .titulo__ofrecer .info__ofrecer {
+      .home .containerresumen .titulo__resumen .info__resumen {
         margin-right: auto;
         margin-left: auto;
         text-align: center; }
-        .home .containerresumen .titulo__ofrecer .info__ofrecer h2 {
+        .home .containerresumen .titulo__resumen .info__resumen h2 {
           color: #ccc;
           font-size: 38px;
           font-weight: bold;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          font-family: 'Bungee', cursive; }
     .home .containerresumen .cajas-resumen {
       display: flex;
       justify-content: center;
@@ -463,7 +503,8 @@ body {
         background-color: #242526;
         border-radius: 7px;
         box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
-        margin-top: 20px; }
+        margin-top: 20px;
+        text-align: center; }
         .home .containerresumen .cajas-resumen .caja__resumen .badge-red {
           background-color: #ff1919;
           color: #242526;
@@ -473,7 +514,8 @@ body {
           font-size: 1.25rem; }
         .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
           color: #5ed530f6;
-          font-size: 1.063rem; }
+          font-size: 0.875rem;
+          font-weight: 300; }
         .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen p {
           margin-bottom: 0;
           color: #9b9d9e;
@@ -493,7 +535,8 @@ body {
             color: #ccc;
             font-size: 2.375rem;
             font-weight: bold;
-            text-transform: uppercase; }
+            text-transform: uppercase;
+            font-family: 'Bungee', cursive; }
           .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades p {
             color: #9b9d9e;
             font-size: 1rem; }
@@ -588,7 +631,8 @@ body {
         color: #ccc;
         font-size: 38px;
         font-weight: bold;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-family: 'Bungee', cursive; }
   .home .certificados .imagenes__certificados {
     display: flex;
     justify-content: center;
@@ -610,7 +654,8 @@ body {
           color: #ccc;
           font-size: 38px;
           font-weight: bold;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          font-family: 'Bungee', cursive; }
     .home .containerportafolio .portafolio__search {
       text-align: center; }
       .home .containerportafolio .portafolio__search .barra-busqueda {
@@ -704,7 +749,8 @@ body {
         color: #ccc;
         font-size: 38px;
         font-weight: bold;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-family: 'Bungee', cursive; }
     .home .containertestimonio .slide-container {
       max-width: 1120px;
       width: 100%;
@@ -804,7 +850,8 @@ body {
           color: #ccc;
           font-size: 38px;
           font-weight: bold;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          font-family: 'Bungee', cursive; }
     .home .contacto .container__contacto {
       display: flex;
       justify-content: center; }
@@ -899,6 +946,13 @@ body {
   width: calc(100% - 80px); }
 
 /* ====== Por encima de 1400px ====== */
+@media screen and (min-width: 1400px) {
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .badge-green {
+    margin-bottom: 0; }
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+    margin-bottom: 5px;
+    margin-top: 0; } }
+
 /* ====== Por debajo de 1400px ====== */
 /* ====== Por encima de 1200px ====== */
 @media screen and (min-width: 1200px) {
@@ -911,7 +965,11 @@ body {
   .stats-conoceme {
     padding-bottom: 3rem; }
   .box-in__conoceme h4 {
-    font-size: 3rem; } }
+    font-size: 3rem; }
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
+    height: 200px;
+    width: 160px;
+    margin-bottom: 13px; } }
 
 /* ====== Por debajo de 1200px ====== */
 /* ====== Por encima de 992px ====== */
@@ -933,7 +991,3 @@ body {
 
 /* ====== Por debajo de 768px ====== */
 /* ====== Por debajo de 576px ====== */
-/* Color al copiar texto en web */
-::selection {
-  background-color: #3a3b3c;
-  color: #fff; }

@@ -1,7 +1,4 @@
-/* Google Font Import - Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-
+/* ======= Reseteo ======= */
 * {
     margin: 0;
     padding: 0;
@@ -9,14 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* ======= Import SCSS ======= */
+@import "fonts";
 @import "vars";
+@import "webkit";
 @import "mixing";
 @import "sidebar";
 @import "home";
 @import "queries";
-
-/* Color al copiar texto en web */
-::selection {
-    background-color: $primary-color;
-    color: $toggle-color;
-}

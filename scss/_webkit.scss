@@ -1,0 +1,27 @@
+/* Color al copiar texto en web */
+::selection {
+    background-color: $primary-color;
+    color: $toggle-color;
+}
+
+html::-webkit-scrollbar {
+    /* Tamaño del scroll en horizontal */
+    width: 8px;
+    /* Tamaño del scroll en vertical */
+    height: 100vh;
+    background-color: $body-color;
+    border-radius: 4px;
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+html::-webkit-scrollbar-thumb {
+    background: $secondary-color;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+html::-webkit-scrollbar-thumb:hover {
+    background: $secondary-color2;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
