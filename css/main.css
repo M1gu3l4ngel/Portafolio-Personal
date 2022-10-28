@@ -1015,8 +1015,13 @@ body {
     display: none; }
   body .sidebar.close .toggle {
     display: none; }
+  body .sidebar .menu-bar {
+    justify-content: start; }
   body .sidebar .bottom-content {
-    display: none; }
+    margin-bottom: 0;
+    margin-top: 0; }
+  body .sidebar .menu-bar .menu li {
+    height: 44px; }
   .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
     font-size: 1.8rem;
     margin-left: 10px; }

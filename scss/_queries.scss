@@ -109,9 +109,20 @@
         display: none;
     }
 
-    body .sidebar .bottom-content {
-        display: none;
+    body .sidebar .menu-bar {
+        justify-content: start;
     }
+
+    body .sidebar .bottom-content {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    body .sidebar .menu-bar .menu li {
+        height: 44px;
+    }
+
+
 
     .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
         font-size: $text28;
@@ -291,6 +302,8 @@
     .home .contacto .container__contacto .columna2__contacto .itemform__contacto .text__form {
         font-size: 0.593rem;
     }
+
+
 
     .home .footer .col1__footer p {
         margin-left: 4.1px;
