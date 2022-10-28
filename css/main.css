@@ -13,7 +13,7 @@
 /* Google Font Import - Bungee */
 /* ====== Colores Principales ====== */
 /* Variables para Fonts - Browser */
-/*48px*/
+/* 48px */
 /*44px*/
 /*38px*/
 /*30px*/
@@ -25,6 +25,13 @@
 /*16px*/
 /*14px*/
 /* Variables para Fonts - Mobile */
+/*32px*/
+/*18px*/
+/*16px*/
+/*15px*/
+/*14px*/
+/*11px*/
+/*28px*/
 /* ====== Transiciones ====== */
 /* Color al copiar texto en web */
 ::selection {
@@ -286,7 +293,6 @@ body {
     width: 100%; }
     .home .conoceme .title__conoceme {
       height: 40px;
-      margin-bottom: 20px;
       padding-top: 1.5rem;
       padding-bottom: 1.5rem; }
       .home .conoceme .title__conoceme .info__conoceme {
@@ -946,39 +952,43 @@ body {
   width: calc(100% - 80px); }
 
 /* ====== Por encima de 1400px ====== */
-@media screen and (min-width: 1400px) {
-  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .badge-green {
-    margin-bottom: 0; }
-  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
-    margin-bottom: 5px;
-    margin-top: 0; } }
-
 /* ====== Por debajo de 1400px ====== */
 /* ====== Por encima de 1200px ====== */
-@media screen and (min-width: 1200px) {
-  .home .conoceme .container-conoceme {
-    padding-top: 3rem; }
-  .col__conoceme {
-    flex: 0 0 auto;
-    width: 66.66666667%;
-    margin-left: 0; }
-  .stats-conoceme {
-    padding-bottom: 3rem; }
-  .box-in__conoceme h4 {
-    font-size: 3rem; }
-  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
-    height: 200px;
-    width: 160px;
-    margin-bottom: 13px; } }
-
 /* ====== Por debajo de 1200px ====== */
-/* ====== Por encima de 992px ====== */
-@media screen and (min-width: 992px) {
-  .fila__conoceme {
-    display: flex;
-    justify-content: center; } }
+@media screen and (max-width: 1200px) {
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+    margin-bottom: 48px;
+    margin-top: 10px; }
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
+    width: 210px;
+    height: 250px; } }
 
+/* ====== Por debajo de 1005px ====== */
+@media screen and (max-width: 1005px) {
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+    margin-bottom: 58px;
+    margin-top: 20px; } }
+
+/* ====== Por encima de 992px ====== */
 /* ====== Por debajo de 992px ====== */
+@media screen and (max-width: 992px) {
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+    margin-bottom: 80px;
+    margin-top: 45px; }
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
+    width: 210px;
+    height: 280px; } }
+
+/* ====== Por debajo de 789px ====== */
+@media screen and (max-width: 789px) {
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+    margin-bottom: 100px;
+    margin-top: 65px; }
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
+    width: 210px;
+    height: 280px; } }
+
+/* ====== Por encima de 786px ====== */
 /* ====== Por encima de 768px ====== */
 @media screen and (min-width: 768px) {
   .col__conoceme {
@@ -990,4 +1000,122 @@ body {
     height: auto; } }
 
 /* ====== Por debajo de 768px ====== */
+@media screen and (max-width: 768px) {
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+    margin-bottom: 19px;
+    margin-top: 0; }
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
+    width: 130px;
+    height: 165px; } }
+
 /* ====== Por debajo de 576px ====== */
+@media screen and (max-width: 576px) {
+  body .sidebar.close .text {
+    display: none; }
+  body .sidebar.close .toggle {
+    display: none; }
+  .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
+    font-size: 2rem;
+    margin-left: 10px; }
+  .home .cont-inicio section .container .fila__inicio .info__inicio p {
+    font-size: 0.938rem;
+    margin-left: 10px; }
+  .cont__btndoble {
+    margin-left: 10px; }
+  .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
+    margin-right: 10px; }
+  #text-hidden {
+    display: none; }
+  .home .conoceme .title__conoceme .info__conoceme h2 {
+    font-size: 1.75rem;
+    margin-left: 10px; }
+  .home .conoceme .container-conoceme .fila__conoceme .card__conoceme {
+    margin-left: 10px; }
+  .home .conoceme .container-conoceme .fila__conoceme .card__conoceme h2 {
+    font-size: 1.125rem; }
+  .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme {
+    margin-left: 10px; }
+  .home .conoceme .container-conoceme .fila__conoceme .card__conoceme p {
+    color: #9b9d9e;
+    font-size: 0.938rem; }
+  .home .conoceme .stats-conoceme {
+    padding-bottom: 34px; }
+  .home .conoceme .stats-conoceme .cont-stats__conoceme {
+    margin-left: 10px; }
+  .home .conoceme .stats-conoceme .cont-stats__conoceme .boxs__conoceme .box-in__conoceme p {
+    font-size: 0.67rem; }
+  .home .servicios .cont__servicios .titulo__servicios .info__servicios h2 {
+    font-size: 1.75rem;
+    margin-left: 10px; }
+  .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios {
+    margin-left: 10px; }
+  .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .caja__infoservicios .info2__servicios p {
+    font-size: 0.938rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen {
+    margin-left: 10px; }
+  .home .containerresumen .cajas-resumen .subtitle__resumen h2 {
+    margin-left: 10px; }
+  .home .containerresumen .titulo__resumen .info__resumen h2 {
+    font-size: 1.75rem;
+    margin-left: 10px; }
+  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h3 {
+    font-size: 1.2rem; }
+  .home .containerresumen .cajas-resumen .caja__resumen .headings__resumen h5 {
+    margin-bottom: 0; }
+  .home .containerresumen .cont-habilidades .titulo__habilidades .info__habilidades h2 {
+    font-size: 1.75rem;
+    margin-left: 4px; }
+  .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades {
+    margin-left: 10px; }
+  .home .certificados .titulo__certificados .info__certificados h2 {
+    font-size: 1.75rem;
+    margin-left: 10px; }
+  .home .certificados .imagenes__certificados {
+    text-align: center; }
+  .home .certificados .imagenes__certificados .item img {
+    width: 240px;
+    margin-left: 10px; }
+  .home .containerportafolio .titulo__portafolio .info__portafolio h2 {
+    font-size: 1.75rem;
+    margin-left: 10px; }
+  .home .containerportafolio .portafolio__search .barra-busqueda {
+    width: 230px;
+    height: 25px;
+    background-color: transparent;
+    color: #ccc;
+    border: 1px solid #5ed530f6;
+    outline: none; }
+  .home .containerportafolio .categorias {
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .home .containerportafolio .categorias a {
+    margin: 0;
+    font-size: 0.9; }
+  .home .containertestimonio .slide-container {
+    margin-left: 5px; }
+  .home .containertestimonio .titulo__testimonio .info__testimonio h2 {
+    font-size: 1.75rem;
+    margin-left: 2px; }
+  .home .contacto .titulo__contacto .info__contacto h2 {
+    font-size: 1.75rem;
+    margin-left: 10px; }
+  .colform__contacto {
+    margin-left: 10px; }
+  .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto h6 {
+    font-size: 16px; }
+  .home .contacto .container__contacto .columna1__contacto .contenido__contacto .info__contacto p {
+    font-size: 0.875rem; }
+  .home .contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
+    width: 230px;
+    height: 25px;
+    font-size: 0.875rem; }
+  .home .contacto .container__contacto .columna2__contacto .itemform__contacto .text__form {
+    font-size: 0.593rem; }
+  .home .footer .col1__footer p {
+    margin-left: 4.1px;
+    font-size: 0.95rem; }
+  .home .footer .col2__footer ul {
+    margin-left: 22px; }
+  .home .footer .col3__footer ul {
+    margin-left: 10px; } }
