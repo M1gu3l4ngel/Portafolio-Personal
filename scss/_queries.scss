@@ -108,18 +108,13 @@
         display: none;
     }
 
-    body .sidebar .menu-bar {
-        justify-content: start;
-    }
-
     body .sidebar .bottom-content {
         margin-bottom: 0;
         margin-top: 0;
     }
 
-    /* ====== editando aqui ====== */
-    body .sidebar .bottom-content li {
-        margin-top: 45px;
+    body .sidebar .menu-bar {
+        height: calc(100% - 80px);
     }
 
     body .sidebar .menu-bar .menu li {
