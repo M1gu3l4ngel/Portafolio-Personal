@@ -1,13 +1,10 @@
-/* ====== Por encima de 1400px ====== */
-@media screen and (min-width: 1400px) {}
-
-
 /* ====== Por debajo de 1400px ====== */
-@media screen and (max-width: 1400px) {}
-
-
-/* ====== Por encima de 1200px ====== */
-@media screen and (min-width: 1200px) {}
+@media screen and (max-width: 1400px) {
+    .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
+}
 
 
 /* ====== Por debajo de 1200px ====== */
@@ -23,6 +20,107 @@
     }
 }
 
+
+/* ====== Por encima de 1200px ====== */
+@media screen and (min-width: 1200px) {
+    .home .servicios .cont__servicios {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .home .servicios .cont__servicios .titulo__servicios .info__servicios {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .home .servicios .cont__servicios .cajas-servicios .sect__servicios {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .home .containerresumen .container2__resumen {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .home .containerresumen .container2__resumen .titulo__resumen .info__resumen {
+        flex: 0 0 auto;
+        width: 50%;
+
+    }
+
+    .home .containerresumen .container2__resumen .cajas-resumen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cajas-resumen .cont-resumen {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .home .containerresumen .cont-habilidades .caja__habilidades {
+        display: flex;
+        justify-content: center;
+    }
+
+    .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades {
+        flex: 0 0 auto;
+        width: 33.33333333%;
+    }
+
+    .home .certificados {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .home .certificados .titulo__certificados .info__certificados {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .home .containerportafolio {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .home .containerportafolio .titulo__portafolio .info__portafolio {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .home .containertestimonio {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .home .containertestimonio .titulo__testimonio .info__testimonio {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .home .contacto .cont__contacto {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .home .contacto .cont__contacto .titulo__contacto .info__contacto {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .home .contacto .cont__contacto .container__contacto .cont__contacto1 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .home .contacto .cont__contacto .container__contacto .cont__contacto1 .cont__contact2 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
 /* ====== Por debajo de 1005px ====== */
 @media screen and (max-width: 1005px) {
     .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
@@ -30,11 +128,6 @@
         margin-top: 20px;
     }
 }
-
-
-
-/* ====== Por encima de 992px ====== */
-@media screen and (min-width: 992px) {}
 
 
 /* ====== Por debajo de 992px ====== */
@@ -51,6 +144,7 @@
     }
 }
 
+
 /* ====== Por debajo de 789px ====== */
 @media screen and (max-width: 789px) {
     .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
@@ -63,9 +157,6 @@
         height: 280px;
     }
 }
-
-/* ====== Por encima de 786px ====== */
-@media screen and (min-width: 786px) {}
 
 
 /* ====== Por encima de 768px ====== */
@@ -80,6 +171,36 @@
         width: 41.66666667%;
         height: auto;
     }
+
+    .home .containerresumen .container2__resumen .titulo__resumen .info__resumen {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .home .certificados .titulo__certificados .info__certificados {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .home .containerportafolio .titulo__portafolio .info__portafolio {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .home .containertestimonio .titulo__testimonio .info__testimonio {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .home .contacto .cont__contacto .titulo__contacto .info__contacto {
+        flex: 0 0 auto;
+        width: 66.66666667%;
+    }
+
+    .container2__contacto {
+        flex: 0 0 auto;
+        width: 50%;
+    }
 }
 
 
@@ -93,6 +214,14 @@
     .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme img {
         width: 130px;
         height: 165px;
+    }
+}
+
+/* ====== Por encima de 768px ====== */
+@media screen and (min-width: 768px) {
+    .home .servicios .cont__servicios .titulo__servicios .info__servicios {
+        flex: 0 0 auto;
+        width: 66.66666667%;
     }
 }
 
@@ -288,7 +417,7 @@
     }
 
     .home .contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
-        width: 230px;
+        width: 100%;
         height: 30px;
         font-size: $text14mobil;
     }

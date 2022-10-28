@@ -258,6 +258,7 @@
                                 margin-right: 16px;
                                 width: 50px;
                                 height: 50px;
+                                max-width: 100%;
                             }
 
                             .texto__servicios {
@@ -310,71 +311,77 @@
     .containerresumen {
         background-color: $primary-color;
 
-        .titulo__resumen {
-            margin-bottom: 40px;
+        .container2__resumen {
 
-            .info__resumen {
-                margin-right: auto;
-                margin-left: auto;
-                text-align: center;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
 
-                h2 {
-                    color: $text-color;
-                    font-size: 38px;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    font-family: 'Bungee', cursive;
-                }
-            }
-        }
+            .titulo__resumen {
+                margin-bottom: 40px;
 
-
-        /* ====== Cajas de Resumen ====== */
-        .cajas-resumen {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .cont__resumen {
-                width: 460px;
-            }
-
-            .subtitle__resumen {
-
-                h2 {
+                .info__resumen {
+                    margin-right: auto;
+                    margin-left: auto;
                     text-align: center;
-                    color: $text-color;
-                    font-size: $text24;
+
+                    h2 {
+                        color: $text-color;
+                        font-size: 38px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-family: 'Bungee', cursive;
+                    }
                 }
             }
 
-            .caja__resumen {
-                height: auto;
-                padding: 24px;
-                background-color: $sidebar-color;
-                border-radius: 7px;
-                box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
-                margin-top: 20px;
-                text-align: center;
 
-                @include badge-green;
+            /* ====== Cajas de Resumen ====== */
+            .cajas-resumen {
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
-                .headings__resumen {
-                    h3 {
+                .cont__resumen {
+                    width: 460px;
+                }
+
+                .subtitle__resumen {
+
+                    h2 {
+                        text-align: center;
                         color: $text-color;
-                        font-size: $text20;
+                        font-size: $text24;
                     }
+                }
 
-                    h5 {
-                        color: $secondary-color;
-                        font-size: $text14;
-                        font-weight: 300;
-                    }
+                .caja__resumen {
+                    height: auto;
+                    padding: 24px;
+                    background-color: $sidebar-color;
+                    border-radius: 7px;
+                    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+                    margin-top: 20px;
+                    text-align: center;
 
-                    p {
-                        margin-bottom: 0;
-                        color: $paragraphcolor;
-                        font-size: $text14;
+                    @include badge-green;
+
+                    .headings__resumen {
+                        h3 {
+                            color: $text-color;
+                            font-size: $text20;
+                        }
+
+                        h5 {
+                            color: $secondary-color;
+                            font-size: $text14;
+                            font-weight: 300;
+                        }
+
+                        p {
+                            margin-bottom: 0;
+                            color: $paragraphcolor;
+                            font-size: $text14;
+                        }
                     }
                 }
             }
@@ -491,6 +498,8 @@
 
     /* ======= Contenedor de Certificados ======= */
     .certificados {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
 
         .titulo__certificados {
             margin-bottom: 40px;
@@ -530,6 +539,8 @@
     /* ======= Contenedor de Portafolio ======= */
     .containerportafolio {
         background-color: $primary-color;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
 
         .titulo__portafolio {
             margin-bottom: 40px;
@@ -621,7 +632,7 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background: rgba(0, 0, 0, .9);
+            background-color: rgba(0, 0, 0, .9);
             width: 100%;
             height: 100vh;
             display: none;
@@ -668,6 +679,8 @@
     /* ======= Contenedor de Testimonios ======= */
     .containertestimonio {
         background-color: $body-color;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
 
         .titulo__testimonio {
 
@@ -810,83 +823,100 @@
     .contacto {
         background-color: $primary-color;
 
-        .titulo__contacto {
-            margin-bottom: 20px;
+        .cont__contacto {
 
-            .info__contacto {
-                margin-right: auto;
-                margin-left: auto;
-                text-align: center;
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
 
-                h2 {
-                    color: $text-color;
-                    font-size: 38px;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    font-family: 'Bungee', cursive;
+            .titulo__contacto {
+                margin-bottom: 20px;
+
+                .info__contacto {
+                    margin-right: auto;
+                    margin-left: auto;
+                    text-align: center;
+
+                    h2 {
+                        color: $text-color;
+                        font-size: 38px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-family: 'Bungee', cursive;
+                    }
                 }
             }
-        }
 
-        .container__contacto {
-            display: flex;
-            justify-content: center;
-
-            .columna1__contacto {
+            .container__contacto {
                 display: flex;
-                flex-direction: column;
                 justify-content: center;
-                align-items: center;
-                height: 100%;
 
-                .contenido__contacto {
-                    display: flex;
-                    align-items: center;
-                    padding: 16px;
+                .cont__contacto1 {
+                    padding-top: 1.5rem;
+                    padding-bottom: 1.5rem;
 
-                    i {
-                        width: 1em;
-                        height: 1em;
-                        color: $secondary-color;
-                        font-size: $text20;
-                    }
+                    .col__contacto {
+                        text-align: center;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
 
-                    .info__contacto {
-                        padding: 8px;
-                        padding-left: 8px;
 
-                        h6 {
-                            margin-bottom: 0;
-                            color: $text-color;
-                            font-size: $text18;
+                        .info__contacto1 {
+                            background-color: $sidebar-color;
+                            border-radius: 7px;
+                            box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+                            padding: 10px;
+                            width: 250px;
+
+                            h4 {
+                                color: $text-color;
+                                font-size: $text20;
+
+
+                                i {
+                                    color: $secondary-color;
+                                }
+                            }
+
+                            p {
+                                color: $paragraphcolor;
+                                margin-bottom: 0;
+                            }
                         }
+                    }
+                }
 
-                        p {
-                            margin-bottom: 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                .columna2__contacto {
+                    .itemform__contacto {
+                        margin-bottom: 16px;
+
+                        .box__item {
+                            background-color: transparent;
+                            border-color: $secondary-color;
                             color: $paragraphcolor;
                             font-size: $parrafos16;
                         }
+
+                        .text__form {
+                            font-size: 0.75rem;
+                        }
                     }
+
+                    @include listcontainer__btn;
                 }
-            }
-
-            .columna2__contacto {
-                .itemform__contacto {
-                    margin-bottom: 16px;
-
-                    .box__item {
-                        background-color: transparent;
-                        border-color: $secondary-color;
-                        color: $paragraphcolor;
-                        font-size: $parrafos16;
-                    }
-
-                    .text__form {
-                        font-size: 0.75rem;
-                    }
-                }
-
-                @include listcontainer__btn;
             }
         }
     }
