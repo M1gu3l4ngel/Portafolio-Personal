@@ -109,14 +109,19 @@
         display: none;
     }
 
+    body .sidebar .bottom-content {
+        display: none;
+    }
+
     .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
-        font-size: $text32mobil;
+        font-size: $text28;
         margin-left: 10px;
     }
 
     .home .cont-inicio section .container .fila__inicio .info__inicio p {
         font-size: $text15mobil;
         margin-left: 10px;
+        margin-bottom: 15px;
     }
 
     .cont__btndoble {
@@ -230,7 +235,7 @@
 
     .home .containerportafolio .portafolio__search .barra-busqueda {
         width: 230px;
-        height: 25px;
+        height: 30px;
         background-color: transparent;
         color: $text-color;
         border: 1px solid $secondary-color;
@@ -279,7 +284,7 @@
 
     .home .contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
         width: 230px;
-        height: 25px;
+        height: 30px;
         font-size: $text14mobil;
     }
 
@@ -299,5 +304,11 @@
     .home .footer .col3__footer ul {
         margin-left: 10px;
     }
-    
+
+    .emoji {
+        display: none;
+    }
+
+
+
 }

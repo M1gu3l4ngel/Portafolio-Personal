@@ -26,6 +26,7 @@
 /*14px*/
 /* Variables para Fonts - Mobile */
 /*32px*/
+/*28px*/
 /*18px*/
 /*16px*/
 /*15px*/
@@ -1014,12 +1015,15 @@ body {
     display: none; }
   body .sidebar.close .toggle {
     display: none; }
+  body .sidebar .bottom-content {
+    display: none; }
   .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 10px; }
   .home .cont-inicio section .container .fila__inicio .info__inicio p {
     font-size: 0.938rem;
-    margin-left: 10px; }
+    margin-left: 10px;
+    margin-bottom: 15px; }
   .cont__btndoble {
     margin-left: 10px; }
   .home .cont-inicio section .container .fila__inicio .info__inicio .btn1 {
@@ -1043,7 +1047,7 @@ body {
   .home .conoceme .stats-conoceme .cont-stats__conoceme {
     margin-left: 10px; }
   .home .conoceme .stats-conoceme .cont-stats__conoceme .boxs__conoceme .box-in__conoceme p {
-    font-size: 0.67rem; }
+    font-size: 0.656rem; }
   .home .servicios .cont__servicios .titulo__servicios .info__servicios h2 {
     font-size: 1.75rem;
     margin-left: 10px; }
@@ -1080,7 +1084,7 @@ body {
     margin-left: 10px; }
   .home .containerportafolio .portafolio__search .barra-busqueda {
     width: 230px;
-    height: 25px;
+    height: 30px;
     background-color: transparent;
     color: #ccc;
     border: 1px solid #5ed530f6;
@@ -1108,7 +1112,7 @@ body {
     font-size: 0.875rem; }
   .home .contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
     width: 230px;
-    height: 25px;
+    height: 30px;
     font-size: 0.875rem; }
   .home .contacto .container__contacto .columna2__contacto .itemform__contacto .text__form {
     font-size: 0.593rem; }
@@ -1118,4 +1122,6 @@ body {
   .home .footer .col2__footer ul {
     margin-left: 22px; }
   .home .footer .col3__footer ul {
-    margin-left: 10px; } }
+    margin-left: 10px; }
+  .emoji {
+    display: none; } }
