@@ -10,7 +10,6 @@
 
 
     /* ======= Contenedor de Inicio ======= */
-
     .cont-inicio {
         height: 100vh;
         background-color: $body-color;
@@ -55,7 +54,6 @@
 
 
     /* ======= Contenedor de Acerca de Mi ======= */
-
     .conoceme {
         background-color: $primary-color;
         width: 100%;
@@ -207,7 +205,6 @@
 
 
     /* ======= Contenedor de Servicios ======= */
-
     .servicios {
         background-color: $body-color;
 
@@ -886,19 +883,6 @@
                     }
                 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
                 .columna2__contacto {
                     .itemform__contacto {
                         margin-bottom: 16px;
@@ -921,6 +905,8 @@
         }
     }
 
+
+    /* ====== Contenedor del Footer ====== */
     .footer {
         text-align: center;
         padding-top: 1.5rem;
