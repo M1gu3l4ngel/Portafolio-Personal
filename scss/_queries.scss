@@ -82,6 +82,7 @@
     }
 }
 
+
 /* ====== Por debajo de 768px ====== */
 @media screen and (max-width: 768px) {
     .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme .card-body__conoceme .cont-img__conoceme {
@@ -94,8 +95,6 @@
         height: 165px;
     }
 }
-
-
 
 
 /* ====== Por debajo de 576px ====== */
@@ -118,11 +117,14 @@
         margin-top: 0;
     }
 
+    /* ====== editando aqui ====== */
+    body .sidebar .bottom-content li {
+        margin-top: 45px;
+    }
+
     body .sidebar .menu-bar .menu li {
         height: 44px;
     }
-
-
 
     .home .cont-inicio section .container .fila__inicio .info__inicio h2 {
         font-size: $text28;
@@ -163,7 +165,6 @@
     .home .conoceme .container-conoceme .fila__conoceme .col2-conoceme .card2__conoceme {
         margin-left: 10px;
     }
-
 
     .home .conoceme .container-conoceme .fila__conoceme .card__conoceme p {
         color: #9b9d9e;
@@ -279,8 +280,6 @@
         margin-left: 10px;
     }
 
-
-
     .colform__contacto {
         margin-left: 10px;
     }
@@ -303,8 +302,6 @@
         font-size: 0.593rem;
     }
 
-
-
     .home .footer .col1__footer p {
         margin-left: 4.1px;
         font-size: 0.95rem;
@@ -321,7 +318,4 @@
     .emoji {
         display: none;
     }
-
-
-
 }

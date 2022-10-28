@@ -94,6 +94,7 @@
     }
 }
 
+
 @mixin badge-red {
     .badge-red {
         background-color: #ff1919;
@@ -102,12 +103,14 @@
     }
 }
 
+
 @mixin badge-html {
     .badge-html {
         background-color: #fc6b03;
         color: $sidebar-color;
     }
 }
+
 
 @mixin badge-css {
     .badge-css {
@@ -116,12 +119,14 @@
     }
 }
 
+
 @mixin badge-js {
     .badge-js {
         background-color: #fcf003;
         color: $sidebar-color;
     }
 }
+
 
 @mixin badge-react {
     .badge-react {
@@ -130,12 +135,14 @@
     }
 }
 
+
 @mixin badge-mongo {
     .badge-mongo {
         background-color: #00ED64;
         color: $sidebar-color;
     }
 }
+
 
 @mixin badge-mysql {
     .badge-mysql {
@@ -144,6 +151,7 @@
     }
 }
 
+
 @mixin badge-illustrator {
     .badge-illustrator {
         background-color: #eeecec;
@@ -151,12 +159,14 @@
     }
 }
 
+
 @mixin badge-photoshop {
     .badge-photoshop {
         background-color: #9581e0;
         color: $sidebar-color;
     }
 }
+
 
 @mixin badge-figma {
     .badge-figma {
