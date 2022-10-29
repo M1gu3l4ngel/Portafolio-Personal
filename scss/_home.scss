@@ -572,6 +572,10 @@
                 text-align: center;
                 font-size: $parrafos16;
                 box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+
+                &:focus {
+                    border: 1px solid $secondary-color2;
+                }
             }
         }
 
@@ -921,6 +925,10 @@
                             text-align: left;
                             box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
                             height: auto;
+
+                            &:focus {
+                                border: 1px solid $secondary-color2;
+                            }
                         }
 
                         .text__form {

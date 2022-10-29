@@ -736,6 +736,8 @@ body {
         text-align: center;
         font-size: 1rem;
         box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
+        .home .containerportafolio .portafolio__search .barra-busqueda:focus {
+          border: 1px solid #3fa716f6; }
     .home .containerportafolio .categorias {
       display: flex;
       justify-content: center;
@@ -994,6 +996,8 @@ body {
               text-align: left;
               box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
               height: auto; }
+              .home .contacto .cont__contacto .container__contacto .columna2__contacto .itemform__contacto .box__item:focus {
+                border: 1px solid #3fa716f6; }
             .home .contacto .cont__contacto .container__contacto .columna2__contacto .itemform__contacto .text__form {
               font-size: 0.75rem;
               color: #9b9d9e;
