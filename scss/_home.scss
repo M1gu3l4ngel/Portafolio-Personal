@@ -561,15 +561,17 @@
             text-align: center;
 
             .barra-busqueda {
-                width: 70%;
-                height: 40px;
+                width: 40%;
+                height: auto;
                 line-height: 40px;
-                background-color: #fff;
+                background-color: $sidebar-color;
                 padding: 0 20px;
-                border-radius: 5px;
+                border-radius: 7px;
                 border: none;
+                outline: none;
                 text-align: center;
                 font-size: $parrafos16;
+                box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
             }
         }
 
@@ -643,28 +645,38 @@
 
                 img {
                     max-width: 100%;
+                    width: 600px;
+                    border-radius: 7px;
                 }
             }
 
             .descripcion {
                 display: block;
-                background: $toggle-color;
-                padding: 20px;
-                text-align: center;
-                margin-top: 5px;
-                border-radius: 5px;
+                background-color: $sidebar-color;
+                color: $text-color;
+                padding: 10px;
+                text-align: left;
+                margin-top: 20px;
+                border-radius: 7px;
                 max-width: 50%;
+                width: 600px;
+                height: 200px;
+                box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
             }
 
+            @include listcontainer__btn2;
+
             #btn-cerrar-popup {
-                background: none;
-                font-size: $text17;
+                background-color: $sidebar-color;
+                height: 30px;
+                width: 30px;
+                font-size: $text11mobil;
                 color: $secondary-color;
-                border: none;
+                border-radius: 50%;
                 cursor: pointer;
                 position: absolute;
-                right: -20px;
-                top: -20px;
+                right: -26px;
+                top: -26px;
             }
         }
 
@@ -705,12 +717,13 @@
 
         .slide-content {
             overflow: hidden;
-            border-radius: 25px;
+            border-radius: 7px;
         }
 
         .card {
-            border-radius: 25px;
-            background-color: #FFF;
+            border-radius: 7px;
+            background-color: $sidebar-color;
+            box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
         }
 
         .image-content,
@@ -719,6 +732,7 @@
             flex-direction: column;
             align-items: center;
             padding: 10px 14px;
+            margin-bottom: 10px;
         }
 
         .image-content {
@@ -733,7 +747,7 @@
             top: 0;
             height: 100%;
             width: 100%;
-            background-color: $primary-color;
+            background-color: $sidebar-color;
             border-radius: 25px 25px 0 25px;
         }
 
@@ -744,7 +758,7 @@
             bottom: -40px;
             height: 40px;
             width: 40px;
-            background-color: $primary-color;
+            background-color: $secondary-color;
         }
 
         .overlay::after {
@@ -754,11 +768,11 @@
 
         .card-image {
             position: relative;
-            height: 150px;
-            width: 150px;
+            height: 100px;
+            width: 100px;
             border-radius: 50%;
             background: #FFF;
-            padding: 3px;
+            padding: 0;
         }
 
         .card-image .card-img {
@@ -772,7 +786,7 @@
         .name {
             font-size: $text18;
             font-weight: 500;
-            color: $sidebar-color;
+            color: $secondary-color;
         }
 
         .description {
@@ -781,7 +795,7 @@
             text-align: center;
         }
 
-        @include listcontainer__btn;
+        @include listcontainer__btn2;
 
         .swiper-navBtn {
             color: $secondary-color;
@@ -867,7 +881,7 @@
 
                             h4 {
                                 color: $text-color;
-                                font-size: $text20;
+                                font-size: $text18;
 
 
                                 i {
@@ -878,24 +892,41 @@
                             p {
                                 color: $paragraphcolor;
                                 margin-bottom: 0;
+                                font-size: $text14;
                             }
                         }
                     }
+                }
+
+                .h3-contacto {
+                    color: $text-color;
+                    text-align: center;
+                    margin-top: 20px;
+                    font-size: $text24;
                 }
 
                 .columna2__contacto {
                     .itemform__contacto {
                         margin-bottom: 16px;
 
+
                         .box__item {
-                            background-color: transparent;
-                            border-color: $secondary-color;
+                            background-color: $sidebar-color;
                             color: $paragraphcolor;
-                            font-size: $parrafos16;
+                            font-size: $text14;
+                            border: none;
+                            line-height: 40px;
+                            padding: 0 20px;
+                            border-radius: 7px;
+                            text-align: left;
+                            box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+                            height: auto;
                         }
 
                         .text__form {
                             font-size: 0.75rem;
+                            color: $paragraphcolor;
+                            text-align: left;
                         }
                     }
 

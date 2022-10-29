@@ -57,7 +57,8 @@ html::-webkit-scrollbar-thumb:hover {
   background: #3fa716f6;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); }
 
-/* ====== Mix de Boton Central ====== */
+/* ====== Mix de Boton Central con Color Obscuro ====== */
+/* ====== Mix de Boton Central con Color Light ====== */
 /* ====== Mix de Boton Izquierdo ====== */
 /* ====== Mix de Botones Dobles ====== */
 /* ====== Badge HTML ====== */
@@ -724,15 +725,17 @@ body {
     .home .containerportafolio .portafolio__search {
       text-align: center; }
       .home .containerportafolio .portafolio__search .barra-busqueda {
-        width: 70%;
-        height: 40px;
+        width: 40%;
+        height: auto;
         line-height: 40px;
-        background-color: #fff;
+        background-color: #242526;
         padding: 0 20px;
-        border-radius: 5px;
+        border-radius: 7px;
         border: none;
+        outline: none;
         text-align: center;
-        font-size: 1rem; }
+        font-size: 1rem;
+        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
     .home .containerportafolio .categorias {
       display: flex;
       justify-content: center;
@@ -778,28 +781,48 @@ body {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      z-index: 666; }
+      z-index: 666;
+      margin-top: 15px;
+      text-align: center; }
       .home .containerportafolio .overlay .contenedor__img {
         position: relative; }
         .home .containerportafolio .overlay .contenedor__img img {
-          max-width: 100%; }
+          max-width: 100%;
+          width: 600px;
+          border-radius: 7px; }
       .home .containerportafolio .overlay .descripcion {
         display: block;
-        background: #fff;
-        padding: 20px;
-        text-align: center;
-        margin-top: 5px;
-        border-radius: 5px;
-        max-width: 50%; }
-      .home .containerportafolio .overlay #btn-cerrar-popup {
-        background: none;
-        font-size: 1.063rem;
-        color: #5ed530f6;
+        background-color: #242526;
+        color: #ccc;
+        padding: 10px;
+        text-align: left;
+        margin-top: 20px;
+        border-radius: 7px;
+        max-width: 50%;
+        width: 600px;
+        height: 200px;
+        box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
+      .home .containerportafolio .overlay button {
+        background-color: #3a3b3c;
+        color: #ccc;
         border: none;
+        font-size: 0.875rem; }
+        .home .containerportafolio .overlay button:hover {
+          background-color: #5ed530f6;
+          color: #242526; }
+        .home .containerportafolio .overlay button i {
+          margin-right: 3px; }
+      .home .containerportafolio .overlay #btn-cerrar-popup {
+        background-color: #242526;
+        height: 30px;
+        width: 30px;
+        font-size: 0.656rem;
+        color: #5ed530f6;
+        border-radius: 50%;
         cursor: pointer;
         position: absolute;
-        right: -20px;
-        top: -20px; }
+        right: -26px;
+        top: -26px; }
     .home .containerportafolio .overlay.activo {
       display: flex; }
   .home .containertestimonio {
@@ -824,16 +847,18 @@ body {
       padding: 40px 0; }
     .home .containertestimonio .slide-content {
       overflow: hidden;
-      border-radius: 25px; }
+      border-radius: 7px; }
     .home .containertestimonio .card {
-      border-radius: 25px;
-      background-color: #FFF; }
+      border-radius: 7px;
+      background-color: #242526;
+      box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
     .home .containertestimonio .image-content,
     .home .containertestimonio .card-content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 10px 14px; }
+      padding: 10px 14px;
+      margin-bottom: 10px; }
     .home .containertestimonio .image-content {
       position: relative;
       row-gap: 5px;
@@ -844,7 +869,7 @@ body {
       top: 0;
       height: 100%;
       width: 100%;
-      background-color: #3a3b3c;
+      background-color: #242526;
       border-radius: 25px 25px 0 25px; }
     .home .containertestimonio .overlay::before,
     .home .containertestimonio .overlay::after {
@@ -853,17 +878,17 @@ body {
       bottom: -40px;
       height: 40px;
       width: 40px;
-      background-color: #3a3b3c; }
+      background-color: #5ed530f6; }
     .home .containertestimonio .overlay::after {
       border-radius: 0 25px 0 0;
       background-color: #FFF; }
     .home .containertestimonio .card-image {
       position: relative;
-      height: 150px;
-      width: 150px;
+      height: 100px;
+      width: 100px;
       border-radius: 50%;
       background: #FFF;
-      padding: 3px; }
+      padding: 0; }
     .home .containertestimonio .card-image .card-img {
       height: 100%;
       width: 100%;
@@ -873,13 +898,13 @@ body {
     .home .containertestimonio .name {
       font-size: 1.125rem;
       font-weight: 500;
-      color: #242526; }
+      color: #5ed530f6; }
     .home .containertestimonio .description {
       font-size: 0.875rem;
       color: #9b9d9e;
       text-align: center; }
     .home .containertestimonio button {
-      background-color: #242526;
+      background-color: #3a3b3c;
       color: #ccc;
       border: none;
       font-size: 0.875rem; }
@@ -941,24 +966,38 @@ body {
               width: 250px; }
               .home .contacto .cont__contacto .container__contacto .cont__contacto1 .col__contacto .info__contacto1 h4 {
                 color: #ccc;
-                font-size: 1.25rem; }
+                font-size: 1.125rem; }
                 .home .contacto .cont__contacto .container__contacto .cont__contacto1 .col__contacto .info__contacto1 h4 i {
                   color: #5ed530f6; }
               .home .contacto .cont__contacto .container__contacto .cont__contacto1 .col__contacto .info__contacto1 p {
                 color: #9b9d9e;
-                margin-bottom: 0; }
+                margin-bottom: 0;
+                font-size: 0.875rem; }
+        .home .contacto .cont__contacto .container__contacto .h3-contacto {
+          color: #ccc;
+          text-align: center;
+          margin-top: 20px;
+          font-size: 1.5rem; }
         .home .contacto .cont__contacto .container__contacto .columna2__contacto {
           margin-top: 15px;
           text-align: center; }
           .home .contacto .cont__contacto .container__contacto .columna2__contacto .itemform__contacto {
             margin-bottom: 16px; }
             .home .contacto .cont__contacto .container__contacto .columna2__contacto .itemform__contacto .box__item {
-              background-color: transparent;
-              border-color: #5ed530f6;
+              background-color: #242526;
               color: #9b9d9e;
-              font-size: 1rem; }
+              font-size: 0.875rem;
+              border: none;
+              line-height: 40px;
+              padding: 0 20px;
+              border-radius: 7px;
+              text-align: left;
+              box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+              height: auto; }
             .home .contacto .cont__contacto .container__contacto .columna2__contacto .itemform__contacto .text__form {
-              font-size: 0.75rem; }
+              font-size: 0.75rem;
+              color: #9b9d9e;
+              text-align: left; }
           .home .contacto .cont__contacto .container__contacto .columna2__contacto button {
             background-color: #242526;
             color: #ccc;
@@ -1232,12 +1271,10 @@ body {
     font-size: 1.75rem;
     margin-left: 10px; }
   .home .containerportafolio .portafolio__search .barra-busqueda {
-    width: 230px;
-    height: 30px;
-    background-color: transparent;
-    color: #ccc;
-    border: 1px solid #5ed530f6;
-    outline: none; }
+    width: 100%;
+    height: 35px;
+    outline: none;
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
   .home .containerportafolio .categorias {
     justify-content: space-evenly;
     margin-top: 15px;
@@ -1273,4 +1310,6 @@ body {
   .home .footer .col3__footer ul {
     margin-left: 10px; }
   .emoji {
-    display: none; } }
+    display: none; }
+  .home .contacto .cont__contacto .container__contacto .h3-contacto {
+    font-size: 18px; } }

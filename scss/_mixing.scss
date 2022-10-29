@@ -1,10 +1,32 @@
-/* ====== Mix de Boton Central ====== */
+/* ====== Mix de Boton Central con Color Obscuro ====== */
 @mixin listcontainer__btn {
     margin-top: 15px;
     text-align: center;
 
     button {
         background-color: $sidebar-color;
+        color: $text-color;
+        border: none;
+        font-size: $text14;
+
+        &:hover {
+            background-color: $secondary-color;
+            color: $sidebar-color;
+        }
+
+        i {
+            margin-right: 3px;
+        }
+    }
+}
+
+/* ====== Mix de Boton Central con Color Light ====== */
+@mixin listcontainer__btn2 {
+    margin-top: 15px;
+    text-align: center;
+
+    button {
+        background-color: $primary-color;
         color: $text-color;
         border: none;
         font-size: $text14;
