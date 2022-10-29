@@ -3,7 +3,6 @@
     width: calc(100% - 250px);
     position: absolute;
     top: 0;
-    top: 0;
     left: 250px;
     background-color: $body-color;
     transition: $tran-05;
@@ -12,6 +11,7 @@
     /* ======= Contenedor de Inicio ======= */
     .cont-inicio {
         height: 100vh;
+        width: 100%;
         background-color: $body-color;
 
         section {
