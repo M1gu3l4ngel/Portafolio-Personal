@@ -215,6 +215,18 @@
         width: 130px;
         height: 165px;
     }
+
+    .home .containerportafolio .overlay .contenedor__img img {
+        width: 430px;
+    }
+
+    .home .containerportafolio .overlay .descripcion {
+        width: 435px;
+    }
+
+    .home .containerportafolio .overlay button {
+        width: 435px;
+    }
 }
 
 /* ====== Por encima de 768px ====== */
@@ -222,6 +234,10 @@
     .home .servicios .cont__servicios .titulo__servicios .info__servicios {
         flex: 0 0 auto;
         width: 66.66666667%;
+    }
+
+    .home .containerportafolio .overlay button {
+        width: 600px;
     }
 }
 
@@ -442,5 +458,17 @@
 
     .home .contacto .cont__contacto .container__contacto .h3-contacto {
         font-size: 18px;
+    }
+
+    .home .containerportafolio .overlay .contenedor__img img {
+        width: 320px;
+    }
+
+    .home .containerportafolio .overlay .descripcion {
+        width: 320px;
+    }
+
+    .home .containerportafolio .overlay button {
+        width: 320px;
     }
 }
