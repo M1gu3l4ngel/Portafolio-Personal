@@ -478,13 +478,6 @@ body {
             box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5); }
             .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .titulos__servicios {
               display: flex; }
-              .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .titulos__servicios img {
-                flex-shrink: 0;
-                border-radius: 50%;
-                margin-right: 16px;
-                width: 50px;
-                height: 50px;
-                max-width: 100%; }
               .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .titulos__servicios .texto__servicios {
                 display: flex;
                 justify-content: center;
@@ -492,7 +485,8 @@ body {
                 .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .titulos__servicios .texto__servicios h6 {
                   font-weight: bold;
                   color: #5ed530f6;
-                  margin-bottom: 0; }
+                  margin-bottom: 0;
+                  font-size: 1.25rem; }
             .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .caja__infoservicios {
               display: flex; }
               .home .servicios .cont__servicios .cajas-servicios .sect__servicios .caja__servicios .caja__infoservicios .info2__servicios {
@@ -566,8 +560,8 @@ body {
           box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
           margin-top: 20px;
           text-align: center; }
-          .home .containerresumen .container2__resumen .cajas-resumen .caja__resumen .badge-red {
-            background-color: #ff1919;
+          .home .containerresumen .container2__resumen .cajas-resumen .caja__resumen .badge-green {
+            background-color: #5ed530f6;
             color: #242526;
             margin-bottom: 12px; }
           .home .containerresumen .container2__resumen .cajas-resumen .caja__resumen .headings__resumen h3 {
@@ -644,6 +638,12 @@ body {
             .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-figma {
               background-color: #f59393;
               color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-github {
+              background-color: #d8d8d8;
+              color: #242526; }
+            .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .badge-git {
+              background-color: #f74e27;
+              color: #242526; }
             .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades {
               text-align: center; }
               .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades {
@@ -670,6 +670,14 @@ body {
                   color: #242526; }
                 .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .figma {
                   width: 35%;
+                  background-color: #5ed530f6;
+                  color: #242526; }
+                .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .git {
+                  width: 52%;
+                  background-color: #5ed530f6;
+                  color: #242526; }
+                .home .containerresumen .cont-habilidades .caja__habilidades .col__habilidades .cont__infohabilidades .texto__habilidades .progress__habilidades .github {
+                  width: 48%;
                   background-color: #5ed530f6;
                   color: #242526; }
       .home .containerresumen .cont-habilidades button {
