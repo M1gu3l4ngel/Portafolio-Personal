@@ -1326,6 +1326,7 @@ body {
   .home .containerportafolio .overlay .contenedor__img img {
     width: 320px; }
   .home .containerportafolio .overlay .descripcion {
-    width: 320px; }
+    width: 320px;
+    word-wrap: break-word; }
   .home .containerportafolio .overlay button {
     width: 320px; } }
